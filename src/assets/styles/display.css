@@ -1,0 +1,127 @@
+
+/* DISPLAY */
+.d-flex {
+    display: flex;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}
+
+/*FLEX SHRINK*/
+.flex-shrink-0{
+    flex-shrink: 0;
+}
+
+.flex-shrink-1{
+    flex-shrink: 1;
+}
+
+/*FLEX GROW*/
+.flex-grow-0{
+    flex-grow: 0;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+/*FLEX BASIS*/
+.flex-basis-600{
+    flex-basis: 600px;
+}
+/* FLEX WRAP */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+/* FLEX DIRECTION */
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+
+/* JUSTIFY CONTENT */
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+/*ALIGN ITEMS*/
+.align-items-center {
+    align-items: center;
+}
+
+
+/* POSITION */
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+/*Z-INDEX*/
+.z-index-1{
+    z-index: 1;
+}
+
+.z-index-2{
+    z-index: 2;
+}
+
+/* OVERFLOW */
+.overflow-hidden{
+    overflow: hidden;
+}
+
+/* BACKGROUNDS */
+.bg-normal-purple{
+    background-color: var(--normal-purple);
+}
+
+.bg-dark-purple{
+    background-color: var(--dark-purple);
+}
+
+.bg-dark-purple-dark {
+    background-color: var(--dark-purple-dark);
+}
+
+.bg-ligth-purple{
+    background-color: var(--light-purple);
+}
+
+.bg-ligth-brown{
+    background-color: var(--ligth-brown);
+}
+
+.bg-emerald {
+    background-color: var(--emerald);
+}
+
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-black-transparent {
+    background-color: var(--dark-hover);
+}

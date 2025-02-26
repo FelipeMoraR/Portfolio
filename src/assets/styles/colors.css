@@ -1,0 +1,29 @@
+:root {
+    /* Purples */
+    --dark-hover: #0000001f;
+    --dark-purple: #2E2633;
+    --dark-purple-light: #3B3340;
+    --dark-purple-dark: #1F1A24;
+
+    --normal-purple: #786187;
+    --normal-purple-light: #8E74A0;
+    --normal-purple-dark: #5F4C6D;
+
+    --lavanda: #E6CCFF;
+    --lavanda-light: #F3E5FF;
+    --lavanda-dark: #C2A6DD;
+
+    --light-purple: #9C3DDB;
+    --light-purple-light: #B160F0;
+    --light-purple-dark: #7F2EAF;
+
+    /* Greys */
+    --grey: #5A5C52;
+    --grey-light: #767972;
+    --grey-dark: #42443D;
+
+    /* Emerald */
+    --emerald: #50C878;
+    --emerald-light: #6EE897;
+    --emerald-dark: #3AA25E;
+}

@@ -1,0 +1,159 @@
+.delay-02s{
+    animation-delay: .2s !important;
+}
+
+.delay-04s{
+    animation-delay: .4s !important;
+}
+
+
+.delay-05s{
+    animation-delay: .5s !important;
+}
+
+.delay-06s{
+    animation-delay: .6s !important;
+}
+
+
+.delay-1s{
+    animation-delay: 1s !important;
+}
+
+
+.animation-fadeOut-display{
+    animation: fadeOutDisplay .5s linear forwards;
+}
+
+@keyframes fadeOutDisplay{
+    from {
+        opacity: 1;
+        display: block;
+    } 
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
+
+.animation-fadeOut-opacity{
+    animation: fadeOut .5s linear forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.animation-fadeIn-opacity{
+    animation: fadeIn .5s linear forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animation-movement-left-center{
+    animation: movementLeftCenter 1s cubic-bezier(0.39, 0.58, 0.57, 1) forwards;
+}
+
+@keyframes movementLeftCenter{
+    0%{
+        left: -50%;
+    }
+    90%{
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    
+    100%{
+        transform: translateX(-50%);
+        left: 48%;
+    }
+}
+
+
+.animation-movement-right-center{
+    animation: movementRightCenter 1s cubic-bezier(0.39, 0.58, 0.57, 1) forwards;
+    animation-delay: .5s;
+}
+
+.animation-movement-right-center.rigth-45p{
+    right: -50%;
+}
+
+@keyframes movementRightCenter{
+    0%{
+        right: -50%;
+    }
+
+    90%{
+        transform: translateX(50%);
+        right: 47%;
+    }
+    
+    100%{
+        transform: translateX(50%);
+        right: 45%;
+    }
+}
+
+
+
+.typing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    width: 0;
+    animation: typing 1s steps(40, end) forwards, blinkAnimation 1s steps(1, end) infinite;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes blinkAnimation {
+    0%{
+        border-right-color: white;
+    }
+
+    50%{
+        border-right-color: transparent;
+    }
+}
+
+.animation-falling-down{
+    animation: fallingDown .2s ease-out forwards;
+}
+
+@keyframes fallingDown {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    70%{
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+

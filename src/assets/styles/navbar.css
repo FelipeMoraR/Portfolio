@@ -1,0 +1,80 @@
+.container-navbar{
+    transform: translate(0%, -50%);
+    animation: showNavbar .5s cubic-bezier(0.65,-0.03, 0.1, 1.05) forwards;
+}
+
+@keyframes showNavbar {
+    0%{
+        transform: translate(95%, -50%);
+    }
+
+    80%{
+        transform: translate(-10%, -50%);
+    }
+
+    100%{
+        transform: translate(0%, -50%);
+    }
+}
+
+
+.container-navbar.hide-navbar {
+    animation: hideNavbar .5s cubic-bezier(0.65,-0.03, 0.1, 1.05) forwards;
+}
+
+@keyframes hideNavbar {
+    0%{
+        transform: translate(0%, -50%);      
+    }
+
+    80%{
+        transform: translate(105%, -50%);
+    }
+
+    100%{
+        transform: translate(95%, -50%);
+    }
+}
+
+.btn-hide-navbar{
+    width: 50px;
+    height: 50px;
+    left: -33px;
+    top: -20px;
+    transition: all .2s ease-in-out;
+}
+
+.btn-hide-navbar.is-hiden{
+    transform: rotate(-180deg);
+}
+
+.icon-nav:hover{
+    background-color: var(--dark-hover);
+}
+
+.tooltip{
+    top: 50%;
+    left: -50px;
+    color: black;
+    z-index: -1;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 16px;
+    font-size: 12px;
+    padding: .2rem;
+}
+
+.tooltip:after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: -2px;
+    z-index: -2;
+    transform: translateY(-50%) rotate(45deg);
+    background-color: white;
+    
+}
+
+

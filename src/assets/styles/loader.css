@@ -1,0 +1,296 @@
+.loader-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.loader-container > * {
+    position: absolute;
+}
+
+.top-face {
+    top: 0;
+    width: 0;
+    height: 0;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top: 0vh solid rgb(77, 65, 88);
+    animation: topFace .2s ease-in-out forwards;
+    z-index: 0;
+}
+
+@keyframes topFace {
+    0% {
+        border-top: 0vh solid rgb(77, 65, 88);
+    }
+
+    40%{
+        border-top: 53vh solid rgb(77, 65, 88);
+       
+    }
+
+    100%{
+        border-top: 52vh solid rgb(77, 65, 88);
+    }  
+}
+
+
+.right-face{
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 50vh solid transparent;
+    border-right: 0vw solid rgb(77, 65, 88);
+    border-bottom: 50vh solid transparent;
+    z-index: 0;
+    animation: rightFace .2s ease-in-out forwards;
+    animation-delay: .2s;
+}
+
+@keyframes rightFace {
+    0% {
+        border-right: 0vw solid rgb(77, 65, 88);
+    }
+
+    40%{
+        border-right: 51vw solid rgb(77, 65, 88);
+       
+    }
+
+    100%{
+        border-right: 50vw solid rgb(77, 65, 88);
+    }  
+}
+
+.bottom-face{
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-bottom: 0vh solid rgb(77, 65, 88);
+    z-index: 0;
+    animation: bottomFace .2s ease-in-out forwards;
+    animation-delay: .4s;
+}
+
+@keyframes bottomFace {
+    0% {
+        border-bottom: 0vh solid rgb(77, 65, 88);
+    }
+
+    40%{
+        border-bottom: 53vh solid rgb(77, 65, 88);
+       
+    }
+
+    100%{
+        border-bottom: 52vh solid rgb(77, 65, 88);
+    }  
+}
+
+.left-face{
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 50vh solid transparent;
+    border-left: 0vw solid rgb(77, 65, 88);
+    border-bottom: 50vh solid transparent;
+    z-index: 0;
+    animation: leftFace .2s ease-in-out forwards;
+    animation-delay: .6s;
+}
+
+@keyframes leftFace { 
+    0% {
+        border-left: 0vw solid rgb(77, 65, 88);
+    }
+
+    40%{
+        border-left: 51vw solid rgb(77, 65, 88);
+       
+    }
+
+    100%{
+        border-left: 50vw solid rgb(77, 65, 88);
+    }  
+}
+
+
+.central-logo{
+    width: 200px;
+    height: 200px;;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    opacity: 0;
+    animation: centralLogoMovement .8s ease-in-out forwards;
+}
+
+.central-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+@keyframes centralLogoMovement {
+    0% {
+        transform: translate(-50%, -50%); 
+        opacity: 0;
+    } 
+    /*First .2s*/
+    25% {
+        transform: translate(-50%, -35%); 
+        opacity: 1;
+    }
+    50% {
+        transform: translate(-65%, -35%) rotate(-30deg); 
+        opacity: 1;
+    }
+    75% {
+        transform: translate(-65%, -50%) rotate(-30deg); 
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.loader-text{
+    font-size: 24px;
+    color: white;
+    opacity: 0;
+    font-weight: 400;
+    animation: loaderText 1s ease-in-out infinite alternate;
+    animation-delay: .8s;
+}
+
+@keyframes loaderText {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#close-loader{
+    z-index: 200;
+    color: black;
+    right: 0;
+    padding: 16px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+}
+
+
+.top-face.hide{
+    animation: topFaceHide .2s ease-in-out forwards;
+}
+
+@keyframes topFaceHide {
+    0%{
+        border-top: 50vh solid rgb(77, 65, 88);
+    }
+
+    100%{
+        border-top: 0vh solid rgb(77, 65, 88);
+    }
+}
+
+.bottom-face.hide{
+    animation: bottomFaceHide .2s ease-in-out forwards;
+}
+
+@keyframes bottomFaceHide {
+    0%{
+        border-bottom: 50vh solid rgb(77, 65, 88);
+    }
+
+    100%{
+        border-bottom: 0vh solid rgb(77, 65, 88);
+    }
+}
+
+
+.right-face.hide{
+    animation: rightFaceHide .2s ease-in-out forwards;
+}
+
+@keyframes rightFaceHide {
+    0%{
+        border-right: 50vw solid rgb(77, 65, 88);
+    }
+
+    100%{
+        border-right: 0vw solid rgb(77, 65, 88);
+    }
+}
+
+.left-face.hide{
+    animation: leftFaceHide .2s ease-in-out forwards;
+}
+
+@keyframes leftFaceHide {
+    0%{
+        border-left: 50vw solid rgb(77, 65, 88);
+    }
+    100%{
+        border-left: 0vw solid rgb(77, 65, 88);
+    }
+}
+
+.central-logo.hide{
+    animation: closeLogo .2s ease-in-out forwards;
+}
+
+@keyframes closeLogo {
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+.loader-text.hide {
+    animation: loaderTextHide .2s linear forwards;
+}
+
+@keyframes loaderTextHide {
+   
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@media (max-width: 992px){
+    .central-logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .loader-text{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}

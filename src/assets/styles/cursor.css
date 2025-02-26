@@ -1,0 +1,9 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.no-interactive {
+    pointer-events: none;
+}
+ 
+  
