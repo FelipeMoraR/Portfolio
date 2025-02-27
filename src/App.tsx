@@ -31,7 +31,9 @@ function App() {
     <StepFour
       language = {currentLanguage}
     />, 
-    <Portfolio/>
+    <Portfolio
+      language = {currentLanguage}
+    />
   ]
 
   const arrayStepSkiped = [
@@ -81,7 +83,7 @@ function App() {
     
   if(!isLanguageChoosed) return <ChooseLanguage setCurrentLanguage = {setCurrentLanguage} setIsLanguageChoosed = {setIsLanguageChoosed} />
     
-  if(isIntroductionSkiped) return <Portfolio/>
+  if(isIntroductionSkiped) return <Portfolio language = {currentLanguage}/>
   
 
 

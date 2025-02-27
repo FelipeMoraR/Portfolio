@@ -1,9 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import NavbarElement from "./NavbarElement";
+import { INavbar, INavbarElement } from "../../interfaces/Interfaces";
+import { translationsNavbar } from "../../assets/translations/translations";
 
-const NavBar = () => {
+const NavBar = ({language} : INavbar) => {
     const hideNavDiv = useRef<HTMLDivElement>(null); 
     const navbarDiv = useRef<HTMLDivElement>(null);
+    const elementsNav = translationsNavbar[language];
+    
     const [isHiddenNav, setIsHiddenNav] = useState<boolean>(false);
 
     const hideNavFunction = (navbar: HTMLDivElement) => {
@@ -44,13 +48,16 @@ const NavBar = () => {
                 </div>
 
                 <div className = {`container-nav-elements d-flex flex-column gap-5 ${isHiddenNav ? 'no-interactive' : ''}`}>
-                    <NavbarElement/>
-
-                    <NavbarElement/>
-
-                    <NavbarElement/>
-
-                    <NavbarElement/>
+                    {
+                        elementsNav.map((element : INavbarElement, index: number) => (
+                            <NavbarElement
+                                key = {index}
+                                icon = {element.icon}
+                                tooltip = {element.tooltip}
+                                sectionToView = {element.sectionToView}
+                            />
+                        ))
+                    }    
                 </div>
             </div>
             

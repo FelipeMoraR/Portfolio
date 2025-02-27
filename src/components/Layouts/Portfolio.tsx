@@ -1,17 +1,20 @@
 import NavBar from "../Navbar/Navbar";
-import SectionProjects from "../SectionPortfolio/SectionProjects";
-const Portfolio = () => {
+import SectionProjects from "../PortfolioParts/SectionProjects";
+import { IPortfolio } from "../../interfaces/Interfaces";
+
+const Portfolio = ({language} : IPortfolio) => {
+    
     return(
         <>
-            <NavBar/>
-            
-            <h1 className="color-white">Portafolio XDD</h1>
+            <NavBar
+                language = {language}
+            />
 
-            <SectionProjects/>
+            <SectionProjects
+                language = {language}
+            />
 
-            <div className="min-h-100vh" id = "texto3">
-                <h3 className = "color-white">texto 3</h3>
-            </div>
+
         </>
         
     )

@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import translationsSteps from "../../assets/translations/translations";;
+import {translationsSteps} from "../../assets/translations/translations";;
 import { ISteps } from "../../interfaces/Interfaces";
 import timerPromise from "../../assets/utils/timer";
 import changeClassAnimation from "../../assets/utils/changeClassAnimation";

@@ -1,4 +1,4 @@
-import translationsSteps from "../../assets/translations/translations";
+import {translationsSteps} from "../../assets/translations/translations";
 import { ISteps, IProject } from "../../interfaces/Interfaces";
 import changeClassAnimation from "../../assets/utils/changeClassAnimation";
 import { useEffect } from "react";

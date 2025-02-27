@@ -1,4 +1,4 @@
-import translationsSteps from "../assets/translations/translations"
+import {translationsSteps} from "../assets/translations/translations"
 import { ILoader } from "../interfaces/Interfaces";
 import logo from '../assets/images/logoMora.webp';
 import timerPromise from "../assets/utils/timer";
