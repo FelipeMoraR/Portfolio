@@ -51,7 +51,7 @@ const NavBar = ({language} : INavbar) => {
                     {
                         elementsNav.map((element : INavbarElement, index: number) => (
                             <NavbarElement
-                                key = {index}
+                                index = {index}
                                 icon = {element.icon}
                                 tooltip = {element.tooltip}
                                 sectionToView = {element.sectionToView}

@@ -12,7 +12,7 @@ export interface INavbar {
 }
 
 export interface INavbarElement {
-    key: number;
+    index: number;
     sectionToView: string; 
     icon: string; 
     tooltip: string; 
@@ -32,12 +32,18 @@ export interface ITechnologieBody extends ITechnologie {
     onClick: (id: number) => void;
 }
 
+export interface ITechnologieCard extends ITechnologie {
+    name: string;
+    image: string; 
+}
+
 export interface ICardProject {
     title: string;
     date: Date;
+    image: string;
     resume: string;
     description: string;
-    technologies: Array<ITechnologie>;
+    technologies: Array<ITechnologieCard>;
 }
 
 

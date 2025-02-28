@@ -261,30 +261,123 @@ export const translationsSectionProject: any = {
             {
                 title: 'project 1',
                 date: '2020-01-01',
+                image: '',
                 resume: 'Test project 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [1, 3, 5, 7]
+                technologies: [
+                    {
+                        id: 1,
+                        name: 'HTML',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    }, 
+                    {
+                        id: 3,
+                        name: 'JavaScript',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 5,
+                        name: 'React',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 11,
+                        name: 'MySqlLite',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                ]
             }, 
             {
                 title: 'project 2',
                 date: '2020-02-02',
+                image: '',
                 resume: 'Test project 2',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [3, 4, 5, 12]
+                technologies: [
+                    {
+                        id: 2,
+                        name: 'CSS',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 4,
+                        name: 'TypeScript',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 9,
+                        name: 'Django',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    }
+                ]
             },
             {
                 title: 'project 3',
                 date: '2020-03-03',
+                image: '',
                 resume: 'Test project 3',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [1, 7, 11, 12]
+                technologies: [
+                    {
+                        id: 1,
+                        name: 'HTML',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 7,
+                        name: 'MySql',
+                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                    },
+                    {
+                        id: 11,
+                        name: 'MySqlLite',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 13,
+                        name: 'Figma',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    }
+                ]
             },
             {
                 title: 'project 4',
                 date: '2020-04-04',
+                image: '',
                 resume: 'Test project 4',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [5, 6, 7, 8, 9, 10]
+                technologies: [
+                    {
+                        id: 5,
+                        name: 'React',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 6,
+                        name: 'Node',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 7,
+                        name: 'MySql',
+                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                    },
+                    {
+                        id: 8,
+                        name: 'Python',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 9,
+                        name: 'Django',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 10,
+                        name: 'Flask',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                ]
             }
         ]
     },
@@ -294,30 +387,123 @@ export const translationsSectionProject: any = {
             {
                 title: 'project 1',
                 date: '2020-01-01',
+                image: '',
                 resume: 'Test project 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [1, 3, 5, 7]
+                technologies: [
+                    {
+                        id: 1,
+                        name: 'HTML',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    }, 
+                    {
+                        id: 3,
+                        name: 'JavaScript',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 5,
+                        name: 'React',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 11,
+                        name: 'MySqlLite',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                ]
             }, 
             {
                 title: 'project 2',
                 date: '2020-02-02',
+                image: '',
                 resume: 'Test project 2',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [3, 4, 5, 12]
+                technologies: [
+                    {
+                        id: 2,
+                        name: 'CSS',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 4,
+                        name: 'TypeScript',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 9,
+                        name: 'Django',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    }
+                ]
             },
             {
                 title: 'project 3',
                 date: '2020-03-03',
+                image: '',
                 resume: 'Test project 3',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [1, 7, 11, 12]
+                technologies: [
+                    {
+                        id: 1,
+                        name: 'HTML',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 7,
+                        name: 'MySql',
+                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                    },
+                    {
+                        id: 11,
+                        name: 'MySqlLite',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 13,
+                        name: 'Figma',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    }
+                ]
             },
             {
                 title: 'project 4',
                 date: '2020-04-04',
+                image: '',
                 resume: 'Test project 4',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [5, 6, 7, 8, 9, 10]
+                technologies: [
+                    {
+                        id: 5,
+                        name: 'React',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 6,
+                        name: 'Node',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 7,
+                        name: 'MySql',
+                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                    },
+                    {
+                        id: 8,
+                        name: 'Python',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 9,
+                        name: 'Django',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 10,
+                        name: 'Flask',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                ]
             }
         ]
     },
@@ -327,30 +513,123 @@ export const translationsSectionProject: any = {
             {
                 title: 'project 1',
                 date: '2020-01-01',
+                image: '',
                 resume: 'Test project 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [1, 3, 5, 7]
+                technologies: [
+                    {
+                        id: 1,
+                        name: 'HTML',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    }, 
+                    {
+                        id: 3,
+                        name: 'JavaScript',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 5,
+                        name: 'React',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 11,
+                        name: 'MySqlLite',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                ]
             }, 
             {
                 title: 'project 2',
                 date: '2020-02-02',
+                image: '',
                 resume: 'Test project 2',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [3, 4, 5, 12]
+                technologies: [
+                    {
+                        id: 2,
+                        name: 'CSS',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 4,
+                        name: 'TypeScript',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 9,
+                        name: 'Django',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    }
+                ]
             },
             {
                 title: 'project 3',
                 date: '2020-03-03',
+                image: '',
                 resume: 'Test project 3',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [1, 7, 11, 12]
+                technologies: [
+                    {
+                        id: 1,
+                        name: 'HTML',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 7,
+                        name: 'MySql',
+                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                    },
+                    {
+                        id: 11,
+                        name: 'MySqlLite',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 13,
+                        name: 'Figma',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    }
+                ]
             },
             {
                 title: 'project 4',
                 date: '2020-04-04',
+                image: '',
                 resume: 'Test project 4',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                technologies: [5, 6, 7, 8, 9, 10]
+                technologies: [
+                    {
+                        id: 5,
+                        name: 'React',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 6,
+                        name: 'Node',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 7,
+                        name: 'MySql',
+                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                    },
+                    {
+                        id: 8,
+                        name: 'Python',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 9,
+                        name: 'Django',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                    {
+                        id: 10,
+                        name: 'Flask',
+                        image: 'src/assets/images/technologies/htmlLogo.png'
+                    },
+                ]
             }
         ]
     } 

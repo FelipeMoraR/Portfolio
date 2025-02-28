@@ -8,7 +8,7 @@ const Technologies = ({id, image, name, onClick}: ITechnologieBody) => {
         if(!container) return;
 
         container.classList.toggle('bg-grey');
-        onClick(id);
+        if(onClick) onClick(id);
     }
 
     return (
@@ -17,7 +17,7 @@ const Technologies = ({id, image, name, onClick}: ITechnologieBody) => {
                 <img src={image} alt = {name} />
             </div>
 
-            <div>
+            <div className="color-lavanda">
                 <p>{name}</p>
             </div>
 

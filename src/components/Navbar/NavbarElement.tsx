@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { INavbarElement } from "../../interfaces/Interfaces";
 
-const NavbarElement = ({icon, sectionToView, tooltip, key} : INavbarElement) => {
+const NavbarElement = ({icon, sectionToView, tooltip, index} : INavbarElement) => {
     const anchorElement = useRef<HTMLAnchorElement>(null); //This is null until DOM end to load;
     const tooltipElement = useRef<HTMLParagraphElement>(null);
     
@@ -78,7 +78,7 @@ const NavbarElement = ({icon, sectionToView, tooltip, key} : INavbarElement) => 
 
     return (
         <>
-            <a href = {`#${sectionToView}`} className = "reset-anchor position-relative" ref = {anchorElement} key={`${key}`}>
+            <a href = {`#${sectionToView}`} className = "reset-anchor position-relative" ref = {anchorElement} key={`${index}`}>
                 <span className = "material-symbols-outlined color-ligth-purple-dark cursor-pointer font-size-6 icon-nav border-radius-100p p-1">
                     {icon}
                 </span> 
