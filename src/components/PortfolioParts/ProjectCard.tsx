@@ -3,7 +3,7 @@ import { ICardProject, ITechnologieCard } from "../../interfaces/Interfaces"
 const ProjectCard = ({image, date, description, resume, technologies, title}: ICardProject) => {
     
     return(
-        <div>
+        <div className="animation-fadeIn-opacity">
             <div className="color-emerald">
                 {title}
             </div>

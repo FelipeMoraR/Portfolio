@@ -192,72 +192,73 @@ export const translationsSectionProject: any = {
         {
             id: 1,
             name: 'HTML',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/html.png'
         },
         {
             id: 2,
             name: 'CSS',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/css.png'
         },
         {
             id: 3,
             name: 'JavaScript',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/js.png'
         },
         {
             id: 4,
             name: 'TypeScript',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/ts.png'
         },
         {
             id: 5,
             name: 'React',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/react.png'
         },
         {
             id: 6,
             name: 'Node',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/node.png'
         },
         {
             id: 7,
             name: 'MySql',
-            image: 'src/assets/images/technologies/htmlLogo.png'           
+            image: 'src/assets/images/technologies/html.png'           
         },
         {
             id: 8,
             name: 'Python',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/py.png'
         },
         {
             id: 9,
             name: 'Django',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/dj.png'
         },
         {
             id: 10,
             name: 'Flask',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/html.png'
         },
         {
             id: 11,
             name: 'MySqlLite',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/html.png'
         },
         {
             id: 12,
             name: 'Liferay',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/html.png'
         },
         {
             id: 13,
             name: 'Figma',
-            image: 'src/assets/images/technologies/htmlLogo.png'
+            image: 'src/assets/images/technologies/figma.png'
         }
     ],
     en: {
         title: 'Projects and skills',
         subTitle: 'Select the technologies that interest you',
+        notFound: 'Projects not founded',
         projects: [
             {
                 title: 'project 1',
@@ -269,22 +270,22 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     }, 
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/js.png'
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/react.png'
                     },
                     {
                         id: 11,
                         name: 'MySqlLite',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                 ]
             }, 
@@ -298,17 +299,17 @@ export const translationsSectionProject: any = {
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/css.png'
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/ts.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/dj.png'
                     }
                 ]
             },
@@ -322,22 +323,22 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                        image: 'src/assets/images/technologies/html.png'           
                     },
                     {
                         id: 11,
                         name: 'MySqlLite',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                     {
                         id: 13,
                         name: 'Figma',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/figma.png'
                     }
                 ]
             },
@@ -351,32 +352,32 @@ export const translationsSectionProject: any = {
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/react.png'
                     },
                     {
                         id: 6,
                         name: 'Node',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/node.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                        image: 'src/assets/images/technologies/html.png'           
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/py.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/dj.png'
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                 ]
             }
@@ -385,6 +386,7 @@ export const translationsSectionProject: any = {
     es: {
         title: 'Proyectos y habilidades',
         subTitle: 'Selecciones las tecnologías de su interes',
+        notFound: 'No existen proyectos',
         projects: [
             {
                 title: 'project 1',
@@ -396,22 +398,22 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     }, 
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/js.png'
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/react.png'
                     },
                     {
                         id: 11,
                         name: 'MySqlLite',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                 ]
             }, 
@@ -425,17 +427,17 @@ export const translationsSectionProject: any = {
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/css.png'
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/ts.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/dj.png'
                     }
                 ]
             },
@@ -449,22 +451,22 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                        image: 'src/assets/images/technologies/html.png'           
                     },
                     {
                         id: 11,
                         name: 'MySqlLite',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                     {
                         id: 13,
                         name: 'Figma',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/figma.png'
                     }
                 ]
             },
@@ -478,32 +480,32 @@ export const translationsSectionProject: any = {
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/react.png'
                     },
                     {
                         id: 6,
                         name: 'Node',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/node.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                        image: 'src/assets/images/technologies/html.png'           
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/py.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/dj.png'
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                 ]
             }
@@ -512,6 +514,7 @@ export const translationsSectionProject: any = {
     pt: {
         title: 'Projetos e habilidades',
         subTitle: 'Selecione as tecnologias que lhe interessam',
+        notFound: 'Não há projetos',
         projects: [
             {
                 title: 'project 1',
@@ -523,22 +526,22 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     }, 
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/js.png'
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/react.png'
                     },
                     {
                         id: 11,
                         name: 'MySqlLite',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                 ]
             }, 
@@ -552,17 +555,17 @@ export const translationsSectionProject: any = {
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/css.png'
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/ts.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/dj.png'
                     }
                 ]
             },
@@ -576,22 +579,22 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                        image: 'src/assets/images/technologies/html.png'           
                     },
                     {
                         id: 11,
                         name: 'MySqlLite',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                     {
                         id: 13,
                         name: 'Figma',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/figma.png'
                     }
                 ]
             },
@@ -605,32 +608,32 @@ export const translationsSectionProject: any = {
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/react.png'
                     },
                     {
                         id: 6,
                         name: 'Node',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/node.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/htmlLogo.png'           
+                        image: 'src/assets/images/technologies/html.png'           
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/py.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/dj.png'
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/technologies/htmlLogo.png'
+                        image: 'src/assets/images/technologies/html.png'
                     },
                 ]
             }

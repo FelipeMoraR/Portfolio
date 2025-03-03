@@ -117,14 +117,25 @@
     background-color: var(--emerald);
 }
 
-
-
 .bg-grey {
     background-color: var(--grey);
 }
 
 .bg-black-transparent {
     background-color: var(--dark-hover);
+}
+
+.bg-lavanda-light {
+    background-color: var(--lavanda-light);
+}
+
+.bg-lavanda-dark {
+    background-color: var(--lavanda-dark);
+}
+
+/*OBJECT FIT*/
+.object-fit-scale-down {
+    object-fit: scale-down;
 }
 
 

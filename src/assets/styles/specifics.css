@@ -54,43 +54,23 @@
 }
 
 /*CHATGPT TRICK XD*/
-.bg-glowing > img{
-    border: solid var(--emerald-dark) 1px;
-    
-}
 
-.container-tech:hover::before {
-    content: "";
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40%;
-    height: 40%;
-    background: radial-gradient(circle, var(--emerald-dark) 0%, var(--emerald-dark) 80%, var(--emerald-dark) 100%);
-    filter: blur(12px); 
-    z-index: -1; 
-    pointer-events: none; 
+.borde-brillante {
+    border: 1px solid var(--emerald-dark);
+    border-radius: 100%;
+    box-shadow: 0 0 10px var(--emerald-dark);
+    animation: pulso 1.5s infinite alternate ease-in-out;
 }
-
-.container-tech:hover > .tech-text {
-    opacity: 1;
-    transition: all .5s;
+  
+@keyframes pulso {
+    0% {
+        box-shadow: 0 0 5px var(--emerald);
+    }
+    100% {
+        box-shadow: 0 0 10px var(--emerald), 0 0 12px var(--emerald);
+    }
 }
-
-.bg-glowing::before {
-    content: "";
-    position: absolute; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40%;
-    height: 40%;
-    background: radial-gradient(circle, var(--emerald-light) 0%, var(--emerald-light) 80%, var(--emerald-light) 100%);
-    filter: blur(12px); 
-    z-index: -1; 
-    pointer-events: none;  
-}
+  
 
 
 

@@ -19,6 +19,14 @@
     border: 1px solid var(--emerald);
 }
 
+.border-solid-transparent-1 {
+    border: 1px solid transparent;
+}
+
+.border-solid-white-1{
+    border: 1px solid white;
+}
+
 .border-radius-1{
     border-radius: 4px;
 }
@@ -45,5 +53,9 @@
 
 .border-radius-100p{
     border-radius: 100%;
+}
+
+.box-shadow-white-0-0-5{
+    box-shadow: 0 0 5px white;
 }
 
