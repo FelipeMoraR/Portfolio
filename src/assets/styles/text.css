@@ -136,6 +136,8 @@
 }
 
 
+
+
 /* COLOR */
 .color-white {
     color: rgb(255, 255, 255);
@@ -160,6 +162,11 @@
 .color-ligth-purple-dark {
     color: var(--light-purple-dark);
 }
+
+.color-dark-purple-dark {
+    color: var(--dark-purple-dark);
+}
+
 .first-letter-color-ligth-purple::first-letter{
     color: var(--light-purple);
     

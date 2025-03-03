@@ -257,6 +257,7 @@ export const translationsSectionProject: any = {
     ],
     en: {
         title: 'Projects and skills',
+        subTitle: 'Select the technologies that interest you',
         projects: [
             {
                 title: 'project 1',
@@ -383,6 +384,7 @@ export const translationsSectionProject: any = {
     },
     es: {
         title: 'Proyectos y habilidades',
+        subTitle: 'Selecciones las tecnologías de su interes',
         projects: [
             {
                 title: 'project 1',
@@ -509,6 +511,7 @@ export const translationsSectionProject: any = {
     },
     pt: {
         title: 'Projetos e habilidades',
+        subTitle: 'Selecione as tecnologias que lhe interessam',
         projects: [
             {
                 title: 'project 1',

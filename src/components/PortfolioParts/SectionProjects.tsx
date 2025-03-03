@@ -46,12 +46,13 @@ const SectionProjects = ({language}: IPortfolioPart) => {
     }
 
     return (
-        <div>
-            <div className="color-white">
-                <h1>{infoToRender.title}</h1>
+        <div className="project-section d-flex flex-column align-items-center gap-6 m-3">
+            <div className="color-white d-flex flex-column gap-3">
+                <h1 className="project-title color-ligth-purple font-size-8">{infoToRender.title}</h1>
+                <h2 className="project-subTitle text-center ">{infoToRender.subTitle}</h2>
             </div>
 
-            <div className="d-flex gap-3">
+            <div className="d-flex max-w-600 justify-content-center gap-3 flex-wrap">
                 {
                     technologies.map((tech : ITechnologieBody) => (
                         <Technologies
