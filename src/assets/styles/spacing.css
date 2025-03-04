@@ -62,8 +62,20 @@
     bottom: 0;
 }
 
+.bottom-110p{
+    bottom: 110%;
+}
+
 .left-0{
     left: 0;
+}
+
+.left-100p{
+    left: 100%;
+}
+
+.left-110p{
+    left: 110%;
 }
 
 

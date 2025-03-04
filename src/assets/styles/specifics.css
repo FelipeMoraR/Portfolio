@@ -53,21 +53,43 @@
     height: 64px;
 }
 
-/*CHATGPT TRICK XD*/
+.container-project-img-card{
+    width: 300px;
+    height: 150px;
+}
 
+
+
+@media (hover: hover) {
+    .container-tech:hover{
+        border: 1px solid var(--lavanda-light);
+        box-shadow: 0 0 10px var(--lavanda-light);
+    }
+}
+
+.techs-card-btn:hover > .inner-tech-card {
+    display: block !important;
+}
+
+.techs-card-btn:hover{
+    background-color: var(--emerald);
+}
+
+
+/*CHATGPT TRICK XD*/
 .borde-brillante {
-    border: 1px solid var(--emerald-dark);
+    border: 1px solid var(--lavanda-light);
     border-radius: 100%;
-    box-shadow: 0 0 10px var(--emerald-dark);
-    animation: pulso 1.5s infinite alternate ease-in-out;
+    box-shadow: 0 0 10px var(--lavanda-light);
+    animation: pulso 1s infinite alternate ease-in-out;
 }
   
 @keyframes pulso {
     0% {
-        box-shadow: 0 0 5px var(--emerald);
+        box-shadow: 0 0 5px var(--lavanda-light);
     }
     100% {
-        box-shadow: 0 0 10px var(--emerald), 0 0 12px var(--emerald);
+        box-shadow: 0 0 10px var(--lavanda-light), 0 0 12px var(--lavanda-light);
     }
 }
   
@@ -104,5 +126,10 @@
 
     .exit-btn .material-symbols-outlined{
         font-size: 10px;
+    }
+
+    .container-tech{
+        width: 42px;
+        height: 42px;
     }
 }

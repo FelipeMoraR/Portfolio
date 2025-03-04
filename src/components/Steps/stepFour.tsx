@@ -34,7 +34,7 @@ const StepFour = ({language, isSkiped}: ISteps) => {
     return (
         <div className="min-h-100vh d-flex justify-content-center align-items-center containter-step-four">
             <div className="max-w-900 p-3 position-relative">
-                <div className="color-white font-size-md-6 font-style-italic" ref={divRef}>
+                <div className="color-white font-size-xl-md-6 font-style-italic" ref={divRef}>
                     {isSkiped ? textStep.finalTitle : null}
                 </div>
                 

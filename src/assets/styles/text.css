@@ -11,15 +11,7 @@
     font-size: 1rem;
 }
 
-.font-size-sm-3{
-    font-size: 1rem;
-}
-
 .font-size-4{
-    font-size: 1.5rem;
-}
-
-.font-size-sm-4{
     font-size: 1.5rem;
 }
 
@@ -82,15 +74,22 @@
     font-size: 2rem;
 }
 
+.font-size-xl-md-6{
+    font-size: 3rem;
+}
+
 .font-size-md-6{
     font-size: 3rem;
 }
 
-
 /*SM*/
+.font-size-sm-3{
+    font-size: 1rem;
+}
 
-
-
+.font-size-sm-4{
+    font-size: 1.5rem;
+}
 
 
 
@@ -197,6 +196,11 @@
     margin: 0;
     font: inherit; 
     cursor: inherit; 
+    -webkit-tap-highlight-color: transparent; /* remove mobile efects */
+}
+
+.remove-efect-tap-highlight-mobile{
+    -webkit-tap-highlight-color: transparent; /* remove mobile efects */
 }
   
 
@@ -207,6 +211,21 @@
 .text-center{
     text-align: center;
 }
+
+/*TEXT WRAP*/
+.text-wrap-balance{
+    text-wrap: balance;
+}
+
+.text-wrap-no-wrap{
+    text-wrap: nowrap;
+}
+
+.text-wrap-pretty{
+    text-wrap: pretty;
+}
+
+
 
 /*NO SELECT*/
 .no-select {
@@ -231,7 +250,7 @@
         font-size: 1.5rem;
     }
 
-    .font-size-md-6{
+    .font-size-xl-md-6{
         font-size: 2rem;
     }
 
@@ -250,6 +269,14 @@
 
 /*MD*/
 @media (max-width: 568px){
+    .font-size-xl-md-6{
+        font-size: 1.5rem;
+    }
+
+    .font-size-md-6{
+        font-size: 1.5rem;
+    }
+
     .font-size-xxl-6{
         font-size: 1rem;
     }

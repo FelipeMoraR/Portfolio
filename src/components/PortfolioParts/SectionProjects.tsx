@@ -74,8 +74,8 @@ const SectionProjects = ({language}: IPortfolioPart) => {
     return (
         <div className="project-section d-flex flex-column align-items-center gap-6 m-3">
             <div className="color-white d-flex flex-column gap-3">
-                <h1 className="project-title color-ligth-purple font-size-8 animation-falling-down">{infoToRender.title}</h1>
-                <h2 className="project-subTitle text-center font-style-oblique delay-02s opacity-0 animation-falling-down">{infoToRender.subTitle}</h2>
+                <h1 className="project-title color-ligth-purple font-size-8 animation-falling-down font-weigth-500 text-center text-wrap-pretty">{infoToRender.title}</h1>
+                <h2 className="project-subTitle text-center font-style-oblique delay-02s opacity-0 animation-falling-down font-weigth-300">{infoToRender.subTitle}</h2>
             </div>
 
             <div className="d-flex max-w-600 justify-content-center gap-4 flex-wrap delay-04s animation-fadeIn-opacity opacity-0">
@@ -91,7 +91,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                 }                
             </div>
 
-            <div className = "d-flex gap-3 m-3 p-3 delay-06s animation-fadeIn-opacity opacity-0">
+            <div className = "d-flex gap-3 m-3 p-3 delay-06s animation-fadeIn-opacity opacity-0 flex-wrap justify-content-center">
                 {   
                     projectsToShow.length === 0 ? (
                         <div className="d-flex flex-column align-items-center gap-3 color-white animation-fadeIn-opacity">
@@ -104,12 +104,14 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                     ) : (
                         projectsToShow.map((project: ICardProject) => (
                             <ProjectCard
-                                date = {project.date}
                                 description = {project.description}
                                 image = {project.image}
                                 resume = {project.resume}
                                 technologies = {project.technologies}
                                 title = {project.title}
+                                github = {project.github}
+                                youtube = {project.youtube}
+                                language = {language}
                             />
                         )) 
                     )

@@ -117,8 +117,16 @@
     background-color: var(--emerald);
 }
 
+.bg-emerald-dark {
+    background-color: var(--emerald-dark);
+}
+
 .bg-grey {
     background-color: var(--grey);
+}
+
+.bg-grey-light {
+    background-color: var(--grey-light);
 }
 
 .bg-black-transparent {
@@ -136,6 +144,10 @@
 /*OBJECT FIT*/
 .object-fit-scale-down {
     object-fit: scale-down;
+}
+
+.object-fit-cover {
+    object-fit: cover;
 }
 
 

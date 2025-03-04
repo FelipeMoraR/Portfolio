@@ -41,8 +41,8 @@ const NavBar = ({language} : INavbar) => {
     return (
         <>
             <div className = "container-navbar py-6 px-3 m-3 max-w-200 position-fixed right-0 top-50p bg-dark-purple-dark color-white border-radius-6" ref = {navbarDiv}>
-                <div className = {`btn-hide-navbar no-select bg-emerald position-absolute cursor-pointer d-flex align-items-center justify-content-center border-radius-4 ${ isHiddenNav ? "is-hiden" : ""}`} ref={hideNavDiv}>
-                    <span className = "material-symbols-outlined ">
+                <div className = {`btn-hide-navbar no-select bg-emerald position-absolute cursor-pointer d-flex align-items-center justify-content-center border-radius-md-4 remove-efect-tap-highlight-mobile ${ isHiddenNav ? "is-hiden" : ""}`} ref={hideNavDiv}>
+                    <span className = "material-symbols-outlined font-size-md-5">
                         keyboard_double_arrow_right
                     </span>  
                 </div>

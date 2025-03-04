@@ -79,7 +79,7 @@ const NavbarElement = ({icon, sectionToView, tooltip, index} : INavbarElement) =
     return (
         <>
             <a href = {`#${sectionToView}`} className = "reset-anchor position-relative" ref = {anchorElement} key={`${index}`}>
-                <span className = "material-symbols-outlined color-ligth-purple-dark cursor-pointer font-size-6 icon-nav border-radius-100p p-1">
+                <span className = "material-symbols-outlined color-ligth-purple-dark cursor-pointer font-size-md-6 icon-nav border-radius-100p p-1">
                     {icon}
                 </span> 
 
