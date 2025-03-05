@@ -109,9 +109,8 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                                 resume = {project.resume}
                                 technologies = {project.technologies}
                                 title = {project.title}
-                                github = {project.github}
-                                youtube = {project.youtube}
-                                language = {language}
+                                githubRedirection = {project.githubRedirection}
+                                youtubeRedirection = {project.youtubeRedirection}
                             />
                         )) 
                     )

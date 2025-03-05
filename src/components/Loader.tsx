@@ -1,6 +1,6 @@
 import {translationsSteps} from "../assets/translations/translations"
 import { ILoader } from "../interfaces/Interfaces";
-import logo from '../assets/images/logoMora.webp';
+import logo from '../assets/images/stepsImg/logoMora.webp';
 import timerPromise from "../assets/utils/timer";
 import { useEffect, useState } from "react";
 

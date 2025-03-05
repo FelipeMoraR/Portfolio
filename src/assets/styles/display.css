@@ -93,11 +93,11 @@
 }
 
 /* BACKGROUNDS */
-.bg-normal-purple{
+.bg-normal-purple {
     background-color: var(--normal-purple);
 }
 
-.bg-dark-purple{
+.bg-dark-purple {
     background-color: var(--dark-purple);
 }
 

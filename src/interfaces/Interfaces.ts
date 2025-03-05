@@ -37,14 +37,14 @@ export interface ITechnologieCard extends ITechnologie {
     image: string; 
 }
 
-export interface ICardProject extends IPortfolio {
+export interface ICardProject{
     title: string;
     image: string;
     resume: string;
     description: string;
     technologies: Array<ITechnologieCard>;
-    github: string;
-    youtube?:string; 
+    githubRedirection: string;
+    youtubeRedirection?:string; 
 }
 
 
@@ -71,4 +71,12 @@ export interface IProject {
     title: string;
     enterprice: string;
     image: string;
+}
+
+export interface IIcon {
+    title: string;
+    image: string;
+    color: string;
+    redirection?: string;
+    typeRedirection?: string;
 }

@@ -68,11 +68,17 @@
 }
 
 .techs-card-btn:hover > .inner-tech-card {
-    display: block !important;
+    display: flex !important;
+
 }
 
 .techs-card-btn:hover{
     background-color: var(--emerald);
+}
+
+.tech-project{
+    width: 35px;
+    height: 35px;
 }
 
 

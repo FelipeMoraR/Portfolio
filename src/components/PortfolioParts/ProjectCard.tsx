@@ -1,29 +1,31 @@
 import { ICardProject, ITechnologieCard } from "../../interfaces/Interfaces"
+import Icon from "../Icon";
 
-const ProjectCard = ({image, description, resume, technologies, title, github, youtube, language}: ICardProject) => {
-    const techText = {
-        en: 'Technologies', 
-        es: 'Tecnologías', 
-        pt: 'tecnologias'
-    }
-    let techSelected;
+const ProjectCard = ({image, description, resume, technologies, title, githubRedirection, youtubeRedirection}: ICardProject) => {    
 
-    if(language == 'en' || language == 'es' || language == 'pt' ){
-        techSelected = techText[language];
-    }
-    
-    
     return(
-        <div className="animation-fadeIn-opacity bg-black-transparent  border-radius-2 p-3 d-flex flex-column gap-3 z-index-1">
+        <div className="animation-fadeIn-opacity bg-black-transparent  border-radius-2 p-3 d-flex flex-column gap-3 ">
             <div className="d-flex flex-column gap-3">
-                <div className="color-white">
-                    iconGit
+                <div className="d-flex gap-3">
+                    <Icon
+                        title = "github"
+                        image = "src/assets/images/icons/github.png"
+                        color = "bg-normal-purple"
+                        redirection = {githubRedirection}
+                        typeRedirection="_blank"
+                    />
 
-                    iconYT
+                    <Icon
+                        title = "github"
+                        image = "src/assets/images/icons/youtube.png"
+                        color = "bg-normal-purple"
+                        redirection = {youtubeRedirection}
+                        typeRedirection="_blank"
+                    />
                 </div>
 
-                <div className="container-project-img-card">
-                    <img src={image} alt = {title}  className="w-100 h-100 object-fit-cover"/>
+                <div className="container-project-img-card ">
+                    <img src={image} alt = {title}  className="w-100 h-100 object-fit-cover border-radius-2"/>
                 </div>
             </div>
             
@@ -37,13 +39,14 @@ const ProjectCard = ({image, description, resume, technologies, title, github, y
                         <span className = "material-symbols-outlined">
                             settings
                         </span>
-                        <div className="inner-tech-card position-absolute d-none bg-grey bottom-110p right-0 p-3 border-radius-2 z-index-2">
+                        <div className="inner-tech-card position-absolute d-none bg-grey bottom-140p right-0 p-3 border-radius-2 gap-3 flex-wrap w-200px ">
                             {
                                 technologies.map((tech: ITechnologieCard) => (
-                                    <div key = {tech.id} className="color-white">
-                                        {tech.id}
-                                        {tech.name}
-                                    </div>
+                                    <Icon
+                                        title = {tech.name}
+                                        image = {tech.image}
+                                        color = "bg-normal-purple"
+                                    />
                                 ))
                             }
                         </div>

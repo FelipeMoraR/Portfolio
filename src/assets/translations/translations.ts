@@ -192,67 +192,67 @@ export const translationsSectionProject: any = {
         {
             id: 1,
             name: 'HTML',
-            image: 'src/assets/images/technologies/html.png'
+            image: 'src/assets/images/icons/html.png'
         },
         {
             id: 2,
             name: 'CSS',
-            image: 'src/assets/images/technologies/css.png'
+            image: 'src/assets/images/icons/css.png'
         },
         {
             id: 3,
             name: 'JavaScript',
-            image: 'src/assets/images/technologies/js.png'
+            image: 'src/assets/images/icons/js.png'
         },
         {
             id: 4,
             name: 'TypeScript',
-            image: 'src/assets/images/technologies/ts.png'
+            image: 'src/assets/images/icons/ts.png'
         },
         {
             id: 5,
             name: 'React',
-            image: 'src/assets/images/technologies/react.png'
+            image: 'src/assets/images/icons/react.png'
         },
         {
             id: 6,
             name: 'Node',
-            image: 'src/assets/images/technologies/node.png'
+            image: 'src/assets/images/icons/node.png'
         },
         {
             id: 7,
             name: 'MySql',
-            image: 'src/assets/images/technologies/mysql.png'           
+            image: 'src/assets/images/icons/mysql.png'           
         },
         {
             id: 8,
             name: 'Python',
-            image: 'src/assets/images/technologies/py.png'
+            image: 'src/assets/images/icons/py.png'
         },
         {
             id: 9,
             name: 'Django',
-            image: 'src/assets/images/technologies/dj.png'
+            image: 'src/assets/images/icons/dj.png'
         },
         {
             id: 10,
             name: 'Flask',
-            image: 'src/assets/images/technologies/flask.png'
+            image: 'src/assets/images/icons/flask.png'
         },
         {
             id: 11,
             name: 'SqLite',
-            image: 'src/assets/images/technologies/sqlite.png'
+            image: 'src/assets/images/icons/sqlite.png'
         },
         {
             id: 12,
             name: 'Liferay',
-            image: 'src/assets/images/technologies/liferay.png'
+            image: 'src/assets/images/icons/liferay.png'
         },
         {
             id: 13,
             name: 'Figma',
-            image: 'src/assets/images/technologies/figma.png'
+            image: 'src/assets/images/icons/figma.png'
         }
     ],
     en: {
@@ -265,28 +265,28 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/html.png'
+                        image: 'src/assets/images/icons/html.png'
                     }, 
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/technologies/js.png'
+                        image: 'src/assets/images/icons/js.png'
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/react.png'
+                        image: 'src/assets/images/icons/react.png'
                     },
                     {
                         id: 11,
                         name: 'SqLite',
-                        image: 'src/assets/images/technologies/sqlite.png'
+                        image: 'src/assets/images/icons/sqlite.png'
                     },
                 ]
             }, 
@@ -295,23 +295,23 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 2',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/technologies/css.png'
+                        image: 'src/assets/images/icons/css.png'
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/technologies/ts.png'
+                        image: 'src/assets/images/icons/ts.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/dj.png'
+                        image: 'src/assets/images/icons/dj.png'
                     }
                 ]
             },
@@ -320,28 +320,28 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 3',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/html.png'
+                        image: 'src/assets/images/icons/html.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/mysql.png'           
+                        image: 'src/assets/images/icons/mysql.png'           
                     },
                     {
                         id: 11,
                         name: 'SqLite',
-                        image: 'src/assets/images/technologies/sqlite.png'
+                        image: 'src/assets/images/icons/sqlite.png'
                     },
                     {
                         id: 13,
                         name: 'Figma',
-                        image: 'src/assets/images/technologies/figma.png'
+                        image: 'src/assets/images/icons/figma.png'
                     }
                 ]
             },
@@ -350,38 +350,38 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 4',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/react.png'
+                        image: 'src/assets/images/icons/react.png'
                     },
                     {
                         id: 6,
                         name: 'Node',
-                        image: 'src/assets/images/technologies/node.png'
+                        image: 'src/assets/images/icons/node.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/html.png'           
+                        image: 'src/assets/images/icons/html.png'           
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/technologies/py.png'
+                        image: 'src/assets/images/icons/py.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/dj.png'
+                        image: 'src/assets/images/icons/dj.png'
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/technologies/flask.png'
+                        image: 'src/assets/images/icons/flask.png'
                     },
                 ]
             }
@@ -397,28 +397,28 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/html.png'
+                        image: 'src/assets/images/icons/html.png'
                     }, 
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/technologies/js.png'
+                        image: 'src/assets/images/icons/js.png'
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/react.png'
+                        image: 'src/assets/images/icons/react.png'
                     },
                     {
                         id: 11,
                         name: 'SqLite',
-                        image: 'src/assets/images/technologies/sqlite.png'
+                        image: 'src/assets/images/icons/sqlite.png'
                     },
                 ]
             }, 
@@ -427,23 +427,23 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 2',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/technologies/css.png'
+                        image: 'src/assets/images/icons/css.png'
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/technologies/ts.png'
+                        image: 'src/assets/images/icons/ts.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/dj.png'
+                        image: 'src/assets/images/icons/dj.png'
                     }
                 ]
             },
@@ -452,28 +452,28 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 3',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/html.png'
+                        image: 'src/assets/images/icons/html.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/mysql.png'           
+                        image: 'src/assets/images/icons/mysql.png'           
                     },
                     {
                         id: 11,
                         name: 'SqLite',
-                        image: 'src/assets/images/technologies/sqlite.png'
+                        image: 'src/assets/images/icons/sqlite.png'
                     },
                     {
                         id: 13,
                         name: 'Figma',
-                        image: 'src/assets/images/technologies/figma.png'
+                        image: 'src/assets/images/icons/figma.png'
                     }
                 ]
             },
@@ -482,38 +482,38 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 4',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/react.png'
+                        image: 'src/assets/images/icons/react.png'
                     },
                     {
                         id: 6,
                         name: 'Node',
-                        image: 'src/assets/images/technologies/node.png'
+                        image: 'src/assets/images/icons/node.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/html.png'           
+                        image: 'src/assets/images/icons/html.png'           
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/technologies/py.png'
+                        image: 'src/assets/images/icons/py.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/dj.png'
+                        image: 'src/assets/images/icons/dj.png'
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/technologies/flask.png'
+                        image: 'src/assets/images/icons/flask.png'
                     },
                 ]
             }
@@ -529,28 +529,28 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/html.png'
+                        image: 'src/assets/images/icons/html.png'
                     }, 
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/technologies/js.png'
+                        image: 'src/assets/images/icons/js.png'
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/react.png'
+                        image: 'src/assets/images/icons/react.png'
                     },
                     {
                         id: 11,
                         name: 'SqLite',
-                        image: 'src/assets/images/technologies/sqlite.png'
+                        image: 'src/assets/images/icons/sqlite.png'
                     },
                 ]
             }, 
@@ -559,23 +559,23 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 2',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirectionRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/technologies/css.png'
+                        image: 'src/assets/images/icons/css.png'
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/technologies/ts.png'
+                        image: 'src/assets/images/icons/ts.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/dj.png'
+                        image: 'src/assets/images/icons/dj.png'
                     }
                 ]
             },
@@ -584,28 +584,28 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 3',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/technologies/html.png'
+                        image: 'src/assets/images/icons/html.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/mysql.png'           
+                        image: 'src/assets/images/icons/mysql.png'           
                     },
                     {
                         id: 11,
                         name: 'SqLite',
-                        image: 'src/assets/images/technologies/sqlite.png'
+                        image: 'src/assets/images/icons/sqlite.png'
                     },
                     {
                         id: 13,
                         name: 'Figma',
-                        image: 'src/assets/images/technologies/figma.png'
+                        image: 'src/assets/images/icons/figma.png'
                     }
                 ]
             },
@@ -614,38 +614,38 @@ export const translationsSectionProject: any = {
                 image: 'src/assets/images/cardProject/imgDefault.jpg',
                 resume: 'Test project 4',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-                github: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtube: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 technologies: [
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/technologies/react.png'
+                        image: 'src/assets/images/icons/react.png'
                     },
                     {
                         id: 6,
                         name: 'Node',
-                        image: 'src/assets/images/technologies/node.png'
+                        image: 'src/assets/images/icons/node.png'
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/technologies/html.png'           
+                        image: 'src/assets/images/icons/html.png'           
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/technologies/py.png'
+                        image: 'src/assets/images/icons/py.png'
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/technologies/dj.png'
+                        image: 'src/assets/images/icons/dj.png'
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/technologies/flask.png'
+                        image: 'src/assets/images/icons/flask.png'
                     },
                 ]
             }

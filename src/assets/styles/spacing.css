@@ -62,8 +62,8 @@
     bottom: 0;
 }
 
-.bottom-110p{
-    bottom: 110%;
+.bottom-140p{
+    bottom: 140%;
 }
 
 .left-0{
@@ -109,6 +109,10 @@
 }
 
 /* PADDING */
+.p-05{
+    padding: .2rem;
+}
+
 .p-1{
     padding: .5rem;
 }
