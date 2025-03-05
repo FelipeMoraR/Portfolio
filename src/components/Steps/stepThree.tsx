@@ -20,7 +20,7 @@ const StepThree = ({language, isSkiped}: ISteps) => {
         <div className = "containter-step-three min-h-100vh w-100 d-flex align-items-center justify-content-center">
             <div className = "max-w-lg-600-500 d-flex flex-wrap gap-3 p-3">
                 {projects.map((project: IProject, index: number) => (
-                    <div key = {`${index}` }className={!isSkiped ? "opacity-0 d-flex flex-shrink-1 flex-grow-0 flex-basis-600 gap-3 animation-falling-down bg-black-transparent border-radius-2 p-3 " + delays[index] : "d-flex flex-shrink-1 flex-grow-0 flex-basis-600 gap-3 bg-black-transparent border-radius-2 p-3"}>
+                    <div key = {`${index}` }className={!isSkiped ? "opacity-0 d-flex flex-shrink-1 flex-grow-0 flex-basis-600 gap-3 animation-falling-down bg-gradint-purple-to-emerald border-solid-light-purple-dark-1  border-radius-2 p-3 " + delays[index] : "d-flex flex-shrink-1 flex-grow-0 flex-basis-600 gap-3 bg-black-transparent border-radius-2 p-3"}>
                         <div className="img-step-three flex-shrink-0">
                             <img className="border-radius-100p " src={'src/assets/images/stepsImg/' + project.image} alt={project.image} />
                         </div>

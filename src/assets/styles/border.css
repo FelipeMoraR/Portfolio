@@ -15,6 +15,10 @@
     border: 2px solid var(--light-purple);
 }
 
+.border-solid-light-purple-dark-1 {
+    border: 1px solid var(--light-purple-dark);
+}
+
 .border-solid-normal-emerald-1 {
     border: 1px solid var(--emerald);
 }
@@ -62,6 +66,8 @@
 .box-shadow-white-0-0-5{
     box-shadow: 0 0 5px white;
 }
+
+
 
 
 

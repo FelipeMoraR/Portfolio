@@ -72,10 +72,10 @@ const SectionProjects = ({language}: IPortfolioPart) => {
     
 
     return (
-        <div className="project-section d-flex flex-column align-items-center gap-6 m-3">
+        <div className="project-section d-flex flex-column align-items-center gap-5 m-3">
             <div className="color-white d-flex flex-column gap-3">
-                <h1 className="project-title color-ligth-purple font-size-8 animation-falling-down font-weigth-500 text-center text-wrap-pretty">{infoToRender.title}</h1>
-                <h2 className="project-subTitle text-center font-style-oblique delay-02s opacity-0 animation-falling-down font-weigth-300">{infoToRender.subTitle}</h2>
+                <h1 className="project-title color-ligth-purple font-size-8 animation-falling-down font-weigth-700 text-center text-wrap-pretty">{infoToRender.title}</h1>
+                <h2 className="project-subTitle text-center font-size-3 delay-02s opacity-0 animation-falling-down font-weigth-400">{infoToRender.subTitle}</h2>
             </div>
 
             <div className="d-flex max-w-600 justify-content-center gap-4 flex-wrap delay-04s animation-fadeIn-opacity opacity-0">

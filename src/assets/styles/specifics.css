@@ -64,6 +64,7 @@
     .container-tech:hover{
         border: 1px solid var(--lavanda-light);
         box-shadow: 0 0 10px var(--lavanda-light);
+        transform: rotate(10deg) scale(1.1);
     }
 }
 
@@ -77,8 +78,8 @@
 }
 
 .tech-project{
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
 }
 
 

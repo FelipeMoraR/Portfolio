@@ -10,7 +10,7 @@ const ProjectCard = ({image, description, resume, technologies, title, githubRed
                     <Icon
                         title = "github"
                         image = "src/assets/images/icons/github.png"
-                        color = "bg-normal-purple"
+                        color = ""
                         redirection = {githubRedirection}
                         typeRedirection="_blank"
                     />
@@ -18,7 +18,7 @@ const ProjectCard = ({image, description, resume, technologies, title, githubRed
                     <Icon
                         title = "github"
                         image = "src/assets/images/icons/youtube.png"
-                        color = "bg-normal-purple"
+                        color = ""
                         redirection = {youtubeRedirection}
                         typeRedirection="_blank"
                     />

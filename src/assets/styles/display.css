@@ -141,6 +141,15 @@
     background-color: var(--lavanda-dark);
 }
 
+.bg-gradint-purple-to-emerald{
+    background: linear-gradient(
+                145deg, 
+                var(--dark-purple-dark) 0%, 
+                var(--dark-purple-dark) 60%, 
+                var(--dark-purple-green) 100%
+            );
+}
+
 /*OBJECT FIT*/
 .object-fit-scale-down {
     object-fit: scale-down;
@@ -148,6 +157,12 @@
 
 .object-fit-cover {
     object-fit: cover;
+}
+
+
+/*FILTERS*/
+.filter-invert-100{
+    filter: invert(100%)
 }
 
 
