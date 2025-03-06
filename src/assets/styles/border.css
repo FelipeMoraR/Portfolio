@@ -67,6 +67,10 @@
     box-shadow: 0 0 5px white;
 }
 
+.box-shadow-dark-purple-light-0-0-15{
+    box-shadow: 0 0 15px var(--dark-purple-light);
+}
+
 
 
 

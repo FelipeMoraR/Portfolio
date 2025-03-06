@@ -1,24 +1,29 @@
 import { ICardProject, ITechnologieCard } from "../../interfaces/Interfaces"
+import Button from "../Button";
 import Icon from "../Icon";
 
-const ProjectCard = ({image, description, resume, technologies, title, githubRedirection, youtubeRedirection}: ICardProject) => {    
+const ProjectCard = ({image, description, technologies, title, githubRedirection, youtubeRedirection}: ICardProject) => {    
+
 
     return(
-        <div className="animation-fadeIn-opacity bg-black-transparent  border-radius-2 p-3 d-flex flex-column gap-3 ">
+        <div className="card-project max-w-330 transition-all-02 max-h-300 overflow-hidden animation-fadeIn-opacity border-solid-light-purple-dark-1  bg-gradint-purple-to-emerald border-radius-2 p-3 d-flex flex-column gap-3 cursor-pointer "
+            onClick={(e) => e.currentTarget.classList.toggle('max-h-600')}
+        >
             <div className="d-flex flex-column gap-3">
                 <div className="d-flex gap-3">
                     <Icon
                         title = "github"
                         image = "src/assets/images/icons/github.png"
-                        color = ""
+                        color = "white"
                         redirection = {githubRedirection}
                         typeRedirection="_blank"
+                        
                     />
 
                     <Icon
                         title = "github"
                         image = "src/assets/images/icons/youtube.png"
-                        color = ""
+                        color = "white"
                         redirection = {youtubeRedirection}
                         typeRedirection="_blank"
                     />
@@ -31,21 +36,24 @@ const ProjectCard = ({image, description, resume, technologies, title, githubRed
             
             <div className="d-flex flex-column gap-5">
                 <div className="d-flex  gap-3 justify-content-space-between">
-                    <p className="color-ligth-purple font-size-4 font-weigth-600 cursor-pointer no-select">
+                    <p className="color-ligth-purple font-size-5 font-weigth-600">
                         {title}
                     </p>
 
-                    <div className="techs-card-btn position-relative bg-emerald-dark border-radius-2 color-white d-flex justify-content-center align-items-center px-3 cursor-pointer">
-                        <span className = "material-symbols-outlined">
-                            settings
-                        </span>
-                        <div className="inner-tech-card position-absolute d-none bg-grey bottom-140p right-0 p-3 border-radius-2 gap-3 flex-wrap w-200px ">
+                    <div className="techs-card-btn position-relative ">
+                        <Button
+                            type = "skip-btn"
+                            cssClasses="px-1 "
+                            typeBtn = "primary-emerald"
+                            icon="settings"
+                        />
+                        <div className="border-solid-normal-emerald-1 inner-tech-card position-absolute box-shadow-dark-purple-light-0-0-15 d-none bg-gradint-emerald-dark-to-purple bottom-130p right-0 p-3 border-radius-2 gap-1 flex-wrap w-200px ">
                             {
                                 technologies.map((tech: ITechnologieCard) => (
                                     <Icon
                                         title = {tech.name}
                                         image = {tech.image}
-                                        color = "bg-normal-purple"
+                                        color = "white"
                                     />
                                 ))
                             }
@@ -54,7 +62,7 @@ const ProjectCard = ({image, description, resume, technologies, title, githubRed
                 </div>
                 
                 <p className="color-white font-size-3 font-style-italic font-weigth-300">
-                    {resume}
+                    {description}
                 </p>
                 
             </div>

@@ -20,6 +20,9 @@
     animation-delay: 1s !important;
 }
 
+.transition-all-02 {
+    transition: all .2s;
+}
 
 .animation-fadeOut-display{
     animation: fadeOutDisplay .5s linear forwards;

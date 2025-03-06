@@ -7,7 +7,7 @@ const Technologies = ({id, image, name, onClick}: ITechnologieBody) => {
 
         if(!container) return;
 
-        container.classList.toggle('borde-brillante');
+        container.classList.toggle('bright-border');
         
         if(onClick) onClick(id);
     }

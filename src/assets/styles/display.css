@@ -145,8 +145,17 @@
     background: linear-gradient(
                 145deg, 
                 var(--dark-purple-dark) 0%, 
-                var(--dark-purple-dark) 60%, 
-                var(--dark-purple-green) 100%
+                var(--dark-purple-dark) 80%, 
+                var(--dark-purple-green-1) 100%
+            );
+}
+
+.bg-gradint-emerald-dark-to-purple{
+    background: linear-gradient(
+                160deg, 
+                var(--dark-purple-green-1) 0%, 
+                var(--dark-purple-green-1) 80%, 
+                var(--dark-purple-green-2) 100%
             );
 }
 

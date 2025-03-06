@@ -1,11 +1,21 @@
 import { IButton } from "../interfaces/Interfaces";
 
 
-const Button = ({text, type, cssClasses,onClick}: IButton) => {
-    if (type == "skip-btn") return <button className = {cssClasses} onClick={onClick}><span className="material-symbols-outlined"> close </span></button>
-
+const Button = ({text, type, icon, typeBtn, cssClasses, onClick}: IButton) => {
+    
     return (
-        <button className = {cssClasses} onClick={onClick}>{text}</button>
+        <button className = {`${cssClasses} ${typeBtn}`} onClick={onClick}>
+            {
+                icon && icon !== '' ? (
+                    <span className="material-symbols-outlined">
+                        {icon}
+                    </span>
+                )  : (
+                    text
+                )
+             
+            }
+        </button>
     )
 }
 

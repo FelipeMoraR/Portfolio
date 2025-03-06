@@ -50,7 +50,7 @@
 }
 
 .icon-nav:hover{
-    background-color: var(--dark-hover);
+    background-color: var(--dark-purple-light);
 }
 
 .tooltip{
@@ -59,10 +59,10 @@
     color: white;
     z-index: -1;
     transform: translateY(-50%);
-    background-color: var(--emerald-dark);
+    background-color: var(--dark-purple-green-3);
     border-radius: 4px;
     font-size: 12px;
-    padding: .25rem;
+    padding: .20rem;
     
 }
 

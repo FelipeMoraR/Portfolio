@@ -91,7 +91,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                 }                
             </div>
 
-            <div className = "d-flex gap-3 m-3 p-3 delay-06s animation-fadeIn-opacity opacity-0 flex-wrap justify-content-center">
+            <div className = "d-flex gap-6 m-3 p-3 delay-06s animation-fadeIn-opacity opacity-0 flex-wrap justify-content-center">
                 {   
                     projectsToShow.length === 0 ? (
                         <div className="d-flex flex-column align-items-center gap-3 color-white animation-fadeIn-opacity">
@@ -106,7 +106,6 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                             <ProjectCard
                                 description = {project.description}
                                 image = {project.image}
-                                resume = {project.resume}
                                 technologies = {project.technologies}
                                 title = {project.title}
                                 githubRedirection = {project.githubRedirection}

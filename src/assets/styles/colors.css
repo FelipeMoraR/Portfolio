@@ -4,7 +4,9 @@
     --dark-purple: #2E2633;
     --dark-purple-light: #3B3340;
     --dark-purple-dark: #1F1A24;
-    --dark-purple-green: #253727;
+    --dark-purple-green-1: #1c291d;
+    --dark-purple-green-2: #354436;
+    --dark-purple-green-3: #29412a;
 
     --normal-purple: #786187;
     --normal-purple-light: #8E74A0;
@@ -27,4 +29,5 @@
     --emerald: #50C878;
     --emerald-light: #6EE897;
     --emerald-dark: #3AA25E;
+    --emerald-dark-2: #2d7c48;
 }

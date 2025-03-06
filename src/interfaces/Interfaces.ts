@@ -12,7 +12,6 @@ export interface INavbar {
 }
 
 export interface INavbarElement {
-    index: number;
     sectionToView: string; 
     icon: string; 
     tooltip: string; 
@@ -40,7 +39,6 @@ export interface ITechnologieCard extends ITechnologie {
 export interface ICardProject{
     title: string;
     image: string;
-    resume: string;
     description: string;
     technologies: Array<ITechnologieCard>;
     githubRedirection: string;
@@ -52,8 +50,10 @@ export interface ICardProject{
 export interface IButton {
     text?: string;
     type: string;
+    icon?: string;
     cssClasses: string;
-    onClick: () => void;
+    typeBtn: string;
+    onClick?: () => void;
 }
 
 
@@ -79,4 +79,5 @@ export interface IIcon {
     color: string;
     redirection?: string;
     typeRedirection?: string;
+    
 }

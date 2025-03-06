@@ -62,8 +62,8 @@
     bottom: 0;
 }
 
-.bottom-140p{
-    bottom: 140%;
+.bottom-130p{
+    bottom: 130%;
 }
 
 .left-0{
@@ -123,6 +123,16 @@
 
 .p-3{
     padding: 1rem;
+}
+
+.px-1{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.px-2{
+    padding-left: .7rem;
+    padding-right: .7rem;
 }
 
 .px-3{

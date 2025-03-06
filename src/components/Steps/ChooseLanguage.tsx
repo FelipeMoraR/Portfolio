@@ -33,6 +33,7 @@ const ChooseLanguage = ({setCurrentLanguage, setIsLanguageChoosed}: IChooseLangu
                     text = "Spanish"
                     type="button"
                     cssClasses= "position-absolute left-0 h-100 w-100 opacity-0 cursor-pointer"
+                    typeBtn = "custom"
                     onClick = {() => chooseLanguage('es')}
                   />
                 </div>
@@ -51,6 +52,7 @@ const ChooseLanguage = ({setCurrentLanguage, setIsLanguageChoosed}: IChooseLangu
                     text = "English"
                     type="button"
                     cssClasses= "position-absolute left-0 h-100 w-100 opacity-0 cursor-pointer"
+                    typeBtn = "custom"
                     onClick = {() => chooseLanguage('en')}
                   />
                 </div>
@@ -69,6 +71,7 @@ const ChooseLanguage = ({setCurrentLanguage, setIsLanguageChoosed}: IChooseLangu
                     text = "Portuguese"
                     type="button"
                     cssClasses= "position-absolute left-0 h-100 w-100 opacity-0 cursor-pointer"
+                    typeBtn = "custom"
                     onClick = {() => chooseLanguage('pt')}
                   />
                 </div>

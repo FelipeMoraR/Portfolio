@@ -1,0 +1,19 @@
+.primary-purple{
+
+}
+
+.primary-emerald{
+    border: 1px solid var(--emerald-light);
+    border-radius: 8px;
+    background-color: var(--emerald-light);
+    cursor: pointer;
+    color: var(--emerald-dark);
+    width: 100%;
+    height: 100%;
+}
+
+.primary-emerald:hover{
+    border: 1px solid var(--emerald-dark-2);
+    background-color: var(--emerald-dark-2);
+    box-shadow: 0 0 15px var(--normal-purple);
+}

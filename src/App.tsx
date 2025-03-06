@@ -89,13 +89,18 @@ function App() {
     <>
       {
         step >= 1 && step < 4 ? (
-          <Button
-            type = "skip-btn"
-            cssClasses="exit-btn z-index-2 color-white position-absolute right-0 m-3 cursor-pointer border-solid-normal-emerald-1 bg-emerald no-select animation-fadeIn-opacity border-radius-2"
-            onClick={skipIntroduction}
-          />
+          <div className="exit-btn z-index-2 right-0 position-absolute m-3 ">
+            <Button
+              type = "skip-btn"
+              cssClasses=""
+              typeBtn = "primary-emerald"
+              icon="close"
+              onClick={skipIntroduction}
+            />
+          </div>
         ) : null
       }
+      
       
       
       {arraySteps[step]}

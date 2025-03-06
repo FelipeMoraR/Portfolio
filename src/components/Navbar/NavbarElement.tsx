@@ -1,8 +1,7 @@
 import { useEffect, useRef } from "react";
 import { INavbarElement } from "../../interfaces/Interfaces";
 
-const NavbarElement = ({icon, sectionToView, tooltip, index} : INavbarElement) => {
-    const anchorElement = useRef<HTMLAnchorElement>(null); //This is null until DOM end to load;
+const NavbarElement = ({icon, sectionToView, tooltip} : INavbarElement) => {
     const tooltipElement = useRef<HTMLParagraphElement>(null);
     
     const calculateSpaceTootlip = (tooltipText: string) => {
@@ -19,51 +18,15 @@ const NavbarElement = ({icon, sectionToView, tooltip, index} : INavbarElement) =
         return newLeftValue;
     }
 
-    useEffect(() => {
-        const currentAnchor = anchorElement.current; //When the component end to render the anchorElement it'll change to the correct element and not null
-        
-        if(window.innerWidth <= 992) return;
+    const handlerMouseEnter = (tooltip: HTMLParagraphElement) => {
+        tooltip.classList.remove('animation-fadeOut-opacity');
+        tooltip.classList.add('animation-fadeIn-opacity');
+    }
 
-        if(!currentAnchor) {
-            console.error('current anchor not founded');
-            return
-        };
-        
-        const handlerMouseEnter = () => {
-            const tooltip = currentAnchor.querySelector('.tooltip');
-
-            if(!tooltip) {
-                console.error('tooltip no encontrado');
-                return
-            }
-
-            tooltip.classList.remove('animation-fadeOut-opacity');
-            tooltip.classList.add('animation-fadeIn-opacity');
-        }
-
-        const handlerMouseLeave = () => {
-            const tooltip = currentAnchor.querySelector('.tooltip');
-            
-            if(!tooltip) {
-                console.error('tooltip no encontrado');
-                return
-            }
-
-            tooltip.classList.remove('animation-fadeIn-opacity');
-            tooltip.classList.add('animation-fadeOut-opacity');
-        }
-        
-        currentAnchor.addEventListener('mouseenter', handlerMouseEnter);
-
-        currentAnchor.addEventListener('mouseleave', handlerMouseLeave);
-
-        return() => {
-            currentAnchor.removeEventListener('mouseenter', handlerMouseEnter);
-
-             currentAnchor.removeEventListener('mouseleave', handlerMouseLeave);
-        }
-
-    }, []);
+    const handlerMouseLeave = (tooltip: HTMLParagraphElement) => {
+        tooltip.classList.remove('animation-fadeIn-opacity');
+        tooltip.classList.add('animation-fadeOut-opacity');
+    }
 
 
     useEffect(() => {
@@ -78,8 +41,17 @@ const NavbarElement = ({icon, sectionToView, tooltip, index} : INavbarElement) =
 
     return (
         <>
-            <a href = {`#${sectionToView}`} className = "reset-anchor position-relative" ref = {anchorElement} key={`${index}`}>
-                <span className = "material-symbols-outlined color-ligth-purple-dark cursor-pointer font-size-md-6 icon-nav border-radius-100p p-1">
+            <a href = {`#${sectionToView}`} className = "reset-anchor position-relative" 
+                onMouseEnter={() => {
+                    if(!tooltipElement.current) return
+                    handlerMouseEnter(tooltipElement.current)
+                }} 
+                onMouseLeave={() => {
+                    if(!tooltipElement.current) return
+                    handlerMouseLeave(tooltipElement.current)
+                }} 
+            >
+                <span className = "material-symbols-outlined color-ligth-purple-dark cursor-pointer font-size-md-6 icon-nav border-radius-100p p-2">
                     {icon}
                 </span> 
 
