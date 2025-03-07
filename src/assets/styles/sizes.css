@@ -38,6 +38,10 @@
     max-width: 330px;
 }
 
+.max-w-lg-330{
+    max-width: 330px;
+}
+
 .max-w-200{
     max-width: 200px;
 }
@@ -83,7 +87,16 @@
     max-height: 300px;
 }
 
+.max-h-lg-300{
+    max-height: 300px;
+}
+
+
 .max-h-600{
+    max-height: 600px;
+}
+
+.max-h-lg-600{
     max-height: 600px;
 }
 
@@ -103,6 +116,18 @@
 
     .max-w-lg-600-500{
         max-width: 500px;
+    }
+
+    .max-w-lg-330{
+        max-width: 230px;
+    }
+
+    .max-h-lg-300{
+        max-height: 240px;
+    }
+
+    .max-h-lg-600{
+        max-height: 700px;
     }
 }
 

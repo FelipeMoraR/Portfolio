@@ -1,6 +1,7 @@
 import NavBar from "../Navbar/Navbar";
-import SectionProjects from "../PortfolioParts/SectionProjects";
+import SectionProjects from "../PortfolioParts/ProjectAndSkills/SectionProjects";
 import { IPortfolio } from "../../interfaces/Interfaces";
+import Contact from "../PortfolioParts/Contact/Contact";
 
 const Portfolio = ({language} : IPortfolio) => {
     
@@ -14,6 +15,17 @@ const Portfolio = ({language} : IPortfolio) => {
                 language = {language}
             />
 
+            <div className="lol">
+
+            </div>
+
+            <Contact
+                language = {language}
+            />
+
+<div className="lol">
+
+</div>
 
         </>
         

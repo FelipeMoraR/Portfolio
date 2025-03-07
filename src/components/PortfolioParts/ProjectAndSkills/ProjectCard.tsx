@@ -1,13 +1,13 @@
-import { ICardProject, ITechnologieCard } from "../../interfaces/Interfaces"
-import Button from "../Button";
-import Icon from "../Icon";
+import { ICardProject, ITechnologieCard } from "../../../interfaces/Interfaces"
+import Button from "../../Button";
+import Icon from "../../Icon";
 
 const ProjectCard = ({image, description, technologies, title, githubRedirection, youtubeRedirection}: ICardProject) => {    
 
 
     return(
-        <div className="card-project max-w-330 transition-all-02 max-h-300 overflow-hidden animation-fadeIn-opacity border-solid-light-purple-dark-1  bg-gradint-purple-to-emerald border-radius-2 p-3 d-flex flex-column gap-3 cursor-pointer "
-            onClick={(e) => e.currentTarget.classList.toggle('max-h-600')}
+        <div className="card-project max-w-lg-330 transition-all-02 max-h-lg-300 overflow-hidden animation-fadeIn-opacity border-solid-light-purple-dark-1  bg-gradint-purple-to-emerald border-radius-2 p-3 d-flex flex-column gap-3 cursor-pointer "
+            onClick={(e) => e.currentTarget.classList.toggle('max-h-lg-600')}
         >
             <div className="d-flex flex-column gap-3">
                 <div className="d-flex gap-3">

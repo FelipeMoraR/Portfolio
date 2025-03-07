@@ -1,5 +1,5 @@
-import { IPortfolioPart, ITechnologieBody, ICardProject } from "../../interfaces/Interfaces";
-import { translationsSectionProject } from "../../assets/translations/translations";
+import { IPortfolioPart, ITechnologieBody, ICardProject } from "../../../interfaces/Interfaces";
+import { translationsSectionProject } from "../../../assets/translations/translations";
 import Technologies from "./Technologies";
 import { useEffect, useRef, useState } from "react";
 import ProjectCard from "./ProjectCard";
@@ -72,10 +72,10 @@ const SectionProjects = ({language}: IPortfolioPart) => {
     
 
     return (
-        <div className="project-section d-flex flex-column align-items-center gap-5 m-3">
+        <section className="project-section d-flex flex-column align-items-center gap-5 m-3" id = "project">
             <div className="color-white d-flex flex-column gap-3">
-                <h1 className="project-title color-ligth-purple font-size-8 animation-falling-down font-weigth-700 text-center text-wrap-pretty">{infoToRender.title}</h1>
-                <h2 className="project-subTitle text-center font-size-3 delay-02s opacity-0 animation-falling-down font-weigth-400">{infoToRender.subTitle}</h2>
+                <p className="project-title color-ligth-purple font-size-8 animation-falling-down font-weigth-700 text-center text-wrap-pretty">{infoToRender.title}</p>
+                <p className="project-subTitle text-center font-size-3 delay-02s opacity-0 animation-falling-down font-weigth-400">{infoToRender.subTitle}</p>
             </div>
 
             <div className="d-flex max-w-600 justify-content-center gap-4 flex-wrap delay-04s animation-fadeIn-opacity opacity-0">
@@ -91,7 +91,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                 }                
             </div>
 
-            <div className = "d-flex gap-6 m-3 p-3 delay-06s animation-fadeIn-opacity opacity-0 flex-wrap justify-content-center">
+            <div className = "d-flex gap-3 m-3 p-3 delay-06s animation-fadeIn-opacity opacity-0 flex-wrap justify-content-center">
                 {   
                     projectsToShow.length === 0 ? (
                         <div className="d-flex flex-column align-items-center gap-3 color-white animation-fadeIn-opacity">
@@ -116,7 +116,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                       
                 }
             </div>
-        </div>
+        </section>
     )
 }
 

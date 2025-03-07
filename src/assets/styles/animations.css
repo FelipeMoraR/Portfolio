@@ -180,3 +180,23 @@
     }
 }
 
+.animation-scroll-test {
+    animation: showElement linear forwards;
+    animation-timeline: view();
+   
+}
+
+@keyframes showElement {
+    from{
+        opacity: 0;
+        scale: .5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.lol {
+    height: 2000px;
+}

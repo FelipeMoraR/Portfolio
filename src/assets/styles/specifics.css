@@ -110,6 +110,11 @@
         width: 100px;
         height: 100px;
     }
+
+    .container-project-img-card{
+        width: 200px;
+        height: 100px;
+    }
 }
 
 /*SM*/

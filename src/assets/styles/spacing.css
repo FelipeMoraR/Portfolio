@@ -121,6 +121,10 @@
     padding: .7rem;
 }
 
+.p-md-2{
+    padding: .7rem;
+}
+
 .p-3{
     padding: 1rem;
 }
@@ -146,3 +150,9 @@
 }
 
 
+/*MD*/
+@media (max-width: 568px){
+    .p-md-2{
+        padding: .3rem;
+    }
+}

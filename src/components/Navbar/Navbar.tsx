@@ -21,7 +21,7 @@ const NavBar = ({language} : INavbar) => {
 
     return (
         <>
-            <div className = "container-navbar py-6 px-3 m-3 max-w-200 position-fixed right-0 top-50p bg-dark-purple-dark color-white border-radius-6" ref = {navbarDiv}>
+            <nav className = "container-navbar py-6 px-3 m-3 max-w-200 position-fixed right-0 top-50p bg-dark-purple-dark color-white border-radius-6" ref = {navbarDiv}>
                 <div className = {`btn-hide-navbar position-absolute   ${ isHiddenNav ? "is-hiden" : ""}`}>
                     <Button
                         type = ""
@@ -47,7 +47,7 @@ const NavBar = ({language} : INavbar) => {
                         ))
                     }    
                 </div>
-            </div>
+            </nav>
             
         </>
     )
