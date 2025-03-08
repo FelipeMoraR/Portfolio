@@ -42,7 +42,7 @@ const ProjectCard = ({image, description, technologies, title, githubRedirection
 
                     <div className="techs-card-btn position-relative ">
                         <Button
-                            type = "skip-btn"
+                            type = "button"
                             cssClasses="px-1 "
                             typeBtn = "primary-emerald"
                             icon="settings"

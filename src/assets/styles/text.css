@@ -31,6 +31,8 @@
     font-size: 4rem;
 }
 
+
+
 .font-size-9{
     font-size: 4.5rem;
 }
@@ -89,6 +91,10 @@
 
 .font-size-sm-4{
     font-size: 1.5rem;
+}
+
+.font-size-sm-8{
+    font-size: 4rem;
 }
 
 
@@ -315,5 +321,10 @@
     .font-size-sm-3{
         font-size: .8rem;
     }
+
+    .font-size-sm-8{
+        font-size: 3rem;
+    }
+    
 }
 

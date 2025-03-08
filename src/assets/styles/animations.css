@@ -180,20 +180,36 @@
     }
 }
 
-.animation-scroll-test {
-    animation: showElement linear forwards;
+.animation-scroll-right-left {
+    animation: showElementRightLeft linear forwards;
     animation-timeline: view();
-   
+    animation-range: entry 0% cover 40%;
 }
 
-@keyframes showElement {
+@keyframes showElementRightLeft {
     from{
         opacity: 0;
-        scale: .5;
+        transform: translateX(-1000px);
     }
     to{
         opacity: 1;
-        scale: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+.animation-scroll-fade-in {
+    animation: showElementFadeIn linear forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    opacity: 0;
+}
+
+@keyframes showElementFadeIn {
+    to{
+        opacity: 1;
     }
 }
 

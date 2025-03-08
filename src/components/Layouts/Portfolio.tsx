@@ -23,10 +23,6 @@ const Portfolio = ({language} : IPortfolio) => {
                 language = {language}
             />
 
-<div className="lol">
-
-</div>
-
         </>
         
     )

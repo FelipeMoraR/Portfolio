@@ -83,6 +83,10 @@
     left: 48%;
 }
 
+.left-50p{
+    left: 50%;
+}
+
 
 
 .translateX-neg-50{
@@ -127,6 +131,18 @@
 
 .p-3{
     padding: 1rem;
+}
+
+.p-4{
+    padding: 1.5rem;
+}
+
+.p-5{
+    padding: 2rem;
+}
+
+.p-6{
+    padding: 2.5rem;
 }
 
 .px-1{

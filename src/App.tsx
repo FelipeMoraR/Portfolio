@@ -91,7 +91,7 @@ function App() {
         step >= 1 && step < 4 ? (
           <div className="exit-btn z-index-2 right-0 position-absolute m-3 ">
             <Button
-              type = "skip-btn"
+              type = "button"
               cssClasses=""
               typeBtn = "primary-emerald"
               icon="close"

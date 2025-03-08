@@ -24,7 +24,7 @@ const NavBar = ({language} : INavbar) => {
             <nav className = "container-navbar py-6 px-3 m-3 max-w-200 position-fixed right-0 top-50p bg-dark-purple-dark color-white border-radius-6" ref = {navbarDiv}>
                 <div className = {`btn-hide-navbar position-absolute   ${ isHiddenNav ? "is-hiden" : ""}`}>
                     <Button
-                        type = ""
+                        type = "button"
                         cssClasses="remove-efect-tap-highlight-mobile"
                         typeBtn = "primary-emerald"
                         icon="keyboard_double_arrow_right"

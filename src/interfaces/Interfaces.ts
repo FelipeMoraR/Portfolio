@@ -49,7 +49,7 @@ export interface ICardProject{
 
 export interface IButton {
     text?: string;
-    type: string;
+    type: "submit" | "reset" | "button" | undefined;
     icon?: string;
     cssClasses: string;
     typeBtn: string;
@@ -82,6 +82,17 @@ export interface IIcon {
     
 }
 
-export interface IContact extends IPortfolioPart{
-    
+export interface IContact extends IPortfolioPart{}
+
+
+export interface IModal {
+    showModal: boolean;
+    title: string; 
+}
+
+
+export interface IFormValues {
+    email: string,
+    username: string,
+    message: string
 }

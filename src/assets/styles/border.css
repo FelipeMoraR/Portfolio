@@ -63,6 +63,35 @@
     border-radius: 100%;
 }
 
+.border-radius-top-1{
+    border-radius: 4px 4px 0px 0px;
+}
+
+.border-radius-top-2{
+    border-radius: 8px 8px 0px 0px;
+}
+
+.border-radius-top-3{
+    border-radius: 12px 12px 0px 0px;
+}
+
+.border-radius-top-4{
+    border-radius: 16px 16px 0px 0px;
+}
+
+
+.border-radius-top-5{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.border-radius-top-6{
+    border-radius: 24px 24px 0px 0px;
+}
+
+
+
+/*BOXSHADOW*/
+
 .box-shadow-white-0-0-5{
     box-shadow: 0 0 5px white;
 }
