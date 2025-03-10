@@ -37,6 +37,7 @@ export interface ITechnologieCard extends ITechnologie {
 }
 
 export interface ICardProject{
+    id: number;
     title: string;
     image: string;
     description: string;
@@ -53,6 +54,7 @@ export interface IButton {
     icon?: string;
     cssClasses: string;
     typeBtn: string;
+    disabled?: boolean;
     onClick?: () => void;
 }
 
@@ -74,11 +76,13 @@ export interface IProject {
 }
 
 export interface IIcon {
+    id: number;
     title: string;
     image: string;
     color: string;
     redirection?: string;
     typeRedirection?: string;
+    hasToolTip: boolean;
     
 }
 
@@ -93,6 +97,9 @@ export interface IModal {
 
 export interface IFormValues {
     email: string,
+    errorEmail: string,
     username: string,
+    errorUsername: string,
     message: string
+    errorMessage: string
 }

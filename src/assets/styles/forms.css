@@ -1,0 +1,16 @@
+.error-input{
+    color:var(--emerald-light);
+}
+
+
+.contact-input {
+    border: 1px solid var(--grey-light);
+}
+
+.contact-input:focus {
+    border: 1px solid var(--emerald);
+}
+
+.contact-input:hover {
+    border: 1px solid var(--emerald);
+}

@@ -36,6 +36,9 @@
     gap: 4rem;
 }
 
+.gap-1-05{
+    gap: 1rem 0.5rem;
+}
 
 /* POSITION */
 .top-0{
@@ -46,8 +49,20 @@
     top: 50%;
 }
 
+.top-neg-20{
+    top: -20px;
+}
+
+.top-neg-14{
+    top: -14px;
+}
+
 .right-0{
     right: 0;
+}
+
+.right-05rem{
+    right: .5rem;
 }
 
 .rigth-16{
@@ -64,6 +79,10 @@
 
 .bottom-130p{
     bottom: 130%;
+}
+
+.bottom-100p{
+    bottom: 100%;
 }
 
 .left-0{
@@ -89,6 +108,8 @@
 
 
 
+
+
 .translateX-neg-50{
     transform: translateX(-50%);
 }
@@ -110,6 +131,10 @@
 
 .m-3{
     margin: 1rem;
+}
+
+.mb-0{
+    margin-bottom: 0;
 }
 
 /* PADDING */

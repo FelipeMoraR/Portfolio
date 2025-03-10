@@ -100,8 +100,12 @@
     max-height: 600px;
 }
 
-.h-300px{
+.h-300{
     height: 300px;
+}
+
+.h-600{
+    height: 600px;
 }
 
 .h-lg-300px{

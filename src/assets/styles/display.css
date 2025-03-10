@@ -31,6 +31,10 @@
 }
 
 /*FLEX BASIS*/
+.flex-basis-0{
+    flex-basis: 0;
+}
+
 .flex-basis-600{
     flex-basis: 600px;
 }
@@ -121,6 +125,10 @@
     background-color: var(--dark-purple-dark);
 }
 
+.bg-dark-purple-light {
+    background-color: var(--dark-purple-light);
+}
+
 .bg-ligth-purple{
     background-color: var(--light-purple);
 }
@@ -175,28 +183,6 @@
             );
 }
 
-
-.test-test-1, .test-test-2, .test-test-3, .test-test-4 {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .test-test-1::before, .test-test-2::before, .test-test-3::before, .test-test-4::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 40%; /* Adjust for each class */
-    background: linear-gradient(360deg, var(--light-purple) 0%, rgba(255, 255, 255, 0) 100%);
-    opacity: 0.5;
-    transition: height 1s, opacity 1s, box-shadow 1s;
-  }
-  
-  .test-test-2::before { height: 60%; }
-  .test-test-3::before { height: 90%; }
-  .test-test-4::before { height: 100%; }
 
 /*OBJECT FIT*/
 .object-fit-scale-down {

@@ -15,6 +15,11 @@ html, body{
     scroll-behavior: smooth; 
 }
 
+input, textarea {
+    all: unset; 
+    background-color: white;
+}
+
   
 
 body{

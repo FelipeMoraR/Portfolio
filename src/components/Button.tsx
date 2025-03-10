@@ -1,10 +1,10 @@
 import { IButton } from "../interfaces/Interfaces";
 
 
-const Button = ({text, type, icon, typeBtn, cssClasses, onClick}: IButton) => {
+const Button = ({text, type, icon, typeBtn, cssClasses, disabled, onClick}: IButton) => {
     
     return (
-        <button className = {`${cssClasses} ${typeBtn}`} onClick={onClick} type = {type}>
+        <button className = {`${cssClasses} ${typeBtn}`} onClick={onClick} type = {type} disabled = {disabled ? disabled : false} >
             {
                 icon && icon !== '' ? (
                     <span className="material-symbols-outlined">

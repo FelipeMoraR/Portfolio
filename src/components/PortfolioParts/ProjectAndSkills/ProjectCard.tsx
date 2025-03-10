@@ -12,20 +12,24 @@ const ProjectCard = ({image, description, technologies, title, githubRedirection
             <div className="d-flex flex-column gap-3">
                 <div className="d-flex gap-3">
                     <Icon
+                        id = {99} 
                         title = "github"
                         image = "src/assets/images/icons/github.png"
                         color = "white"
                         redirection = {githubRedirection}
                         typeRedirection="_blank"
+                        hasToolTip = {false}
                         
                     />
 
                     <Icon
-                        title = "github"
+                        id = {100} 
+                        title = "youtube"
                         image = "src/assets/images/icons/youtube.png"
                         color = "white"
                         redirection = {youtubeRedirection}
                         typeRedirection="_blank"
+                        hasToolTip = {false}
                     />
                 </div>
 
@@ -40,20 +44,23 @@ const ProjectCard = ({image, description, technologies, title, githubRedirection
                         {title}
                     </p>
 
-                    <div className="techs-card-btn position-relative ">
+                    <div className="techs-card-btn position-relative p-1">
                         <Button
                             type = "button"
-                            cssClasses="px-1 "
+                            cssClasses="px-1"
                             typeBtn = "primary-emerald"
                             icon="settings"
                         />
-                        <div className="border-solid-normal-emerald-1 inner-tech-card position-absolute box-shadow-dark-purple-light-0-0-15 d-none bg-gradint-emerald-dark-to-purple bottom-130p right-0 p-3 border-radius-2 gap-1 flex-wrap w-200px ">
+                        <div className="border-solid-normal-emerald-1 inner-tech-card position-absolute box-shadow-dark-purple-light-0-0-15 d-none bg-gradint-emerald-dark-to-purple bottom-100p right-05rem p-3 border-radius-2 gap-1-05 flex-wrap w-200px ">
                             {
                                 technologies.map((tech: ITechnologieCard) => (
                                     <Icon
+                                        key={tech.id}
+                                        id={tech.id}
                                         title = {tech.name}
                                         image = {tech.image}
                                         color = "white"
+                                        hasToolTip = {true}
                                     />
                                 ))
                             }

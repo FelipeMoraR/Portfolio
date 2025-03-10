@@ -65,6 +65,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
 
         //This will execute when the code above ends, so, every time idTechSelected change the code above will execute and it will be cleanded at the end 
         return () => {
+            console.log('return XD');
             timeoutsRef.current.forEach(timeout => clearTimeout(timeout));
         };
 
@@ -82,6 +83,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                 {
                     technologies.map((tech : ITechnologieBody) => ( 
                         <Technologies
+                            key={tech.id}
                             id = {tech.id}
                             image = {tech.image}
                             name = {tech.name}
@@ -104,6 +106,8 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                     ) : (
                         projectsToShow.map((project: ICardProject) => (
                             <ProjectCard
+                                key={project.id}
+                                id = {project.id}
                                 description = {project.description}
                                 image = {project.image}
                                 technologies = {project.technologies}

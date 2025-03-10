@@ -1,7 +1,10 @@
 import { useEffect, useRef } from "react";
 import { INavbarElement } from "../../interfaces/Interfaces";
+import useTooltip from "../../assets/utils/tooltip";
 
 const NavbarElement = ({icon, sectionToView, tooltip} : INavbarElement) => {
+    const {handlerMouseEnter, handlerMouseLeave} = useTooltip();
+
     const tooltipElement = useRef<HTMLParagraphElement>(null);
     
     const calculateSpaceTootlip = (tooltipText: string) => {
@@ -17,17 +20,6 @@ const NavbarElement = ({icon, sectionToView, tooltip} : INavbarElement) => {
         
         return newLeftValue;
     }
-
-    const handlerMouseEnter = (tooltip: HTMLParagraphElement) => {
-        tooltip.classList.remove('animation-fadeOut-opacity');
-        tooltip.classList.add('animation-fadeIn-opacity');
-    }
-
-    const handlerMouseLeave = (tooltip: HTMLParagraphElement) => {
-        tooltip.classList.remove('animation-fadeIn-opacity');
-        tooltip.classList.add('animation-fadeOut-opacity');
-    }
-
 
     useEffect(() => {
         const tooltipDiv = tooltipElement.current;
