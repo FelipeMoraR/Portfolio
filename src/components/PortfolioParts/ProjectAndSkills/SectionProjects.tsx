@@ -39,7 +39,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                     setProjectsToShow(prevProject => [...prevProject, project]);
                 }, index * 150);
                 
-                //Saving that time out
+                //Saving that time out to eliminate in the end.
                 timeoutsRef.current.push(timeout);
             });
             return
@@ -65,7 +65,6 @@ const SectionProjects = ({language}: IPortfolioPart) => {
 
         //This will execute when the code above ends, so, every time idTechSelected change the code above will execute and it will be cleanded at the end 
         return () => {
-            console.log('return XD');
             timeoutsRef.current.forEach(timeout => clearTimeout(timeout));
         };
 
@@ -93,7 +92,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                 }                
             </div>
 
-            <div className = "d-flex gap-3 m-3 p-3 delay-06s animation-fadeIn-opacity opacity-0 flex-wrap justify-content-center">
+            <div className = "d-flex gap-6 max-w-1650 m-3 p-3 delay-06s animation-fadeIn-opacity opacity-0 flex-wrap justify-content-space-between ">
                 {   
                     projectsToShow.length === 0 ? (
                         <div className="d-flex flex-column align-items-center gap-3 color-white animation-fadeIn-opacity">

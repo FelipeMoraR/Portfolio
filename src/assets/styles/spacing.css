@@ -175,6 +175,11 @@
     padding-right: .5rem;
 }
 
+.px-sm-1{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
 .px-2{
     padding-left: .7rem;
     padding-right: .7rem;
@@ -195,5 +200,12 @@
 @media (max-width: 568px){
     .p-md-2{
         padding: .3rem;
+    }
+}
+
+@media (max-width: 440px){
+    .px-sm-1{
+        padding-left: .2rem;
+        padding-right: .2rem;
     }
 }

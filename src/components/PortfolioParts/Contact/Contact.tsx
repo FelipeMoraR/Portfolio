@@ -1,6 +1,6 @@
 import { IContact } from "../../../interfaces/Interfaces";
 import Button from "../../Button";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import useModal from "../../../assets/utils/useModal";
 import Modal from "../../Modal";
 import { IFormValues } from "../../../interfaces/Interfaces";
@@ -21,6 +21,11 @@ const Contact = ({ language } : IContact) => {
         }
     )
     const [formPartCompleted, setFormPartCompleted] = useState<number>(0);
+    
+    const [counterClickForm, setCounterClickForm] = useState<number>(0);
+    const [btnDisabled, setBtnDisabled] = useState<boolean>(false);
+    const [timer, setTimer] = useState<number>(10);
+
     const classesByFormPartCompleted = ['form-part-1', 'form-part-2', 'form-part-3', 'form-part-4'];
     const emailJsId = import.meta.env.VITE_PUBLIC_USER_ID_MAILJS;
 
@@ -59,6 +64,8 @@ const Contact = ({ language } : IContact) => {
 
     const formSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
+        
+        setCounterClickForm(prev => prev + 1);
         
         const emailIsValid = validateInputIsNotNull(formData.email) && validateEmail(formData.email);
         const usernameIsValid = validateInputIsNotNull(formData.username) && validateOnlyLetters(formData.username);
@@ -115,6 +122,40 @@ const Contact = ({ language } : IContact) => {
         });
     };
 
+    useEffect(() => {
+        if(counterClickForm > 3) {
+            setBtnDisabled(true);
+            
+            const interval = setInterval(() => {
+                setTimer(prevTimer => {
+                    if(prevTimer === 0) {
+                        clearInterval(interval); //Stop interval
+                        setBtnDisabled(false);
+                        setCounterClickForm(0);
+                        return 10;
+                    }
+
+                    return prevTimer - 1;
+                })
+            }, 1000);
+
+            return() => clearInterval(interval)
+        }
+
+        if(counterClickForm === 0) return;
+        
+        const intervalInactivity = setInterval(() => {
+            console.log('restore counter click by inactivity');
+            setCounterClickForm(0);
+        }, 3000)
+
+        return () => {
+            console.log('destroyed intervalInactivity');
+            clearInterval(intervalInactivity);
+        }
+        
+    }, [counterClickForm]);
+
     if(isLoadingForm){
         return(
             <>
@@ -164,10 +205,16 @@ const Contact = ({ language } : IContact) => {
                         <p className = "error-input font-weigth-400">{formData.errorMessage}</p>
                     </div>
                     
-                    <div className="w-100 d-flex justify-content-flex-end">
+                    <div className="w-100 d-flex gap-3 justify-content-flex-end align-items-center">
+                        {
+                            btnDisabled ? (
+                                <p className="color-emerald">Boton bloqueado, espera: {timer}</p>
+                            ) : null
+                        }
                         <Button
                             type = "submit"
-                            cssClasses="bt-size-1"
+                            cssClasses={`px-sm-1 btn-size-2 ${btnDisabled ? 'btn-disabled' : ''}`}
+                            disabled = {btnDisabled}
                             typeBtn = "primary-emerald"
                             icon="send"
                             

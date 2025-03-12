@@ -6,7 +6,7 @@ const ProjectCard = ({image, description, technologies, title, githubRedirection
 
 
     return(
-        <div className="card-project max-w-lg-330 transition-all-02 max-h-lg-300 overflow-hidden animation-fadeIn-opacity border-solid-light-purple-dark-1  bg-gradint-purple-to-emerald border-radius-2 p-3 d-flex flex-column gap-3 cursor-pointer "
+        <div className="card-project max-w-500 transition-all-02 max-h-lg-300 overflow-hidden animation-fadeIn-opacity border-solid-light-purple-dark-1  bg-gradint-purple-to-emerald border-radius-2 p-3 d-flex flex-column gap-3 cursor-pointer "
             onClick={(e) => e.currentTarget.classList.toggle('max-h-lg-600')}
         >
             <div className="d-flex flex-column gap-3">
@@ -47,7 +47,7 @@ const ProjectCard = ({image, description, technologies, title, githubRedirection
                     <div className="techs-card-btn position-relative p-1">
                         <Button
                             type = "button"
-                            cssClasses="px-1"
+                            cssClasses="px-sm-1"
                             typeBtn = "primary-emerald"
                             icon="settings"
                         />

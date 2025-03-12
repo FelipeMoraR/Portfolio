@@ -25,7 +25,7 @@ const NavBar = ({language} : INavbar) => {
                 <div className = {`btn-hide-navbar position-absolute   ${ isHiddenNav ? "is-hiden" : ""}`}>
                     <Button
                         type = "button"
-                        cssClasses="remove-efect-tap-highlight-mobile"
+                        cssClasses="remove-efect-tap-highlight-mobile btn-size-1"
                         typeBtn = "primary-emerald"
                         icon="keyboard_double_arrow_right"
                         onClick={() => {

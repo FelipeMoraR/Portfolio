@@ -42,6 +42,18 @@
     max-width: 330px;
 }
 
+.max-w-500{
+    max-width: 500px;
+}
+
+.max-w-1650{
+    max-width: 1650px;
+}
+
+.max-w-1700{
+    max-width: 1700px;
+}
+
 .max-w-200{
     max-width: 200px;
 }

@@ -54,12 +54,27 @@ function App() {
     />, 
   ]
   
+  const setLocalStorage = (value: string)  => localStorage.setItem('language', value);
+
+  const getLocalStorage = (key: string) => {
+    const validValues = ['es', 'en', 'pt'];
+
+    const value = localStorage.getItem(key) || '';
+
+    const isValid = validValues.some(validValue => validValue === value);
+    console.log(value, isValid);
+    return {isValid, value};
+  }
+
+  
+
   const timerSteps = async () => {
     await timerPromise(3.5);
     setStep(step + 1);
   }
 
   const skipIntroduction = async () => {
+    setLocalStorage(currentLanguage);
     setIsLoading(true);
     await timerPromise(3);
     setIsIntroductionSkiped(true);
@@ -67,16 +82,30 @@ function App() {
   }
 
   useEffect(() => {
+    const {isValid, value} = getLocalStorage('language');
+
+    if(isValid && value !== '') {
+      setCurrentLanguage(value);
+      setIsIntroductionSkiped(true);
+      setIsLanguageChoosed(true);
+      return
+    }
+
     if(isIntroductionSkiped) return;
 
     if(isLoading) return;
 
     if(!isLanguageChoosed) return;
 
-    if(step == 4) return;
+    console.log('step: ', step);
+
+    if(step == 4) {
+      setLocalStorage(currentLanguage);
+      return;
+    };
    
     timerSteps();
-  }, [isLoading, step, isLanguageChoosed, isIntroductionSkiped])
+  }, [isLoading, step, isLanguageChoosed, isIntroductionSkiped]);
 
 
   if(isLoading) return <Loader language = {currentLanguage} currentStep = {arrayStepSkiped[step]}/>
@@ -92,7 +121,7 @@ function App() {
           <div className="exit-btn z-index-2 right-0 position-absolute m-3 ">
             <Button
               type = "button"
-              cssClasses=""
+              cssClasses="btn-size-1"
               typeBtn = "primary-emerald"
               icon="close"
               onClick={skipIntroduction}
