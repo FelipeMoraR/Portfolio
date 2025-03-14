@@ -667,3 +667,17 @@ export const translationsSectionProject: any = {
         ]
     } 
 }
+
+
+
+export const translationSectionContact: any  = {
+    en:{
+        
+    },
+    es:{
+
+    },
+    pt:{
+        
+    }
+}

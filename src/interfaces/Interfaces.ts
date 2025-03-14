@@ -92,6 +92,10 @@ export interface IContact extends IPortfolioPart{}
 export interface IModal {
     showModal: boolean;
     title: string; 
+    text?: string;
+    typeModal: string;
+    statusModal?: string;
+    hideModal?: () => void;
 }
 
 

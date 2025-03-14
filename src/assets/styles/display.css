@@ -184,6 +184,10 @@
 }
 
 
+.bg-overflow-modal {
+    background-color: #19001be6;
+}
+
 /*OBJECT FIT*/
 .object-fit-scale-down {
     object-fit: scale-down;

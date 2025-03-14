@@ -62,7 +62,7 @@ function App() {
     const value = localStorage.getItem(key) || '';
 
     const isValid = validValues.some(validValue => validValue === value);
-    console.log(value, isValid);
+    
     return {isValid, value};
   }
 
@@ -97,7 +97,6 @@ function App() {
 
     if(!isLanguageChoosed) return;
 
-    console.log('step: ', step);
 
     if(step == 4) {
       setLocalStorage(currentLanguage);

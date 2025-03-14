@@ -3,12 +3,24 @@ import { useState } from "react";
 
 const useModal = () => {
     const [modalToShow, setModalToShow] = useState<string | null>(null);
-
-    const setNameModal = (modalName: string) => setModalToShow(modalName);
-    const hideModal = () => setModalToShow(null);
-    const showModal = (modalName: string) => (modalToShow === modalName);
     
-    return {setNameModal, hideModal, showModal}
+    const setOverflowBody = (overflow: string) => {
+        const body = document.querySelector('body');
+            
+        if(!body) return;
+    
+        body.style.overflow = overflow;
+            
+        return;
+    }
+    const showModal = (modalName: string) => setModalToShow(modalName);
+    const hideModal = () => {setModalToShow(null); setOverflowBody('auto')}
+    const isOpenModal = (modalName: string) => (modalToShow === modalName);
+    
+    return {showModal, hideModal, isOpenModal, setOverflowBody}
 }
 
+
 export default useModal;
+
+

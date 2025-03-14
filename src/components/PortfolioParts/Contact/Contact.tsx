@@ -4,12 +4,13 @@ import { useEffect, useState } from "react";
 import useModal from "../../../assets/utils/useModal";
 import Modal from "../../Modal";
 import { IFormValues } from "../../../interfaces/Interfaces";
-import emailjs from 'emailjs-com';
+import { validateInputIsNotNull, validateOnlyLetters, validateEmail} from "../../../assets/utils/formValidation";
+import { emailJsFetch } from "../../../assets/utils/fetchs";
+import { translationSectionContact } from "../../../assets/translations/translations";
+import timerPromise from "../../../assets/utils/timer";
 
 const Contact = ({ language } : IContact) => {
-    
-    const [isLoadingForm, setIsLoadingForm] = useState<boolean>(false);
-    const {hideModal, setNameModal, showModal} = useModal();
+    const {hideModal, showModal, isOpenModal, setOverflowBody} = useModal();
     const [formData, setFormData] = useState<IFormValues>(
         {
             'email' : '',
@@ -21,52 +22,28 @@ const Contact = ({ language } : IContact) => {
         }
     )
     const [formPartCompleted, setFormPartCompleted] = useState<number>(0);
-    
     const [counterClickForm, setCounterClickForm] = useState<number>(0);
     const [btnDisabled, setBtnDisabled] = useState<boolean>(false);
     const [timer, setTimer] = useState<number>(10);
+    const [statusModalLoading, setStatusModalLoading] = useState<string>('');
+    const [resultSendEmail, setResultSendEmail] = useState<string>('');
 
     const classesByFormPartCompleted = ['form-part-1', 'form-part-2', 'form-part-3', 'form-part-4'];
     const emailJsId = import.meta.env.VITE_PUBLIC_USER_ID_MAILJS;
+    const textToUse = translationSectionContact[language];
 
-    
-    const validateInputIsNotNull = (value: string) => value.trim().length !== 0;
-
-    const validateOnlyLetters = (text: string) => {
-        const regex = /^[A-Za-zÁÉÍÓÚáéíóúÑñ ]+$/;
-        return regex.test(text);
+    const controlModalStatus = async (status: string) => {
+        setStatusModalLoading(status);
+        await timerPromise(1);
+        setStatusModalLoading('');
     }
 
-    const validateEmail = (email: string) => {
-        const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        return regex.test(email);
-    };
+    const showResultModal = (result: string) => {
+        setResultSendEmail(result);
+        showModal('resultModal');
+    }
 
-    const emailJsFetch = async (event: React.FormEvent<HTMLFormElement>) => {
-        try{
-            const emailJsResponse = await emailjs.sendForm(
-                "contactService", //Service ID
-                "contactForm", //Template ID
-                event.currentTarget, //Form
-                emailJsId //Public user id
-            );
-
-            if(emailJsResponse.status !== 200){
-                throw new Error('Error sending email');
-            }
-
-            return emailJsResponse;
-        } catch (err){
-            console.error('Error emailJsFetch::: ', err);
-            return null;
-        }
-    };
-
-    const formSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-        event.preventDefault();
-        
-        setCounterClickForm(prev => prev + 1);
-        
+    const validateInputs = (formData: IFormValues) => {
         const emailIsValid = validateInputIsNotNull(formData.email) && validateEmail(formData.email);
         const usernameIsValid = validateInputIsNotNull(formData.username) && validateOnlyLetters(formData.username);
         const messageIsValid = validateInputIsNotNull(formData.message);
@@ -81,17 +58,35 @@ const Contact = ({ language } : IContact) => {
         
         setFormData(prev => ({ ...prev, ...newErrors }));
         
-        setFormPartCompleted(validInputs); 
-    
-        if (!emailIsValid || !usernameIsValid || !messageIsValid) return;
-
-        setNameModal('loadingModal');
+        setFormPartCompleted(validInputs);
         
-        setIsLoadingForm(true);
+        if (!emailIsValid || !usernameIsValid || !messageIsValid) return false;
 
-        await emailJsFetch(event);
+        return true;
+    }
+
+    const formSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
         
-        setIsLoadingForm(false);
+        setCounterClickForm(prev => prev + 1);
+        
+        const formIsReady = validateInputs(formData);
+        
+        if(!formIsReady) return;
+        
+        setOverflowBody('hidden');
+
+        showModal('loadingModal');
+        
+        //const emailJsResponse = await emailJsFetch(event, emailJsId);
+        
+        const emailJsResponse = false;
+
+        await timerPromise(2);
+
+        await controlModalStatus(emailJsResponse ? 'loading-success' : 'loading-error');
+        
+        showResultModal(emailJsResponse ? 'Todo bien mi loco' : 'Todo mal mi loco');
         
         setFormData({
             'email' : '',
@@ -104,7 +99,9 @@ const Contact = ({ language } : IContact) => {
 
         setFormPartCompleted(0);
 
-        hideModal();
+
+        
+        
         return
     };
 
@@ -114,13 +111,15 @@ const Contact = ({ language } : IContact) => {
 
             const validInputs = ['email', 'username', 'message'].filter(
                 (field) => validateInputIsNotNull(updatedForm[field as keyof IFormValues])
-            ).length;
+            ).length; //Iterate tho the keys of the object and check if the value is not empty
 
             setFormPartCompleted(validInputs);
 
             return updatedForm;
         });
     };
+
+    
 
     useEffect(() => {
         if(counterClickForm > 3) {
@@ -156,21 +155,25 @@ const Contact = ({ language } : IContact) => {
         
     }, [counterClickForm]);
 
-    if(isLoadingForm){
-        return(
-            <>
-                <div className="overflow-modal position-fixed w-100 h-100 bg-grey top-0 z-index-4">
-                </div>
-                
-                <Modal 
-                    title = 'Loading Modal'
-                    showModal = {showModal('loadingModal')}
-                />
-            </>
-        )
-    }
-
     return(
+        <>
+        
+        <Modal 
+            title = 'Enviando correo...'
+            showModal = {isOpenModal('loadingModal')}
+            typeModal="loading"
+            statusModal = {statusModalLoading} 
+        />
+          
+       <Modal 
+            title = {resultSendEmail}
+            showModal = {isOpenModal('resultModal')}
+            typeModal="text"    
+            text="peo"    
+            hideModal={hideModal} 
+        />
+            
+
         <section className="d-flex flex-column gap-6 align-items-center m-3 mb-0" id = "contact">
             <div className="d-flex flex-column gap-3 max-w-900">
                 <p className="color-ligth-purple font-size-sm-8  font-weigth-700 text-center text-wrap-pretty ">¿Necesitas a alguien que resuelva tus problemas? </p>
@@ -223,7 +226,7 @@ const Contact = ({ language } : IContact) => {
                 </form>
         </section>
 
-        
+        </>
     )
 }
 
