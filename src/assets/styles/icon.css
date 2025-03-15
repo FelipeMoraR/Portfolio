@@ -2,3 +2,19 @@
     background-color: var(--normal-purple-dark);
     box-shadow: 0 0 10px white;
 }
+
+.icon-green{
+    background-color: var(--emerald);
+    color: var(--emerald-dark-2);
+    padding: 1rem;
+    border-radius: 100%;
+    font-size: 2rem;
+}
+
+.icon-error{
+    background-color: var(--red-1);
+    color: var(--red-3);
+    padding: 1rem;
+    border-radius: 100%;
+    font-size: 2rem;
+}

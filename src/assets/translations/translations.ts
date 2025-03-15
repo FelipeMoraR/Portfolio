@@ -671,13 +671,58 @@ export const translationsSectionProject: any = {
 
 
 export const translationSectionContact: any  = {
-    en:{
-        
+    en: {
+        form: {
+            labelName: 'Your name:',
+            labelEmail: 'Your email:',
+            labelMsg: 'Your message:',
+            errorEmail: 'Invalid email',
+            btnBloquedText: 'Button blocked, wait:',
+            errorUsername: 'Invalid name',
+            errorInputEmpty: 'Field is required',
+            responseOk: 'Email has been sent',
+            responseNoOk: 'Error sending email',
+            sendingEmail: 'Sending email...'
+        },
+        titles: {
+            titleOne: 'Do you need someone to solve your problems?',
+            titleTwo: "One step away from your solution, let's talk..."
+        }
     },
-    es:{
-
+    es: {
+        form: {
+            labelName: 'Tu nombre:',
+            labelEmail: 'Tu correo electronico:',
+            labelMsg: 'Tu mensaje:',
+            errorEmail: 'Email no valido',
+            btnBloquedText: 'Boton bloqueado, espera:',
+            errorUsername: 'Nombre no valido',
+            errorInputEmpty: 'Campo es obligatorio',
+            responseOk: 'Se ha enviado el correo',
+            responseNoOk: 'Error al enviar el correo',
+            sendingEmail: 'Enviando correo...'
+        },
+        titles: {
+            titleOne: '¿Necesitas a alguien que resuelva tus problemas?',
+            titleTwo: 'A solo un paso de tu solución, hablemos...' 
+        }
     },
-    pt:{
-        
+    pt: {
+        form: {
+            labelName: 'Seu nome:',
+            labelEmail: 'Seu e-mail:',
+            labelMsg: 'Sua mensagem:',
+            errorEmail: 'E-mail inválido',
+            btnBloquedText: 'Botão bloqueado, aguarde:',
+            errorUsername: 'Nome inválido',
+            errorInputEmpty: 'Campo obrigatório',
+            responseOk: 'E-mail enviado com sucesso',
+            responseNoOk: 'Erro ao enviar e-mail',
+            sendingEmail: 'Enviando e-mail...'
+        },
+        titles: {
+            titleOne: 'Precisa de alguém para resolver seus problemas?',
+            titleTwo: 'A um passo da sua solução, vamos conversar...'
+        }
     }
 }

@@ -14,7 +14,7 @@ const useModal = () => {
         return;
     }
     const showModal = (modalName: string) => setModalToShow(modalName);
-    const hideModal = () => {setModalToShow(null); setOverflowBody('auto')}
+    const hideModal = () => setModalToShow(null);
     const isOpenModal = (modalName: string) => (modalToShow === modalName);
     
     return {showModal, hideModal, isOpenModal, setOverflowBody}

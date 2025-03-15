@@ -156,6 +156,10 @@
     color: var(--light-purple);
 }
 
+.color-light-purple-light { 
+    color: var(--light-purple-light);
+}
+
 .color-emerald {
     color: var(--emerald);
 }
@@ -175,6 +179,10 @@
 .first-letter-color-ligth-purple::first-letter{
     color: var(--light-purple);
     
+}
+
+.color-red{
+    color: red;
 }
 
 .first-letter-color-white-bg-ligth-purple::first-letter{

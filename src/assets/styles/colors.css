@@ -1,5 +1,6 @@
 :root {
     /* Purples */
+    --dark-hover-solid: #130018;
     --dark-hover: #0000001f;
     --dark-purple: #2E2633;
     --dark-purple-light: #3B3340;
@@ -28,6 +29,13 @@
     /* Emerald */
     --emerald: #50C878;
     --emerald-light: #6EE897;
+    --emerald-light-2: #99e4b2;
     --emerald-dark: #3AA25E;
     --emerald-dark-2: #2d7c48;
+
+
+    /**/
+    --red-1: #ee0101;
+    --red-2: #770000;
+    --red-3: #2c0000;
 }

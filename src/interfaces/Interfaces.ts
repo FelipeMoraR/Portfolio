@@ -95,6 +95,7 @@ export interface IModal {
     text?: string;
     typeModal: string;
     statusModal?: string;
+    iconModal?: string;
     hideModal?: () => void;
 }
 

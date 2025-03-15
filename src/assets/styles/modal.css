@@ -60,6 +60,12 @@
     }
 }
 
+.loading-error{
+    box-shadow: 0 0 50px red;
+    transition: all 1s;
+}
+
+
 .loading-error.loader-animation::after{
     background: linear-gradient(360deg, transparent 40%, red 100%);
     animation: loadingError .3s linear forwards;
@@ -68,13 +74,14 @@
 @keyframes loadingError {
     to{
         width: 100%;
-        background: linear-gradient(360deg,red 0%,  red 100%); ;
+        background: linear-gradient(360deg,red 0%,  red 100%); 
+       
     }
 }
 
 
 .loading-error > div {
-    background-color: var(--normal-purple);
+    background-color: var(--dark-purple-light);
     animation: bgLoadingError .3s linear forwards;
     animation-delay: .3s;
 }
@@ -83,6 +90,12 @@
     to{
         background-color: red;
     }
+}
+
+
+.loading-success{
+    box-shadow: 0 0 50px var(--emerald);
+    transition: all 1s;
 }
 
 
@@ -100,7 +113,7 @@
 }
 
 .loading-success > div {
-    background-color: var(--normal-purple);
+    background-color: var(--dark-purple-light);
     animation: bgLoadingSuccess .3s linear forwards;
     animation-delay: .3s;
 }

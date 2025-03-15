@@ -133,10 +133,6 @@
     background-color: var(--light-purple);
 }
 
-.bg-ligth-brown{
-    background-color: var(--ligth-brown);
-}
-
 .bg-emerald {
     background-color: var(--emerald);
 }
@@ -155,6 +151,10 @@
 
 .bg-black-transparent {
     background-color: var(--dark-hover);
+}
+
+.bg-black-solid {
+    background-color: var(--dark-hover-solid);
 }
 
 .bg-lavanda-light {
