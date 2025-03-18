@@ -1,7 +1,6 @@
 import {translationsSteps} from "../assets/translations/translations"
 import { ILoader } from "../interfaces/Interfaces";
 import logo from '../assets/images/stepsImg/logoMora.webp';
-import timerPromise from "../assets/utils/timer";
 import { useEffect, useState } from "react";
 
 const Loader = ({language, currentStep}: ILoader) => {
@@ -9,8 +8,15 @@ const Loader = ({language, currentStep}: ILoader) => {
     const text = translationsSteps[language].loader;
     
     const hideLoader = async () => {
-        await timerPromise(2.5);
-        setIsVisible(false);
+        const body = document.querySelector('body');
+        if(!body) return;
+        
+        body.style.overflow = 'hidden';
+
+        setTimeout(() => {
+            setIsVisible(false);
+            body.style.overflow = 'auto';
+        }, 2500)
     }
     
     useEffect(() => {

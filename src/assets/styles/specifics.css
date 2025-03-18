@@ -47,6 +47,20 @@
     height: 150px;
 }
 
+.flag-icon-page{
+    width: 35px;
+    height: 35px;
+}
+
+.flag-icon-page:hover{
+    box-shadow: 0 0 10px var(--emerald);
+}
+
+.flag-icon-page:hover > p{
+    opacity: 1;
+    transition: all .5s;
+}
+
 
 
 

@@ -51,6 +51,7 @@
 
 .icon-nav:hover{
     background-color: var(--dark-purple-light);
+    box-shadow: 0 0 10px var(--normal-purple);
 }
 
 .tooltip{

@@ -168,6 +168,10 @@
     color: var(--emerald-dark);
 }
 
+.color-emerald-dark-2{
+    color: var( --emerald-dark-2);
+}
+
 .color-ligth-purple-dark {
     color: var(--light-purple-dark);
 }

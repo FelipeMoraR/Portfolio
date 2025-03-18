@@ -23,6 +23,10 @@
     border: 1px solid var(--emerald);
 }
 
+.border-solid-normal-emerald-light-1 {
+    border: 1px solid var(--emerald-light-2);
+}
+
 .border-solid-transparent-1 {
     border: 1px solid transparent;
 }

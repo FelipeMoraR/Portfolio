@@ -72,7 +72,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
     
 
     return (
-        <section className="project-section d-flex flex-column align-items-center gap-5 m-3" id = "project">
+        <section className="project-section max-w-1250 m-auto p-3 d-flex flex-column align-items-center gap-5 m-3" id = "project">
             <div className="color-white d-flex flex-column gap-3">
                 <p className="project-title color-ligth-purple font-size-sm-8 animation-falling-down font-weigth-700 text-center text-wrap-pretty">{infoToRender.title}</p>
                 <p className="project-subTitle text-center font-size-3 delay-02s opacity-0 animation-falling-down font-weigth-400">{infoToRender.subTitle}</p>
@@ -92,7 +92,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                 }                
             </div>
 
-            <div className = "d-flex gap-6 max-w-1650 m-3 p-3 delay-06s animation-fadeIn-opacity opacity-0 flex-wrap justify-content-space-between ">
+            <div className = "d-flex gap-6 max-w-1650 m-3 delay-06s animation-fadeIn-opacity opacity-0 flex-wrap justify-content-space-between justify-lg-content-center ">
                 {   
                     projectsToShow.length === 0 ? (
                         <div className="d-flex flex-column align-items-center gap-3 color-white animation-fadeIn-opacity">

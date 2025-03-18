@@ -26,12 +26,9 @@
 
 
 /*MAX-WIDTH*/
-.max-w-900{
-    max-width: 900px;
-}
 
-.max-w-600{
-    max-width: 600px;
+.max-w-300{
+    max-width: 300px;
 }
 
 .max-w-330{
@@ -42,8 +39,26 @@
     max-width: 330px;
 }
 
+.max-w-350{
+    max-width: 350px;
+}
+
+
 .max-w-500{
     max-width: 500px;
+}
+
+
+.max-w-600{
+    max-width: 600px;
+}
+
+.max-w-900{
+    max-width: 900px;
+}
+
+.max-w-1250{
+    max-width: 1250px;
 }
 
 .max-w-1650{

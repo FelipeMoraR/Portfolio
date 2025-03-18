@@ -513,7 +513,7 @@ export const translationsSectionProject: any = {
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/icons/html.png'           
+                        image: 'src/assets/images/icons/mysql.png'           
                     },
                     {
                         id: 8,

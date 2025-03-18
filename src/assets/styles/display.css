@@ -197,6 +197,10 @@
     object-fit: cover;
 }
 
+.object-fit-contain {
+    object-fit: contain;
+}
+
 
 /*FILTERS*/
 .filter-invert-100{
@@ -204,3 +208,9 @@
 }
 
 
+/*XXL*/
+@media (max-width: 1300px){
+    .justify-lg-content-center{
+        justify-content: center;
+    }
+}

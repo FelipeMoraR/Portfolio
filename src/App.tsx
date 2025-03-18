@@ -33,6 +33,7 @@ function App() {
     />, 
     <Portfolio
       language = {currentLanguage}
+      setCurrentLanguage = {setCurrentLanguage} 
     />
   ]
 
@@ -109,9 +110,9 @@ function App() {
 
   if(isLoading) return <Loader language = {currentLanguage} currentStep = {arrayStepSkiped[step]}/>
     
-  if(!isLanguageChoosed) return <ChooseLanguage setCurrentLanguage = {setCurrentLanguage} setIsLanguageChoosed = {setIsLanguageChoosed} />
+  if(!isLanguageChoosed) return <ChooseLanguage setCurrentLanguage = {setCurrentLanguage} setIsLanguageChoosed = {setIsLanguageChoosed} typeView="firstTime"/>
     
-  if(isIntroductionSkiped) return <Portfolio language = {currentLanguage}/>
+  if(isIntroductionSkiped) return <Portfolio language = {currentLanguage} setCurrentLanguage = {setCurrentLanguage}  />
 
   return (
     <>

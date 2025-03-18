@@ -5,6 +5,7 @@ export interface ISteps {
 
 export interface IPortfolio {
     language: string;
+    setCurrentLanguage: React.Dispatch<React.SetStateAction<string>>; 
 }
 
 export interface INavbar {
@@ -60,13 +61,15 @@ export interface IButton {
 
 
 export interface IChooseLanguage {
+    language?: string;
     setCurrentLanguage: React.Dispatch<React.SetStateAction<string>>; 
-    setIsLanguageChoosed: React.Dispatch<React.SetStateAction<boolean>>; 
+    setIsLanguageChoosed?: React.Dispatch<React.SetStateAction<boolean>>; 
+    typeView: string;
 }
 
 export interface ILoader {
     language: string;
-    currentStep: React.ReactNode;
+    currentStep?: React.ReactNode;
 }
 
 export interface IProject {

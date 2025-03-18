@@ -94,7 +94,7 @@ const Contact = ({ language } : IContact) => {
         
         //const emailJsResponse = await emailJsFetch(event, emailJsId);
         
-        const emailJsResponse = true;
+        const emailJsResponse = false;
 
         await timerPromise(3);
 
@@ -185,7 +185,7 @@ const Contact = ({ language } : IContact) => {
         />
             
 
-        <section className="d-flex flex-column gap-6 align-items-center m-3 mb-0" id = "contact">
+        <section className="d-flex max-w-1250 m-auto px-3 flex-column gap-3 align-items-center m-3 mb-0" id = "contact">
             <div className="d-flex flex-column gap-3 max-w-900">
                 <p className="color-ligth-purple font-size-sm-8  font-weigth-700 text-center text-wrap-pretty "> {textToUse.titles.titleOne} </p>
 
