@@ -111,3 +111,8 @@ export interface IFormValues {
     message: string
     errorMessage: string
 }
+
+export interface ICarousel {
+    elements: Array<any>;
+    elementsPerPage: number;
+}

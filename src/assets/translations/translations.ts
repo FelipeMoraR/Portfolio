@@ -668,8 +668,6 @@ export const translationsSectionProject: any = {
     } 
 }
 
-
-
 export const translationSectionContact: any  = {
     en: {
         form: {
@@ -724,5 +722,84 @@ export const translationSectionContact: any  = {
             titleOne: 'Precisa de alguém para resolver seus problemas?',
             titleTwo: 'A um passo da sua solução, vamos conversar...'
         }
+    }
+}
+
+
+export const translationSectionCertificates: any = {
+    en: {
+        title: 'Certificates',
+        certificates: [
+            {
+                title: 'title1',
+                enterprice: 'enterprice1',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+            {
+                title: 'title2',
+                enterprice: 'enterprice2',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+            {
+                title: 'title3',
+                enterprice: 'enterprice3',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+            {
+                title: 'title4',
+                enterprice: 'enterprice4',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+        ]
+    },
+    es: {
+        title: 'Certificados',
+        certificates: [
+            {
+                title: 'title1',
+                enterprice: 'enterprice1',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+            {
+                title: 'title2',
+                enterprice: 'enterprice2',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+            {
+                title: 'title3',
+                enterprice: 'enterprice3',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+            {
+                title: 'title4',
+                enterprice: 'enterprice4',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+        ]
+    },
+    pt: {
+        title: 'Certificados',
+        certificates: [
+            {
+                title: 'title1',
+                enterprice: 'enterprice1',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+            {
+                title: 'title2',
+                enterprice: 'enterprice2',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+            {
+                title: 'title3',
+                enterprice: 'enterprice3',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+            {
+                title: 'title4',
+                enterprice: 'enterprice4',
+                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+            },
+        ]
     }
 }

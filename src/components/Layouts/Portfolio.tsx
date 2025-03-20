@@ -3,11 +3,11 @@ import SectionProjects from "../PortfolioParts/ProjectAndSkills/SectionProjects"
 import { IPortfolio } from "../../interfaces/Interfaces";
 import Contact from "../PortfolioParts/Contact/Contact";
 import ChooseLanguage from "../Steps/ChooseLanguage";
-
+import Certificates from "../PortfolioParts/Certificates/Certificates";
 
 const Portfolio = ({language, setCurrentLanguage} : IPortfolio) => {
     return(
-        <>
+        <main>
             <ChooseLanguage
                 setCurrentLanguage = {setCurrentLanguage}
                 typeView = "page"
@@ -22,15 +22,18 @@ const Portfolio = ({language, setCurrentLanguage} : IPortfolio) => {
                 language = {language}
             />
 
-            <div className="lol">
+            <Certificates
+                language = {language}
+            />
 
-            </div>
+            
+            
 
             <Contact
                 language = {language}
             />
 
-        </>
+        </main>
         
     )
 }
