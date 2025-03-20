@@ -185,7 +185,7 @@ const Contact = ({ language } : IContact) => {
         />
             
 
-        <section className="d-flex max-w-1250 m-auto px-3 flex-column gap-3 align-items-center m-3 mb-0" id = "contact">
+        <section className="d-flex max-w-1250 m-auto px-6 flex-column gap-3 align-items-center m-3 mb-0" id = "contact">
             <div className="d-flex flex-column gap-3 max-w-900">
                 <p className="color-ligth-purple font-size-sm-8  font-weigth-700 text-center text-wrap-pretty "> {textToUse.titles.titleOne} </p>
 
@@ -227,7 +227,7 @@ const Contact = ({ language } : IContact) => {
                         }
                         <Button
                             type = "submit"
-                            cssClasses={`px-sm-1 btn-size-2 ${btnDisabled ? 'btn-disabled' : ''}`}
+                            cssClasses={`px-sm-1 btn-size-2 ${btnDisabled ? 'animation-disabled' : ''}`}
                             disabled = {btnDisabled}
                             typeBtn = "primary-emerald"
                             icon="send"

@@ -43,6 +43,18 @@
     flex-wrap: wrap;
 }
 
+/* ORDER */
+.flex-order-0{
+    order: 0;
+}
+
+.flex-order-1{
+    order: 1;
+}
+
+.flex-order-2{
+    order: 2;
+}
 
 /* FLEX DIRECTION */
 .flex-column {
@@ -110,6 +122,10 @@
 /* OVERFLOW */
 .overflow-hidden{
     overflow: hidden;
+}
+
+.overflow-y-scroll{
+    overflow-y: scroll;
 }
 
 /* BACKGROUNDS */
@@ -207,6 +223,11 @@
     filter: invert(100%)
 }
 
+/* ASPECT-RATIO */
+
+.aspect-ratio-16-9{
+    aspect-ratio: 16 / 9;
+}
 
 /*XXL*/
 @media (max-width: 1300px){

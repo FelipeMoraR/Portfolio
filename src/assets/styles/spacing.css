@@ -137,6 +137,10 @@
     margin: 1rem;
 }
 
+.m-6{
+    margin: 2rem;
+}
+
 .mb-0{
     margin-bottom: 0;
 }
@@ -201,6 +205,11 @@
 .px-3{
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.px-6{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .py-6{

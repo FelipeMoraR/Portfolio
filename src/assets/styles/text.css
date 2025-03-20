@@ -144,6 +144,11 @@
 
 
 /* COLOR */
+.color-adaptative{
+    mix-blend-mode: difference;
+    color: white;
+}
+
 .color-white {
     color: rgb(255, 255, 255);
 }
@@ -178,6 +183,11 @@
 
 .color-dark-purple-dark {
     color: var(--dark-purple-dark);
+}
+
+.color-light-purple-light-shadow{
+    color: var(--light-purple-light);
+    text-shadow: 0 0 5px #c137e6, 0 0 10px #c137e6, 0 0 20px #c137e6, 0 0 40px #b026d8, 0 0 80px #9817c9;
 }
 
 .first-letter-color-ligth-purple::first-letter{

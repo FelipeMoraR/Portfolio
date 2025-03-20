@@ -1,10 +1,16 @@
 
 .size-modal{
     max-width: 500px;
+    max-height: 300px;
+}
+
+.size-modal.modal-img{
+    max-width: 800px;
+    max-height: 600px;
 }
 
 .animation-show-modal{
-    animation: showDownModal .3s ease-out forwards;
+    animation: showDownModal .3s ease-in-out forwards;
 }
 
 @keyframes showDownModal {
@@ -124,9 +130,25 @@
     }
 }
 
+
+/*LG*/
+@media (max-width: 768px){
+    .size-modal.modal-img{
+        max-width: 550px;
+        max-height: 450px;
+    }
+}
+
 /*SM*/
 @media (max-width: 568px){
     .size-modal{
         max-width: 300px;
     }
+
+    .size-modal.modal-img{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    
 }

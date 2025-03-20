@@ -733,22 +733,22 @@ export const translationSectionCertificates: any = {
             {
                 title: 'title1',
                 enterprice: 'enterprice1',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/titleCertificate.jpg' 
             },
             {
                 title: 'title2',
                 enterprice: 'enterprice2',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/certificadoJs.jpg' 
             },
             {
                 title: 'title3',
                 enterprice: 'enterprice3',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/titleCertificate.jpg' 
             },
             {
                 title: 'title4',
                 enterprice: 'enterprice4',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/titleCertificate.jpg' 
             },
         ]
     },
@@ -758,22 +758,22 @@ export const translationSectionCertificates: any = {
             {
                 title: 'title1',
                 enterprice: 'enterprice1',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/titleCertificate.jpg' 
             },
             {
                 title: 'title2',
                 enterprice: 'enterprice2',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/certificadoJs.jpg' 
             },
             {
                 title: 'title3',
                 enterprice: 'enterprice3',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/titleCertificate.jpg' 
             },
             {
                 title: 'title4',
                 enterprice: 'enterprice4',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/titleCertificate.jpg' 
             },
         ]
     },
@@ -783,22 +783,22 @@ export const translationSectionCertificates: any = {
             {
                 title: 'title1',
                 enterprice: 'enterprice1',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/titleCertificate.jpg' 
             },
             {
                 title: 'title2',
                 enterprice: 'enterprice2',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/certificadoJs.jpg' 
             },
             {
                 title: 'title3',
                 enterprice: 'enterprice3',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/titleCertificate.jpg' 
             },
             {
                 title: 'title4',
                 enterprice: 'enterprice4',
-                pdf: 'src/assets/pdf/titleCertificate.pdf' 
+                img: 'src/assets/certificates/titleCertificate.jpg' 
             },
         ]
     }
