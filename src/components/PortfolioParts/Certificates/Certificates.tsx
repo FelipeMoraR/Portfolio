@@ -31,7 +31,7 @@ const Certificates = ({language}: IPortfolioPart) => {
     const textToRender = translationSectionCertificates[language];
 
     return(
-        <section className="max-w-1250 m-auto p-5 d-flex flex-column align-items-center gap-5" id = "certificates">
+        <section className="max-w-1250 m-auto p-5 d-flex flex-column align-items-center gap-5 animation-fadeIn-opacity position-relative z-index-4" id = "certificates">
             <p className="color-ligth-purple font-size-sm-8  font-weigth-700 text-center text-wrap-pretty ">{textToRender.title}</p>
 
 

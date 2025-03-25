@@ -36,13 +36,17 @@
 .form-part-3::before { height: 90%; }
 .form-part-4::before { height: 100%; }
 
-.error-input{
+.error-text{
     color:var(--emerald-light);
 }
 
 
 .contact-input {
     border: 1px solid var(--grey-light);
+}
+
+.error-input {
+    border: 1px solid var(--emerald-light);
 }
 
 .contact-input:focus {

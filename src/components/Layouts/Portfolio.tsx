@@ -4,6 +4,8 @@ import { IPortfolio } from "../../interfaces/Interfaces";
 import Contact from "../PortfolioParts/Contact/Contact";
 import ChooseLanguage from "../Steps/ChooseLanguage";
 import Certificates from "../PortfolioParts/Certificates/Certificates";
+import AboutMe from "../PortfolioParts/About me/AboutMe";
+
 
 const Portfolio = ({language, setCurrentLanguage} : IPortfolio) => {
     return(
@@ -26,9 +28,10 @@ const Portfolio = ({language, setCurrentLanguage} : IPortfolio) => {
                 language = {language}
             />
 
+            <AboutMe 
+                language = {language}
+            />
             
-            
-
             <Contact
                 language = {language}
             />

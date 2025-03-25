@@ -122,6 +122,15 @@
     transform: translateX(50%);
 }
 
+.translateX-pos-400px{
+    transform: translateX(400px);
+}
+
+
+.translateX-neg-400px{
+    transform: translateX(-400px);
+}
+
 
 /* MARGIN */
 

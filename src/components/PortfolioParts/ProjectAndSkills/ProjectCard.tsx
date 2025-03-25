@@ -40,7 +40,7 @@ const ProjectCard = ({image, description, technologies, title, githubRedirection
             
             <div className="d-flex flex-column gap-5">
                 <div className="d-flex  gap-3 justify-content-space-between">
-                    <p className="color-ligth-purple font-size-5 font-weigth-600">
+                    <p className="color-ligth-purple font-size-5 font-weigth-600 text-transform-capitalize">
                         {title}
                     </p>
 

@@ -92,9 +92,7 @@ const Contact = ({ language } : IContact) => {
 
         showModal('loadingModal');
         
-        //const emailJsResponse = await emailJsFetch(event, emailJsId);
-        
-        const emailJsResponse = false;
+        const emailJsResponse = await emailJsFetch(event, emailJsId);
 
         await timerPromise(3);
 
@@ -118,12 +116,13 @@ const Contact = ({ language } : IContact) => {
 
     const updateValueInput = (id: string, value: string) => {
         setFormData((prev) => {
-            const updatedForm = { ...prev, [id]: value };
+
+            const updatedForm = { ...prev, [id]: value, 'errorEmail': '', 'errorUsername': '', 'errorMessage': ''};
 
             const validInputs = ['email', 'username', 'message'].filter(
                 (field) => validateInputIsNotNull(updatedForm[field as keyof IFormValues])
             ).length; //Iterate tho the keys of the object and check if the value is not empty
-
+            console.log('valid => ', validInputs);
             setFormPartCompleted(validInputs);
 
             return updatedForm;
@@ -166,6 +165,10 @@ const Contact = ({ language } : IContact) => {
         
     }, [counterClickForm]);
 
+    useEffect(() => {
+        console.log(formData);
+    }, [formData]);
+
     return(
         <>
         
@@ -185,7 +188,7 @@ const Contact = ({ language } : IContact) => {
         />
             
 
-        <section className="d-flex max-w-1250 m-auto px-6 flex-column gap-3 align-items-center m-3 mb-0" id = "contact">
+        <section className="d-flex max-w-1250 m-auto px-6 flex-column gap-3 align-items-center m-3 mb-0 animation-fadeIn-opacity" id = "contact">
             <div className="d-flex flex-column gap-3 max-w-900">
                 <p className="color-ligth-purple font-size-sm-8  font-weigth-700 text-center text-wrap-pretty "> {textToUse.titles.titleOne} </p>
 
@@ -198,25 +201,43 @@ const Contact = ({ language } : IContact) => {
                     <div className="d-flex gap-3 flex-wrap">
                         <div className="d-flex flex-column gap-1 flex-shrink-1 flex-grow-1 flex-basis-0">
                             <label htmlFor="username" className="color-white">{textToUse.form.labelName}</label>
-                            <input className="contact-input border-radius-1 p-05 bg-dark-purple-light color-white" type="text" name="username" id="username" value={formData.username} 
-                            onChange={(e) => updateValueInput(e.currentTarget.id, e.currentTarget.value)} 
+                            <input 
+                                className={"contact-input border-radius-1 p-05 bg-dark-purple-light color-white " + (formData.errorUsername != '' ? 'error-input' : '')}
+                                type="text" 
+                                name="username" 
+                                id="username" 
+                                value={formData.username} 
+                                onChange={(e) => updateValueInput(e.currentTarget.id, e.currentTarget.value)} 
                             />
-                            <p className = "error-input font-weigth-400">{formData.errorUsername}</p>
+                            <p className = "error-text font-weigth-400">{formData.errorUsername}</p>
                         </div>
 
 
                         <div className="d-flex flex-column gap-1 flex-shrink-1 flex-grow-1 flex-basis-0" >
                             <label htmlFor="email" className="color-white">{textToUse.form.labelEmail}</label>
-                            <input className="contact-input border-radius-1 p-05 bg-dark-purple-light color-white" type="text" name="email" id="email" value={formData.email} onChange={(e) => updateValueInput(e.currentTarget.id, e.currentTarget.value)} />
-                            <p className = "error-input font-weigth-400">{formData.errorEmail}</p>
+                            <input 
+                                className={"contact-input border-radius-1 p-05 bg-dark-purple-light color-white " + (formData.errorEmail != '' ? 'error-input' : '')} 
+                                type="text" 
+                                name="email" 
+                                id="email" 
+                                value={formData.email} 
+                                onChange={(e) => updateValueInput(e.currentTarget.id, e.currentTarget.value)} 
+                            />
+                            <p className = "error-text font-weigth-400">{formData.errorEmail}</p>
                         </div>
                     </div>
 
                     
                     <div className="d-flex flex-column gap-1 h-100">
                         <label htmlFor="message" className="color-white">{textToUse.form.labelMsg}</label>
-                        <textarea  className="contact-input h-100 border-radius-1 p-05 bg-dark-purple-light color-white" name="message" id="message"  value={formData.message} onChange={(e) => updateValueInput(e.currentTarget.id, e.currentTarget.value)} />
-                        <p className = "error-input font-weigth-400">{formData.errorMessage}</p>
+                        <textarea  
+                            className={"contact-input h-100 border-radius-1 p-05 bg-dark-purple-light color-white " + (formData.errorMessage != '' ? 'error-input' : '')}
+                            name="message" 
+                            id="message"  
+                            value={formData.message} 
+                            onChange={(e) => updateValueInput(e.currentTarget.id, e.currentTarget.value)} 
+                        />
+                        <p className = "error-text font-weigth-400">{formData.errorMessage}</p>
                     </div>
                     
                     <div className="w-100 d-flex gap-3 justify-content-flex-end align-items-center">

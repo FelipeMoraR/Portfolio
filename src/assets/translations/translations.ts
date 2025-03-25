@@ -683,7 +683,7 @@ export const translationSectionContact: any  = {
             sendingEmail: 'Sending email...'
         },
         titles: {
-            titleOne: 'Do you need someone to solve your problems?',
+            titleOne: 'Are you having problems?',
             titleTwo: "One step away from your solution, let's talk..."
         }
     },
@@ -701,7 +701,7 @@ export const translationSectionContact: any  = {
             sendingEmail: 'Enviando correo...'
         },
         titles: {
-            titleOne: '¿Necesitas a alguien que resuelva tus problemas?',
+            titleOne: '¿Tienes problemas?',
             titleTwo: 'A solo un paso de tu solución, hablemos...' 
         }
     },
@@ -719,7 +719,7 @@ export const translationSectionContact: any  = {
             sendingEmail: 'Enviando e-mail...'
         },
         titles: {
-            titleOne: 'Precisa de alguém para resolver seus problemas?',
+            titleOne: 'Você está tendo problemas?',
             titleTwo: 'A um passo da sua solução, vamos conversar...'
         }
     }

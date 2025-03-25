@@ -124,13 +124,20 @@ const Carousel = ({ elements, elementsPerPage }: ICarousel) => {
                                     element.map((cer: any, cerIndex: number) => (
                                         <div key={cerIndex} className="w-100 h-100 d-flex flex-column gap-3 p-3 ">
                                             <div className="d-flex justify-content-space-between ">
-                                                <div>
-                                                    <p className="color-white font-size-5">{cer.title}</p>
-                                                    <p className="color-white font-size-3">{cer.enterprice}</p>
+                                                <div className = "d-flex flex-column gap-3">
+                                                    <p className="color-emerald text-transform-capitalize font-size-5 font-weigth-700">{cer.title}</p>
+                                                    <p className="color-white font-size-3 text-transform-capitalize">{cer.enterprice}</p>
                                                 </div>
 
 
-                                                <a href={cer.img} download={true} className="color-white" >descargar</a>
+                                                
+                                                <a href={cer.img} download={true} className="icon-white h-min-content border-radius-100p p-1 color-white" >
+                                                    <span className="material-symbols-outlined">
+                                                        file_save
+                                                    </span>
+                                                </a>
+                                                
+                                                
                                             </div>
 
                                             <div className="w-100 h-100 d-flex justify-content-center overflow-hidden">
