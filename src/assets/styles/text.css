@@ -157,6 +157,10 @@
     color: var(--lavanda)
 }
 
+.color-lavanda-dark{
+    color: var( --light-purple);
+}
+
 .color-ligth-purple { 
     color: var(--light-purple);
 }
@@ -167,6 +171,10 @@
 
 .color-emerald {
     color: var(--emerald);
+}
+
+.color-emerald-light {
+    color: var(--emerald-light-2);
 }
 
 .color-emerald-dark {
@@ -193,10 +201,6 @@
 .first-letter-color-ligth-purple::first-letter{
     color: var(--light-purple);
     
-}
-
-.color-red{
-    color: red;
 }
 
 .first-letter-color-white-bg-ligth-purple::first-letter{

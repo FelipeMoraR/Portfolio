@@ -54,8 +54,16 @@ const AboutMe = ({language}: IPortfolioPart) => {
 
     const showInfo = (descriptionContainer: HTMLDivElement, anchorContainer: HTMLDivElement, containerImg: HTMLDivElement) => {
         descriptionContainer.classList.remove('translateX-pos-400px');
+        descriptionContainer.classList.remove('opacity-0');
         anchorContainer.classList.remove('translateX-neg-400px');
+        anchorContainer.classList.remove('opacity-0');
         containerImg.classList.add('no-interactive');
+        containerImg.classList.remove('bright-border');
+
+        setTimeout(() => {
+            descriptionContainer.classList.remove('no-interactive');
+            anchorContainer.classList.remove('no-interactive');
+        }, 500);
     }
 
     return(
@@ -63,7 +71,7 @@ const AboutMe = ({language}: IPortfolioPart) => {
             <h1 className="text-transform-capitalize color-ligth-purple font-size-sm-8  font-weigth-700 text-center text-wrap-pretty ">about mi jeje</h1>
 
             <div className="d-flex align-items-center">
-                <div className="description-container color-white bg-grey max-h-300 cursor-pointer translateX-pos-400px" 
+                <div className="description-container cursor-pointer translateX-pos-400px transition-all-04 bg-gradint-normal-purple-lighter-90 border-radius-1 opacity-0 no-interactive" 
                     ref = {descriptionContainer}
                     onMouseEnter={() => {
                         if (imgNormal.current && imgLeft.current && imgRigth.current) {
@@ -76,13 +84,18 @@ const AboutMe = ({language}: IPortfolioPart) => {
                             showImg('', imgNormal.current, imgLeft.current, imgRigth.current);
                         }
                     }}
-                >
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    </p>
+                >   
+                    <div className="p-05 w-90 color-white ">
+                        <div className="bg-gradint-dark-purple-dark-90 p-1 d-flex flex-column gap-1">
+                            <p className="color-lavanda-dark text-transform-capitalize font-size-5 font-weigth-700">Felipe Mora </p>
+                            <p className="color-emerald text-transform-capitalize font-size-4 font-weigth-500">Desarrollador fullstack junior</p>
+                            <p className="color-white font-size-3 text-transform-capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        </div>
+                    </div>
+                    
                 </div>
 
-                <div className="border-radius-100p flex-shrink-0 max-w-500 cursor-pointer z-index-4 no-select " 
+                <div className="border-radius-100p flex-shrink-0 img-about-me cursor-pointer z-index-4 no-select bright-border transition-all-04" 
                     ref = {containerImg}
                     onClick={() => {
                         if(descriptionContainer.current && anchorContainer.current && containerImg.current){
@@ -90,12 +103,12 @@ const AboutMe = ({language}: IPortfolioPart) => {
                         }
                     }}
                 >
-                    <img className="border-radius-100p w-100 h-100" src="src/assets/images/aboutme/yo.jpg" alt="meNormal" ref = {imgNormal} />
+                    <img className="border-radius-100p w-100 h-100 " src="src/assets/images/aboutme/yo.jpg" alt="meNormal" ref = {imgNormal} />
                     <img className="border-radius-100p w-100 h-100 d-none" src="src/assets/images/aboutme/yoLeft.jpg" alt="meLeft" ref = {imgLeft} />
                     <img className="border-radius-100p w-100 h-100 d-none" src="src/assets/images/aboutme/yoRight.jpg" alt="meRight" ref = {imgRigth} />
                 </div>
 
-                <div className="anchor-container color-white bg-grey max-h-300 cursor-pointer translateX-neg-400px"
+                <div className="anchor-container d-flex justify-content-flex-end bg-gradint-normal-purple-lighter-270 cursor-pointer translateX-neg-400px transition-all-04 border-radius-1 opacity-0 no-interactive"
                     ref = {anchorContainer}
                     onMouseEnter={() => {
                         if (imgNormal.current && imgLeft.current && imgRigth.current) {
@@ -108,10 +121,20 @@ const AboutMe = ({language}: IPortfolioPart) => {
                             showImg('', imgNormal.current, imgLeft.current, imgRigth.current);
                         }
                     }}
-                >
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    </p>
+                >   
+                    <div className="p-05 w-90 color-white">
+                        <div className="bg-gradint-dark-purple-dark-270 p-1 d-flex flex-column gap-1">
+                            <p className="color-emerald text-transform-capitalize font-size-5 font-weigth-700">Title</p>
+                            <a className="icon icon-white h-min-content w-fit-content border-radius-100p p-1 color-white d-flex justify-content-center align-items-center" >
+                                <span className="material-symbols-outlined">
+                                    download_2
+                                </span>
+                            </a>
+                            <p className="color-white font-size-3 text-transform-capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>

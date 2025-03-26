@@ -24,6 +24,11 @@
     transition: all .2s;
 }
 
+
+.transition-all-04 {
+    transition: all .4s;
+}
+
 .animation-fadeOut-display{
     animation: fadeOutDisplay .5s linear forwards;
 }

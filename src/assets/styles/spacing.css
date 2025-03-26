@@ -131,6 +131,14 @@
     transform: translateX(-400px);
 }
 
+.translateX-neg-50px{
+    transform: translateX(-50px);
+}
+
+.translateX-pos-50px{
+    transform: translateX(50px);
+}
+
 
 /* MARGIN */
 
@@ -164,6 +172,10 @@
 }
 
 /* PADDING */
+.p-1px{
+    padding: 1px;
+}
+
 .p-05{
     padding: .2rem;
 }

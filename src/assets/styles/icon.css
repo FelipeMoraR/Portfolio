@@ -1,3 +1,8 @@
+.icon{
+    width: 44px;
+    height: 44px;
+}
+
 .icon-white:hover{
     background-color: var(--normal-purple-dark);
     box-shadow: 0 0 10px white;

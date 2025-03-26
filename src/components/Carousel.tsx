@@ -131,7 +131,7 @@ const Carousel = ({ elements, elementsPerPage }: ICarousel) => {
 
 
                                                 
-                                                <a href={cer.img} download={true} className="icon-white h-min-content border-radius-100p p-1 color-white" >
+                                                <a href={cer.img} download={true} className="icon w-fit-content icon-white h-min-content border-radius-100p p-1 color-white d-flex justify-content-center align-items-center" >
                                                     <span className="material-symbols-outlined">
                                                         file_save
                                                     </span>

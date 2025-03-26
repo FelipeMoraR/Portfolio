@@ -108,7 +108,23 @@
     box-shadow: 0 0 20px var(--light-purple);
 }
 
+/*CHATGPT TRICK XD*/
+.bright-border {
+    border: 1px solid var(--light-purple);
+    border-radius: 100%;
+    box-shadow: 0 0 10px var(--light-purple);
+    animation: pulse 1s infinite alternate ease-in-out;
+}
 
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 5px var(--light-purple);
+    }
+    100% {
+        box-shadow: 0 0 10px var(--light-purple), 0 0 12px var(--light-purple);
+    }
+}
 
 
 

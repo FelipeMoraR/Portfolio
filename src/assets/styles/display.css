@@ -199,6 +199,44 @@
             );
 }
 
+.bg-gradint-dark-purple-dark-90 {
+    background: linear-gradient(
+                90deg, 
+                var(--dark-purple) 0%, 
+                var(--dark-purple) 80%, 
+                transparent 100%
+            );
+}
+
+.bg-gradint-normal-purple-lighter-90 {
+    background: linear-gradient(
+                90deg, 
+                var(--light-purple-light) 0%, 
+                var(--light-purple-light) 20%, 
+                transparent 100%
+            );
+            
+}
+
+.bg-gradint-dark-purple-dark-270{
+    background: linear-gradient(
+                270deg, 
+                var(--dark-purple) 0%, 
+                var(--dark-purple) 80%, 
+                transparent 100%
+            );
+}
+
+.bg-gradint-normal-purple-lighter-270{
+    background: linear-gradient(
+                270deg, 
+                var(--light-purple-light) 0%, 
+                var(--light-purple-light) 20%, 
+                transparent 100%
+            );
+            
+}
+
 
 .bg-overflow-modal {
     background-color: #19001be6;
