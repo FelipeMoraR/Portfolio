@@ -143,7 +143,7 @@ const Carousel = ({ elements, elementsPerPage }: ICarousel) => {
                                             <div className="w-100 h-100 d-flex justify-content-center overflow-hidden">
                                                 <img src={cer.img} alt={cer.img} className="w-100 h-100 object-fit-cover no-select cursor-pointer" 
                                                     onClick={(e) => {
-                                                        console.log(e.currentTarget.src);
+                                                    
                                                         setImgModal(e.currentTarget.src);
                                                         setOverflowBody('hidden');
                                                         showModal('certificate');

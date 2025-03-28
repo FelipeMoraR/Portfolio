@@ -24,14 +24,17 @@ const Certificates = ({language}: IPortfolioPart) => {
 
         window.addEventListener('resize', controlElementsPerPage);
 
-        return () => window.removeEventListener('resize', controlElementsPerPage);
+        return () => {
+            window.removeEventListener('resize', controlElementsPerPage);
+            window.removeEventListener('DOMContentLoaded', controlElementsPerPage);
+        }
     }, []);
 
 
     const textToRender = translationSectionCertificates[language];
 
     return(
-        <section className="max-w-1250 m-auto p-5 d-flex flex-column align-items-center gap-5 animation-fadeIn-opacity position-relative z-index-4" id = "certificates">
+        <section className="max-w-1250 mt-6 mx-auto p-5 d-flex flex-column align-items-center gap-5 animation-fadeIn-opacity  " id = "certificates">
             <p className="color-ligth-purple font-size-sm-8  font-weigth-700 text-center text-wrap-pretty ">{textToRender.title}</p>
 
 

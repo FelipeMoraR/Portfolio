@@ -1,4 +1,6 @@
+
 import { IModal } from "../interfaces/Interfaces";
+import { createPortal } from "react-dom";
 
 const Modal = ({ showModal, title, typeModal, text, statusModal, iconModal, hideModal }: IModal) => {
     if (!showModal) return
@@ -8,9 +10,9 @@ const Modal = ({ showModal, title, typeModal, text, statusModal, iconModal, hide
         warning: 'icon-error'
     }
 
-    return (
+    return createPortal(
         <>
-            <div className={`overflow-modal  position-fixed w-100 h-100 bg-overflow-modal top-0 z-index-4 ` + ( typeModal !== 'loading' ? 'cursor-pointer' : '')}
+            <div className={`overflow-modal  position-fixed w-100 h-100 bg-overflow-modal top-0 z-index-999 ` + ( typeModal !== 'loading' ? 'cursor-pointer' : '')}
                 onClick={() => {
                     if(typeModal === 'loading') return
                     
@@ -87,8 +89,9 @@ const Modal = ({ showModal, title, typeModal, text, statusModal, iconModal, hide
                     }
                 </div>
             </div>
-        </>
-    )
+        </>,
+        document.getElementById('modal-root') as HTMLElement
+    );
 }
 
 export default Modal;

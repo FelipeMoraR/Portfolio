@@ -53,9 +53,9 @@ const AboutMe = ({language}: IPortfolioPart) => {
     }
 
     const showInfo = (descriptionContainer: HTMLDivElement, anchorContainer: HTMLDivElement, containerImg: HTMLDivElement) => {
-        descriptionContainer.classList.remove('translateX-pos-400px');
+        descriptionContainer.classList.remove('translateX-pos-400px-lg-0');
         descriptionContainer.classList.remove('opacity-0');
-        anchorContainer.classList.remove('translateX-neg-400px');
+        anchorContainer.classList.remove('translateX-neg-400px-lg-0');
         anchorContainer.classList.remove('opacity-0');
         containerImg.classList.add('no-interactive');
         containerImg.classList.remove('bright-border');
@@ -67,11 +67,11 @@ const AboutMe = ({language}: IPortfolioPart) => {
     }
 
     return(
-        <section className="max-w-1250 m-auto p-5 d-flex flex-column align-items-center gap-5 animation-fadeIn-opacity position-relative z-index-4" id = "aboutMe">
+        <section className="max-w-1250 mt-6 mx-auto p-5 d-flex flex-column align-items-center gap-5 animation-fadeIn-opacity " id = "aboutMe">
             <h1 className="text-transform-capitalize color-ligth-purple font-size-sm-8  font-weigth-700 text-center text-wrap-pretty ">about mi jeje</h1>
 
-            <div className="d-flex align-items-center">
-                <div className="description-container cursor-pointer translateX-pos-400px transition-all-04 bg-gradint-normal-purple-lighter-90 border-radius-1 opacity-0 no-interactive" 
+            <div className="d-flex align-items-center flex-lg-column gap-lg-3">
+                <div className="description-container cursor-pointer translateX-pos-400px-lg-0 transition-all-04 bg-gradint-normal-purple-lighter-90 border-radius-1 opacity-0 no-interactive" 
                     ref = {descriptionContainer}
                     onMouseEnter={() => {
                         if (imgNormal.current && imgLeft.current && imgRigth.current) {
@@ -85,7 +85,7 @@ const AboutMe = ({language}: IPortfolioPart) => {
                         }
                     }}
                 >   
-                    <div className="p-05 w-90 color-white ">
+                    <div className="p-05 w-90 color-white">
                         <div className="bg-gradint-dark-purple-dark-90 p-1 d-flex flex-column gap-1">
                             <p className="color-lavanda-dark text-transform-capitalize font-size-5 font-weigth-700">Felipe Mora </p>
                             <p className="color-emerald text-transform-capitalize font-size-4 font-weigth-500">Desarrollador fullstack junior</p>
@@ -95,7 +95,7 @@ const AboutMe = ({language}: IPortfolioPart) => {
                     
                 </div>
 
-                <div className="border-radius-100p flex-shrink-0 img-about-me cursor-pointer z-index-4 no-select bright-border transition-all-04" 
+                <div className="border-radius-100p flex-shrink-0 img-about-me d-flex cursor-pointer z-index-4 no-select bright-border transition-all-04 w-100 h-100" 
                     ref = {containerImg}
                     onClick={() => {
                         if(descriptionContainer.current && anchorContainer.current && containerImg.current){
@@ -103,12 +103,12 @@ const AboutMe = ({language}: IPortfolioPart) => {
                         }
                     }}
                 >
-                    <img className="border-radius-100p w-100 h-100 " src="src/assets/images/aboutme/yo.jpg" alt="meNormal" ref = {imgNormal} />
-                    <img className="border-radius-100p w-100 h-100 d-none" src="src/assets/images/aboutme/yoLeft.jpg" alt="meLeft" ref = {imgLeft} />
-                    <img className="border-radius-100p w-100 h-100 d-none" src="src/assets/images/aboutme/yoRight.jpg" alt="meRight" ref = {imgRigth} />
+                    <img className="border-radius-100p w-100" src="src/assets/images/aboutme/yo.jpg" alt="meNormal" ref = {imgNormal} />
+                    <img className="border-radius-100p w-100 d-none" src="src/assets/images/aboutme/yoLeft.jpg" alt="meLeft" ref = {imgLeft} />
+                    <img className="border-radius-100p w-100 d-none" src="src/assets/images/aboutme/yoRight.jpg" alt="meRight" ref = {imgRigth} />
                 </div>
 
-                <div className="anchor-container d-flex justify-content-flex-end bg-gradint-normal-purple-lighter-270 cursor-pointer translateX-neg-400px transition-all-04 border-radius-1 opacity-0 no-interactive"
+                <div className="anchor-container d-flex justify-content-flex-end bg-gradint-normal-purple-lighter-270 cursor-pointer translateX-neg-400px-lg-0 transition-all-04 border-radius-1 opacity-0 no-interactive"
                     ref = {anchorContainer}
                     onMouseEnter={() => {
                         if (imgNormal.current && imgLeft.current && imgRigth.current) {

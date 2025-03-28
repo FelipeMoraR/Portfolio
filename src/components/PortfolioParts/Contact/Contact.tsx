@@ -188,7 +188,7 @@ const Contact = ({ language } : IContact) => {
         />
             
 
-        <section className="d-flex max-w-1250 m-auto px-6 flex-column gap-3 align-items-center m-3 mb-0 animation-fadeIn-opacity" id = "contact">
+        <section className="d-flex max-w-1250 mt-6 mx-auto px-6 flex-column gap-3 align-items-center m-3 mb-0 animation-fadeIn-opacity" id = "contact">
             <div className="d-flex flex-column gap-3 max-w-900">
                 <p className="color-ligth-purple font-size-sm-8  font-weigth-700 text-center text-wrap-pretty "> {textToUse.titles.titleOne} </p>
 

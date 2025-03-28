@@ -273,3 +273,21 @@
         justify-content: center;
     }
 }
+
+
+/*LG*/
+@media (max-width: 1024px){
+    .flex-lg-column {
+        flex-direction: column;
+    }
+}
+
+/*MD*/
+@media (max-width: 768px){
+    
+}
+
+/*SM*/
+@media (max-width: 568px){
+    
+}
