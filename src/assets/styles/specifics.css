@@ -100,6 +100,7 @@
 .img-about-me{
     max-width: 400px;
     max-height: 400px;
+    order: 1;
 }
   
 
@@ -107,9 +108,6 @@
     order: 0;
 }
 
-.img-about-me{
-    order: 1;
-}
 
 .anchor-container{
     order: 2;
@@ -145,7 +143,7 @@
     }
 }
 
-/*SM*/
+/*MD*/
 @media (max-width: 568px){
     .exit-btn{
         width: 25px;
@@ -164,4 +162,15 @@
     .size-modal{
         max-width: 300px;
     }
+
+    .img-about-me{
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+
+/*SM*/
+@media (max-width: 440px){
+    
 }

@@ -12,6 +12,8 @@ const AboutMe = ({language}: IPortfolioPart) => {
 
 
     const showImg = (typeImg: string, imgNormal: HTMLImageElement, imgLeft: HTMLImageElement, imgRigth: HTMLImageElement) => {
+        if(window.innerWidth <= 1024) return; 
+
         if(typeImg === '') {
             imgNormal.classList.remove('d-none');
             imgNormal.classList.add('d-flex');
