@@ -147,6 +147,17 @@
     height: 300px;
 }
 
+.min-h-366{
+    min-height: 366px;
+}
+
+/*XL*/
+@media (max-width: 1024px){
+    .min-h-366{
+        min-height: auto;
+    }
+}
+
 /*LG*/
 @media (max-width: 768px){
     .h-lg-300px{

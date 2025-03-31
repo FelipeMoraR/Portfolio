@@ -72,7 +72,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
     
 
     return (
-        <section className="project-section max-w-1250 mt-6 mx-auto p-5 d-flex flex-column align-items-center gap-5 " id = "project">
+        <section className="project-section max-w-1250  mx-auto p-5 d-flex flex-column align-items-center gap-5 " id = "project">
             <div className="color-white d-flex flex-column gap-3">
                 <p className="project-title color-ligth-purple font-size-sm-8 animation-falling-down font-weigth-700 text-center text-wrap-pretty">{infoToRender.title}</p>
                 <p className="project-subTitle text-center font-size-3 delay-02s opacity-0 animation-falling-down font-weigth-400">{infoToRender.subTitle}</p>

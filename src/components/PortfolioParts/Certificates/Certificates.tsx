@@ -1,6 +1,6 @@
 import { IPortfolioPart } from "../../../interfaces/Interfaces";
 import { translationSectionCertificates } from "../../../assets/translations/translations";
-import Carousel from "../../Carousel";
+import CarouselCertificate from "../../CarouselCertificate";
 import { useEffect, useState } from "react";
 
 
@@ -38,7 +38,7 @@ const Certificates = ({language}: IPortfolioPart) => {
             <p className="color-ligth-purple font-size-sm-8  font-weigth-700 text-center text-wrap-pretty ">{textToRender.title}</p>
 
 
-            <Carousel 
+            <CarouselCertificate 
                 elements={translationSectionCertificates[language].certificates}
                 elementsPerPage={elementsPerPage}
             />

@@ -5,7 +5,7 @@ import useModal from "../assets/utils/useModal";
 import Modal from "./Modal";
 
 
-const Carousel = ({ elements, elementsPerPage }: ICarousel) => {
+const CarouselCertificate = ({ elements, elementsPerPage }: ICarousel) => {
 
     const [page, setPage] = useState<number>(1);
     const [elementsGrouped, setElementsGrouped] = useState<Array<any>>([]);
@@ -209,4 +209,4 @@ const Carousel = ({ elements, elementsPerPage }: ICarousel) => {
     )
 }
 
-export default Carousel;
+export default CarouselCertificate;

@@ -723,7 +723,7 @@ export const translationSectionContact: any  = {
             titleTwo: 'A um passo da sua solução, vamos conversar...'
         }
     }
-}
+};
 
 
 export const translationSectionCertificates: any = {
@@ -802,20 +802,16 @@ export const translationSectionCertificates: any = {
             },
         ]
     }
-}
+};
 
 
 
 export const translationSectionAboutMe: any = {
     en: {
-        
-
-    },
-    es: {
         description: {
-            title: 'Sobre mi',
+            title: 'About Me',
             myName: 'Felipe Mora',
-            charge: 'Desarrollador full stack Junior',
+            charge: 'Junior Full Stack Developer',
             resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
         },
         images: {
@@ -823,11 +819,97 @@ export const translationSectionAboutMe: any = {
             imageLeft: 'src/assets/images/aboutme/yoLeft.jpg',
             imageRigth: 'src/assets/images/aboutme/yoRight.jpg'
         },
-        
-        
-
+        moreInfo: {
+            title: "More About Me",
+            cv: '',
+            textBody: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+        },
+        socialMedia: [
+            {
+                platform: 'github',
+                image: 'src/assets/images/icons/github.png',
+                redirection: 'https://github.com/FelipeMoraR',
+            },
+            {
+                platform: 'youtube',
+                image: 'src/assets/images/icons/youtube.png',
+                redirection: 'https://www.youtube.com/@pvrpleD3v',
+            },
+            {
+                platform: 'linkedin',
+                image: 'src/assets/images/icons/linkedin.png',
+                redirection: 'https://www.linkedin.com/in/felipemorarecabal-3082121ba/'
+            }
+        ]
+    },
+    es: {
+        description: {
+            title: 'Sobre mí',
+            myName: 'Felipe Mora',
+            charge: 'Desarrollador Full Stack Junior',
+            resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+        },
+        images: {
+            imageMidle: 'src/assets/images/aboutme/yo.jpg',
+            imageLeft: 'src/assets/images/aboutme/yoLeft.jpg',
+            imageRigth: 'src/assets/images/aboutme/yoRight.jpg'
+        },
+        moreInfo: {
+            title: "Más sobre mí",
+            cv: '',
+            textBody: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+        },
+        socialMedia: [
+            {
+                platform: 'github',
+                image: 'src/assets/images/icons/github.png',
+                redirection: 'https://github.com/FelipeMoraR',
+            },
+            {
+                platform: 'youtube',
+                image: 'src/assets/images/icons/youtube.png',
+                redirection: 'https://www.youtube.com/@pvrpleD3v',
+            },
+            {
+                platform: 'linkedin',
+                image: 'src/assets/images/icons/linkedin.png',
+                redirection: 'https://www.linkedin.com/in/felipemorarecabal-3082121ba/'
+            }
+        ]
     },
     pt: {
-        
+        description: {
+            title: 'Sobre mim',
+            myName: 'Felipe Mora',
+            charge: 'Desenvolvedor Full Stack Júnior',
+            resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+        },
+        images: {
+            imageMidle: 'src/assets/images/aboutme/yo.jpg',
+            imageLeft: 'src/assets/images/aboutme/yoLeft.jpg',
+            imageRigth: 'src/assets/images/aboutme/yoRight.jpg'
+        },
+        moreInfo: {
+            title: "Mais sobre mim",
+            cv: '',
+            textBody: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+        },
+        socialMedia: [
+            {
+                platform: 'github',
+                image: 'src/assets/images/icons/github.png',
+                redirection: 'https://github.com/FelipeMoraR',
+            },
+            {
+                platform: 'youtube',
+                image: 'src/assets/images/icons/youtube.png',
+                redirection: 'https://www.youtube.com/@pvrpleD3v',
+            },
+            {
+                platform: 'linkedin',
+                image: 'src/assets/images/icons/linkedin.png',
+                redirection: 'https://www.linkedin.com/in/felipemorarecabal-3082121ba/'
+            }
+        ]
     }
-}
+};

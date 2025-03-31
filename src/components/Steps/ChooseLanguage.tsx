@@ -32,7 +32,7 @@ const ChooseLanguage = ({ setCurrentLanguage, setIsLanguageChoosed, typeView, la
   const updateLanguagePage = (newLanguage: string) => {
 
     setIsLoadingNewLanguage(true);
-
+    localStorage.setItem('language', newLanguage);
 
     setTimeout(() => {
       setCurrentLanguage(newLanguage);
