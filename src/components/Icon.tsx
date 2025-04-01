@@ -48,7 +48,7 @@ const Icon = ({title, image, color, redirection, typeRedirection, hasToolTip}: I
 
     return(
         <div 
-            className = {`tech-project d-block border-radius-100p p-05 position-relative ` + borderAndBackground[color] }
+            className = {`tech-project d-block border-radius-100p p-05 position-relative cursor-pointer ` + borderAndBackground[color] }
             onMouseEnter={ hasToolTip ? () => {
                 if(!tooltipTech.current) return;
                 handlerMouseEnter(tooltipTech.current);

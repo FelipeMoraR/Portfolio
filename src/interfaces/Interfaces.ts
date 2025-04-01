@@ -40,11 +40,16 @@ export interface ITechnologieCard extends ITechnologie {
 export interface ICardProject{
     id: number;
     title: string;
-    image: string;
+    prevImage: string;
+    galleryImg: Array<string>;
+    resumen: string;
+    isSelected: boolean;
     description: string;
     technologies: Array<ITechnologieCard>;
     githubRedirection: string;
     youtubeRedirection?:string; 
+    showCard: () => void;
+    hideCard: () => void;
 }
 
 
@@ -115,4 +120,9 @@ export interface IFormValues {
 export interface ICarousel {
     elements: Array<any>;
     elementsPerPage: number;
+}
+
+export interface ITag {
+    name: string;
+    typeTag: string;
 }

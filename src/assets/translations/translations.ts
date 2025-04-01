@@ -278,7 +278,14 @@ export const translationsSectionProject: any = {
             {
                 id: 1,
                 title: 'project 1',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
@@ -308,7 +315,14 @@ export const translationsSectionProject: any = {
             {
                 id: 2,
                 title: 'project 2',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
@@ -333,7 +347,14 @@ export const translationsSectionProject: any = {
             {
                 id: 3,
                 title: 'project 3',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
@@ -363,7 +384,14 @@ export const translationsSectionProject: any = {
             {
                 id: 4,
                 title: 'project 4',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
@@ -410,7 +438,14 @@ export const translationsSectionProject: any = {
             {
                 id: 1,
                 title: 'project 1',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
@@ -440,7 +475,14 @@ export const translationsSectionProject: any = {
             {
                 id: 2,
                 title: 'project 2',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
@@ -465,7 +507,14 @@ export const translationsSectionProject: any = {
             {
                 id: 3,
                 title: 'project 3',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
@@ -495,7 +544,14 @@ export const translationsSectionProject: any = {
             {
                 id: 4,
                 title: 'project 4',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
@@ -542,7 +598,14 @@ export const translationsSectionProject: any = {
             {
                 id: 1,
                 title: 'project 1',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
@@ -572,7 +635,14 @@ export const translationsSectionProject: any = {
             {
                 id: 2,
                 title: 'project 2',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
@@ -597,7 +667,14 @@ export const translationsSectionProject: any = {
             {
                 id: 3,
                 title: 'project 3',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
@@ -627,7 +704,14 @@ export const translationsSectionProject: any = {
             {
                 id: 4,
                 title: 'project 4',
-                image: 'src/assets/images/cardProject/imgDefault.jpg',
+                prevImage: 'src/assets/images/cardProject/imgDefault.jpg',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg',
+                    'src/assets/images/cardProject/imgDefault.jpg'
+                ],
+                resumen: 'resumen 1',
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
                 githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
                 youtubeRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',

@@ -198,6 +198,11 @@
     text-shadow: 0 0 5px #c137e6, 0 0 10px #c137e6, 0 0 20px #c137e6, 0 0 40px #b026d8, 0 0 80px #9817c9;
 }
 
+.color-light-emerald-light-shadow{
+    color: var(--emerald-light);
+    text-shadow: 0 0 5px #37e686, 0 0 10px #4be637, 0 0 20px #86e637, 0 0 40px #26d861, 0 0 80px #40c917;
+}
+
 .first-letter-color-ligth-purple::first-letter{
     color: var(--light-purple);
     
@@ -289,7 +294,6 @@
     .font-size-xl-md-6{
         font-size: 2rem;
     }
-
 }
 
 /*LG*/
@@ -355,5 +359,4 @@
     .font-size-sm-8{
         font-size: 3rem;
     }
-    
 }

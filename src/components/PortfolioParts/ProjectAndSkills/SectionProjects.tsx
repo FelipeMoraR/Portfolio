@@ -11,8 +11,10 @@ const SectionProjects = ({language}: IPortfolioPart) => {
     
     const [idTechSelected, setIdTechSelected] = useState<Array<number>>([]);
     const [projectsToShow, setProjectsToShow] = useState<Array<ICardProject>>([]);
-    const timeoutsRef = useRef<number[]>([]);;
+    const [idProjectSelected, setIdProjectSelected] = useState<number | null>(null);
 
+    const timeoutsRef = useRef<number[]>([]);;
+    const containerProjects = useRef<HTMLDivElement>(null);
 
     const selectTech = (id: number) => {
         const existInArray = idTechSelected.some(tech => id == tech);
@@ -71,8 +73,12 @@ const SectionProjects = ({language}: IPortfolioPart) => {
     }, [idTechSelected])
     
 
+    useEffect(() => {
+        console.log(idProjectSelected);
+    }, [idProjectSelected])
+
     return (
-        <section className="project-section max-w-1250  mx-auto p-5 d-flex flex-column align-items-center gap-5 " id = "project">
+        <section className="project-section max-w-1250 w-100 mx-auto p-5 d-flex flex-column align-items-center gap-5 " id = "project">
             <div className="color-white d-flex flex-column gap-3">
                 <p className="project-title color-ligth-purple font-size-sm-8 animation-falling-down font-weigth-700 text-center text-wrap-pretty">{infoToRender.title}</p>
                 <p className="project-subTitle text-center font-size-3 delay-02s opacity-0 animation-falling-down font-weigth-400">{infoToRender.subTitle}</p>
@@ -92,10 +98,10 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                 }                
             </div>
 
-            <div className = "d-flex gap-6 max-w-1650 delay-06s animation-fadeIn-opacity opacity-0 flex-wrap justify-content-space-between justify-lg-content-center ">
+            <div className = "d-flex gap-6 max-w-1650 w-100 delay-06s animation-fadeIn-opacity opacity-0 flex-wrap justify-lg-content-center position-relative" ref = {containerProjects}>
                 {   
                     projectsToShow.length === 0 ? (
-                        <div className="d-flex flex-column align-items-center gap-3 color-white animation-fadeIn-opacity">
+                        <div className="d-flex flex-column align-items-center justify-content-center gap-3 color-white animation-fadeIn-opacity m-auto">
                             <span className = "material-symbols-outlined font-size-7 ">
                                 sentiment_very_dissatisfied
                             </span>
@@ -108,11 +114,30 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                                 key={project.id}
                                 id = {project.id}
                                 description = {project.description}
-                                image = {project.image}
+                                resumen = {project.resumen}
+                                isSelected = {idProjectSelected === project.id}
+                                prevImage = {project.prevImage}
+                                galleryImg = {project.galleryImg}
                                 technologies = {project.technologies}
                                 title = {project.title}
                                 githubRedirection = {project.githubRedirection}
                                 youtubeRedirection = {project.youtubeRedirection}
+                                showCard = {() => {
+                                    const container = containerProjects.current;
+
+                                    setIdProjectSelected(_ => {
+                                        setTimeout(() => {
+                                            if(container) container.scrollIntoView({
+                                                behavior: 'smooth' 
+                                            });
+                                        }, 200);
+
+                                        return project.id
+                                    });
+                                }}
+                                hideCard = {() => {
+                                    setIdProjectSelected(null);
+                                }}
                             />
                         )) 
                     )

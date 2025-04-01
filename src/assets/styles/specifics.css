@@ -87,7 +87,9 @@
     height: 35px;
 }
 
-
+.card-project-transition{
+    transition: flex-basis .1s ease-in-out;
+}
 
 .card-project:hover{
     box-shadow: 0 0 10px var(--light-purple-light);

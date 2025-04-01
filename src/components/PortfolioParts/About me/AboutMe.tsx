@@ -149,6 +149,7 @@ const AboutMe = ({language}: IPortfolioPart) => {
                                     textToUse.socialMedia.map((el: any, index: number) => (
                                         <Icon
                                             id = {index} 
+                                            key={index}
                                             title = {el.platform}
                                             image = {el.image}
                                             color = "white"

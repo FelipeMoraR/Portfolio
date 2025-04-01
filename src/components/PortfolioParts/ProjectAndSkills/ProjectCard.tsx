@@ -1,11 +1,12 @@
 import { ICardProject, ITechnologieCard } from "../../../interfaces/Interfaces"
-import Button from "../../Button";
 import Icon from "../../Icon";
+import Tag from "../../tag";
+import CarouselImg from "../../CarouselImg";
 
-const ProjectCard = ({image, description, technologies, title, githubRedirection, youtubeRedirection}: ICardProject) => {    
+const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies, title, githubRedirection, youtubeRedirection, isSelected, showCard, hideCard}: ICardProject) => {    
     return(
-        <div className="card-project max-w-350 transition-all-02 max-h-lg-300 overflow-hidden animation-fadeIn-opacity border-solid-light-purple-dark-1  bg-gradint-purple-to-emerald border-radius-2 p-3 d-flex flex-column gap-3 cursor-pointer "
-            onClick={(e) => e.currentTarget.classList.toggle('max-h-lg-600')}
+        <div className={"position-relative  flex-grow-0 flex-shrink-1 overflow-hidden animation-fadeIn-opacity border-solid-light-purple-dark-1  bg-gradint-purple-to-emerald border-radius-2 p-3 d-flex flex-column gap-3  " + (isSelected ? 'flex-basis-100p flex-order-0 card-project-transition' : 'flex-basis-368 flex-order-1 card-project cursor-pointer')}
+            onClick={!isSelected ? showCard : undefined}
         >
             <div className="d-flex flex-column gap-3">
                 <div className="d-flex gap-3">
@@ -16,8 +17,7 @@ const ProjectCard = ({image, description, technologies, title, githubRedirection
                         color = "white"
                         redirection = {githubRedirection}
                         typeRedirection="_blank"
-                        hasToolTip = {false}
-                        
+                        hasToolTip = {false}  
                     />
 
                     <Icon
@@ -29,27 +29,59 @@ const ProjectCard = ({image, description, technologies, title, githubRedirection
                         typeRedirection="_blank"
                         hasToolTip = {false}
                     />
+
+                    {
+                        isSelected ? (
+                            <span 
+                                className="material-symbols-outlined position-absolute top-0 right-0 m-6 cursor-pointer color-adaptative z-index-4"
+                                onClick={hideCard}
+                            >
+                                close
+                            </span>
+                        ) : null
+                    }
+                    
                 </div>
 
-                <div className="container-project-img-card ">
-                    <img src={image} alt = {title}  className="w-100 h-100 object-fit-cover border-radius-2"/>
-                </div>
+
+                {
+                    isSelected ? (
+                        <CarouselImg 
+                            elements={galleryImg}
+                            elementsPerPage={1}
+                        />
+                    ) : (
+                        <div className="container-project-img-card ">
+                            <img src={prevImage} alt = {title}  className="w-100 h-100 object-fit-cover border-radius-2"/>
+                        </div>
+                    ) 
+                }
+                
             </div>
             
-            <div className="d-flex flex-column gap-5">
+            <div className="d-flex flex-column gap-3">
                 <div className="d-flex  gap-3 justify-content-space-between">
                     <p className="color-ligth-purple font-size-5 font-weigth-600 text-transform-capitalize">
                         {title}
                     </p>
+                </div>
+                
 
-                    <div className="techs-card-btn position-relative p-1">
-                        <Button
-                            type = "button"
-                            cssClasses="px-sm-1"
-                            typeBtn = "primary-emerald"
-                            icon="settings"
-                        />
-                        <div className="border-solid-normal-emerald-1 inner-tech-card position-absolute box-shadow-dark-purple-light-0-0-15 d-none bg-gradint-emerald-dark-to-purple bottom-100p right-05rem p-3 border-radius-2 gap-1-05 flex-wrap w-200px ">
+                {
+                    isSelected ? (
+                        <p className="color-white font-size-3">
+                            {description}
+                        </p>
+                    ) : (
+                        <p className="color-white font-size-3">
+                            {resumen}
+                        </p>
+                    ) 
+                }
+                
+                {
+                    isSelected ? (
+                        <div className="d-flex gap-3">
                             {
                                 technologies.map((tech: ITechnologieCard) => (
                                     <Icon
@@ -58,17 +90,39 @@ const ProjectCard = ({image, description, technologies, title, githubRedirection
                                         title = {tech.name}
                                         image = {tech.image}
                                         color = "white"
-                                        hasToolTip = {true}
+                                        hasToolTip = {true} 
                                     />
                                 ))
                             }
                         </div>
-                    </div>
-                </div>
+
+                    ) : (
+                        <div className="d-flex gap-1">
+                            {
+                                technologies.map((tech: ITechnologieCard, index: number) => (
+                                    index < 3 ? (
+                                        <Tag
+                                            key = {tech.id}
+                                            name = {tech.name}
+                                            typeTag = 'normal' 
+                                        />
+                                    ) : null
+                                ))
+                            }
+                            
+                            {
+                                technologies.length > 3 ? (
+                                    <Tag
+                                        name = {`+${technologies.length - 3}`}
+                                        typeTag = 'normal' 
+                                    />
+                                ) : null
+                            }
+
+                        </div>
+                    ) 
+                }
                 
-                <p className="color-white font-size-3 font-style-italic font-weigth-300">
-                    {description}
-                </p>
                 
             </div>
             
