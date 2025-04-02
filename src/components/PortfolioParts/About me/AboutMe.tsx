@@ -89,7 +89,7 @@ const AboutMe = ({language}: IPortfolioPart) => {
                     }}
                 >   
                     <div className="p-05 w-90 color-white">
-                        <div className="bg-gradint-dark-purple-dark-90 p-1 d-flex flex-column gap-1 min-h-366">
+                        <div className="bg-gradint-dark-purple-dark-90 p-1 d-flex flex-column gap-1 min-h-250 max-w-500 w-100">
                             <p className="color-lavanda-dark text-transform-capitalize font-size-5 font-weigth-700">{textToUse.description.myName}</p>
                             <p className="color-emerald text-transform-capitalize font-size-4 font-weigth-500">{textToUse.description.charge}</p>
                             <p className="color-white font-size-3 text-transform-capitalize">{textToUse.description.resume}</p>
@@ -127,7 +127,7 @@ const AboutMe = ({language}: IPortfolioPart) => {
                     }}
                 >   
                     <div className="p-05 w-90 color-white">
-                        <div className="bg-gradint-dark-purple-dark-270 p-1 d-flex flex-column gap-3 min-h-366">
+                        <div className="bg-gradint-dark-purple-dark-270 p-1 d-flex flex-column gap-3 min-h-250 max-w-500 w-100">
                             <div className="d-flex gap-3 justify-content-space-between">
                                 <p className="color-emerald text-transform-capitalize font-size-5 font-weigth-700">{textToUse.moreInfo.title}</p>
                                 <div className="d-flex gap-1 justify-content-center align-items-center">

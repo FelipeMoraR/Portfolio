@@ -1348,7 +1348,7 @@ export const translationSectionAboutMe: any = {
             title: 'About Me',
             myName: 'Felipe Mora',
             charge: 'Junior Full Stack Developer',
-            resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+            resume: "Hello, my name is Felipe Mora, a passionate fan of problem-solving and developing both web and desktop applications and components. I enjoy learning new things, as I believe that's the most exciting part of my day-to-day work and what I'm truly passionate about.",
         },
         images: {
             imageMidle: 'src/assets/images/aboutme/yo.jpg',
@@ -1358,7 +1358,7 @@ export const translationSectionAboutMe: any = {
         moreInfo: {
             title: "More About Me",
             cv: '',
-            textBody: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+            textBody: 'more more more more more '
         },
         socialMedia: [
             {
@@ -1383,7 +1383,7 @@ export const translationSectionAboutMe: any = {
             title: 'Sobre mí',
             myName: 'Felipe Mora',
             charge: 'Desarrollador Full Stack Junior',
-            resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+            resume: 'Hola, mi nombre es Felipe Mora, un apasionado por la resolución de problemas y el desarrollo de aplicaciones y componentes tanto web como de escritorio. Disfruto aprender cosas nuevas, ya que creo que esa es la parte más emocionante del día a día y lo que realmente me apasiona.',
         },
         images: {
             imageMidle: 'src/assets/images/aboutme/yo.jpg',
@@ -1393,7 +1393,7 @@ export const translationSectionAboutMe: any = {
         moreInfo: {
             title: "Más sobre mí",
             cv: '',
-            textBody: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+            textBody: 'mas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas mas'
         },
         socialMedia: [
             {
@@ -1418,7 +1418,7 @@ export const translationSectionAboutMe: any = {
             title: 'Sobre mim',
             myName: 'Felipe Mora',
             charge: 'Desenvolvedor Full Stack Júnior',
-            resume: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
+            resume: 'Olá, meu nome é Felipe Mora, sou apaixonado por resolução de problemas e desenvolvimento de aplicações e componentes web e desktop. Gosto de aprender coisas novas, pois acredito que essa é a parte mais emocionante da vida cotidiana e aquilo que realmente me apaixona.',
         },
         images: {
             imageMidle: 'src/assets/images/aboutme/yo.jpg',
@@ -1428,7 +1428,7 @@ export const translationSectionAboutMe: any = {
         moreInfo: {
             title: "Mais sobre mim",
             cv: '',
-            textBody: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+            textBody: 'mais mais mais mais mais mais mais'
         },
         socialMedia: [
             {

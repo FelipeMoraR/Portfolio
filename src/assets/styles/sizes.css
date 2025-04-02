@@ -156,6 +156,10 @@
     min-height: 366px;
 }
 
+.min-h-250{
+    min-height: 250px;
+}
+
 .min-h-38 {
     min-height: 38px;
 }
