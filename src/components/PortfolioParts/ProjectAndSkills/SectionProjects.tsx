@@ -29,6 +29,9 @@ const SectionProjects = ({language}: IPortfolioPart) => {
     }
 
     useEffect(() => {
+        
+        setIdProjectSelected(null);
+
         //Clear the previous timers
         timeoutsRef.current.forEach(timeout => clearTimeout(timeout));
         timeoutsRef.current = [];
@@ -70,12 +73,10 @@ const SectionProjects = ({language}: IPortfolioPart) => {
             timeoutsRef.current.forEach(timeout => clearTimeout(timeout));
         };
 
-    }, [idTechSelected])
+    }, [idTechSelected, language])
     
 
-    useEffect(() => {
-        console.log(idProjectSelected);
-    }, [idProjectSelected])
+    
 
     return (
         <section className="project-section max-w-1250 w-100 mx-auto p-5 d-flex flex-column align-items-center gap-5 " id = "project">
@@ -122,6 +123,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                                 title = {project.title}
                                 githubRedirection = {project.githubRedirection}
                                 youtubeRedirection = {project.youtubeRedirection}
+                                externalLink = {project.externalLink}
                                 showCard = {() => {
                                     const container = containerProjects.current;
 

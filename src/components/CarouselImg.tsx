@@ -83,14 +83,16 @@ const CarouselImg = ({ elements, elementsPerPage }: ICarousel) => {
         return () => window.removeEventListener('resize', resetCarrousel);
     }, [elements, elementsPerPage]);
 
+    if(elements.length === 0) return null;
+
     return (
         <>
-            <div className="w-100 d-flex flex-column align-items-center position-relative">
+            <div className="w-100 d-flex flex-column align-items-center position-relative max-w-700 m-auto">
 
-                <div className="carousel-container d-flex gap-3 overflow-hidden " ref={containerCarousel}>
+                <div className="w-100 d-flex gap-3 overflow-hidden max-w-500" ref={containerCarousel}>
                     {
                         elementsGrouped.map((element, index) => (
-                            <div className="box-certificate border-solid-normal-emerald-light-2 border-radius-2 p-3 flex-shrink-0 position-relative d-flex gap-6" key={index}
+                            <div className="box-certificate-img border-solid-normal-emerald-light-2 border-radius-2 p-3 flex-shrink-0 position-relative d-flex gap-6" key={index}
                                 ref={(el) => {
                                     if (!el) return;
 
@@ -102,14 +104,8 @@ const CarouselImg = ({ elements, elementsPerPage }: ICarousel) => {
 
                                 {
                                     element.map((img: any, imgIndex: number) => (
-                                        <div key={imgIndex} className="w-100 h-100 d-flex flex-column gap-3 p-3 ">
-                                            
-
-                                            <div className="w-100 h-100 d-flex justify-content-center overflow-hidden">
-                                                <img src={img} alt={'imgInner' + imgIndex} className="w-100 h-100 object-fit-cover no-select " />
-                                            </div>
-
-
+                                        <div key={imgIndex} className="w-100 h-100">
+                                            <img src={img} alt={'imgInner' + imgIndex} className="w-100 h-100 object-fit-contain no-select overflow-hidden" />
                                         </div>
                                     ))
                                 }

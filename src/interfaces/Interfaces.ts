@@ -46,8 +46,9 @@ export interface ICardProject{
     isSelected: boolean;
     description: string;
     technologies: Array<ITechnologieCard>;
-    githubRedirection: string;
-    youtubeRedirection?:string; 
+    githubRedirection?: string;
+    youtubeRedirection?:string;
+    externalLink?: string;
     showCard: () => void;
     hideCard: () => void;
 }

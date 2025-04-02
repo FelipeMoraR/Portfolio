@@ -122,7 +122,7 @@ const Contact = ({ language } : IContact) => {
             const validInputs = ['email', 'username', 'message'].filter(
                 (field) => validateInputIsNotNull(updatedForm[field as keyof IFormValues])
             ).length; //Iterate tho the keys of the object and check if the value is not empty
-            console.log('valid => ', validInputs);
+            
             setFormPartCompleted(validInputs);
 
             return updatedForm;
@@ -165,9 +165,6 @@ const Contact = ({ language } : IContact) => {
         
     }, [counterClickForm]);
 
-    useEffect(() => {
-        console.log(formData);
-    }, [formData]);
 
     return(
         <>

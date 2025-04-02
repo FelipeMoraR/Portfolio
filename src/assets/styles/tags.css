@@ -1,0 +1,12 @@
+.normal-tag{
+    font-size: .7rem;
+    border-radius: 4px;
+    padding: .2rem;
+    background-color: var(--normal-purple);
+    color: var(--emerald-light-2);
+}
+
+.normal-tag:hover{
+    background-color: var(--normal-purple-dark);
+    color: var(--emerald-light);
+}

@@ -53,6 +53,11 @@
     max-width: 600px;
 }
 
+.max-w-700{
+    max-width: 700px;
+}
+
+
 .max-w-900{
     max-width: 900px;
 }
@@ -149,6 +154,14 @@
 
 .min-h-366{
     min-height: 366px;
+}
+
+.min-h-38 {
+    min-height: 38px;
+}
+
+.min-h-35 {
+    min-height: 35px;
 }
 
 /*XL*/

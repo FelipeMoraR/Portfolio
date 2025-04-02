@@ -3,32 +3,55 @@ import Icon from "../../Icon";
 import Tag from "../../tag";
 import CarouselImg from "../../CarouselImg";
 
-const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies, title, githubRedirection, youtubeRedirection, isSelected, showCard, hideCard}: ICardProject) => {    
+const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies, title, githubRedirection, youtubeRedirection, externalLink, isSelected, showCard, hideCard}: ICardProject) => {    
     return(
         <div className={"position-relative  flex-grow-0 flex-shrink-1 overflow-hidden animation-fadeIn-opacity border-solid-light-purple-dark-1  bg-gradint-purple-to-emerald border-radius-2 p-3 d-flex flex-column gap-3  " + (isSelected ? 'flex-basis-100p flex-order-0 card-project-transition' : 'flex-basis-368 flex-order-1 card-project cursor-pointer')}
             onClick={!isSelected ? showCard : undefined}
         >
             <div className="d-flex flex-column gap-3">
-                <div className="d-flex gap-3">
-                    <Icon
-                        id = {99} 
-                        title = "github"
-                        image = "src/assets/images/icons/github.png"
-                        color = "white"
-                        redirection = {githubRedirection}
-                        typeRedirection="_blank"
-                        hasToolTip = {false}  
-                    />
-
-                    <Icon
-                        id = {100} 
-                        title = "youtube"
-                        image = "src/assets/images/icons/youtube.png"
-                        color = "white"
-                        redirection = {youtubeRedirection}
-                        typeRedirection="_blank"
-                        hasToolTip = {false}
-                    />
+                <div className="d-flex gap-3 min-h-35">
+                    {
+                        githubRedirection !== '' ? (
+                            <Icon
+                                id = {99} 
+                                title = "github"
+                                image = "src/assets/images/icons/github.png"
+                                color = "white"
+                                redirection = {githubRedirection}
+                                typeRedirection="_blank"
+                                hasToolTip = {false}  
+                            />
+                        ) : null
+                    }
+                    
+                    {
+                        youtubeRedirection !== '' ? (
+                            <Icon
+                                id = {100} 
+                                title = "youtube"
+                                image = "src/assets/images/icons/youtube.png"
+                                color = "white"
+                                redirection = {youtubeRedirection}
+                                typeRedirection="_blank"
+                                hasToolTip = {false}
+                            />
+                        ) : null
+                    }
+                        
+                    {
+                        externalLink !== '' ? (
+                            <Icon
+                                id = {101} 
+                                title = "link"
+                                image = "src/assets/images/icons/redirection.png"
+                                color = "white"
+                                redirection = {externalLink}
+                                typeRedirection="_blank"
+                                hasToolTip = {false}
+                            />
+                        ) : null
+                    }
+                    
 
                     {
                         isSelected ? (
@@ -45,16 +68,11 @@ const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies,
 
 
                 {
-                    isSelected ? (
-                        <CarouselImg 
-                            elements={galleryImg}
-                            elementsPerPage={1}
-                        />
-                    ) : (
+                    !isSelected ? (
                         <div className="container-project-img-card ">
                             <img src={prevImage} alt = {title}  className="w-100 h-100 object-fit-cover border-radius-2"/>
                         </div>
-                    ) 
+                    ) : null
                 }
                 
             </div>
@@ -69,17 +87,17 @@ const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies,
 
                 {
                     isSelected ? (
-                        <p className="color-white font-size-3">
+                        <p className="color-white font-size-3 white-space-pre-line">
                             {description}
                         </p>
                     ) : (
-                        <p className="color-white font-size-3">
+                        <p className="color-white font-size-3 min-h-38">
                             {resumen}
                         </p>
                     ) 
                 }
-                
-                {
+
+{
                     isSelected ? (
                         <div className="d-flex gap-3">
                             {
@@ -104,7 +122,7 @@ const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies,
                                         <Tag
                                             key = {tech.id}
                                             name = {tech.name}
-                                            typeTag = 'normal' 
+                                            typeTag = 'normal-tag' 
                                         />
                                     ) : null
                                 ))
@@ -114,7 +132,7 @@ const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies,
                                 technologies.length > 3 ? (
                                     <Tag
                                         name = {`+${technologies.length - 3}`}
-                                        typeTag = 'normal' 
+                                        typeTag = 'normal-tag' 
                                     />
                                 ) : null
                             }
@@ -122,6 +140,17 @@ const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies,
                         </div>
                     ) 
                 }
+                
+                {
+                    isSelected ? (
+                        <CarouselImg 
+                            elements={galleryImg}
+                            elementsPerPage={1}
+                        />
+                    ) : null
+                }
+
+                
                 
                 
             </div>
