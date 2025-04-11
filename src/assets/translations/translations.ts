@@ -1267,24 +1267,19 @@ export const translationSectionCertificates: any = {
         title: 'Certificates',
         certificates: [
             {
-                title: 'title1',
-                enterprice: 'enterprice1',
+                title: 'Engineering degree',
+                enterprice: 'Duoc Uc',
                 img: 'src/assets/certificates/titleCertificate.jpg' 
             },
             {
-                title: 'title2e',
-                enterprice: 'enterprice2',
+                title: 'Basic JS course',
+                enterprice: 'Udemy',
                 img: 'src/assets/certificates/certificadoJs.jpg' 
             },
             {
-                title: 'title3',
-                enterprice: 'enterprice3',
-                img: 'src/assets/certificates/titleCertificate.jpg' 
-            },
-            {
-                title: 'title4',
-                enterprice: 'enterprice4',
-                img: 'src/assets/certificates/titleCertificate.jpg' 
+                title: 'Responsive design',
+                enterprice: 'FreeCodeCamp',
+                img: 'src/assets/certificates/freeCodeCampHtml.jpg'
             },
         ]
     },
@@ -1292,24 +1287,19 @@ export const translationSectionCertificates: any = {
         title: 'Certificados',
         certificates: [
             {
-                title: 'title1',
-                enterprice: 'enterprice1',
+                title: 'Titulo ingenieria',
+                enterprice: 'Duoc Uc',
                 img: 'src/assets/certificates/titleCertificate.jpg' 
             },
             {
-                title: 'title2o',
-                enterprice: 'enterprice2',
+                title: 'Curso basico JS',
+                enterprice: 'Udemy',
                 img: 'src/assets/certificates/certificadoJs.jpg' 
             },
             {
-                title: 'title3',
-                enterprice: 'enterprice3',
-                img: 'src/assets/certificates/titleCertificate.jpg' 
-            },
-            {
-                title: 'title4',
-                enterprice: 'enterprice4',
-                img: 'src/assets/certificates/titleCertificate.jpg' 
+                title: 'Diseño responsivo',
+                enterprice: 'FreeCodeCamp',
+                img: 'src/assets/certificates/freeCodeCampHtml.jpg' 
             },
         ]
     },
@@ -1317,24 +1307,19 @@ export const translationSectionCertificates: any = {
         title: 'Certificados',
         certificates: [
             {
-                title: 'title1',
-                enterprice: 'enterprice1',
+                title: 'Grau de engenharia',
+                enterprice: 'Duoc Uc',
                 img: 'src/assets/certificates/titleCertificate.jpg' 
             },
             {
-                title: 'title2u',
-                enterprice: 'enterprice2',
+                title: 'Curso básico de JS',
+                enterprice: 'Udemy',
                 img: 'src/assets/certificates/certificadoJs.jpg' 
             },
             {
-                title: 'title3',
-                enterprice: 'enterprice3',
-                img: 'src/assets/certificates/titleCertificate.jpg' 
-            },
-            {
-                title: 'title4',
-                enterprice: 'enterprice4',
-                img: 'src/assets/certificates/titleCertificate.jpg' 
+                title: 'Design responsivo',
+                enterprice: 'FreeCodeCamp',
+                img: 'src/assets/certificates/freeCodeCampHtml.jpg' 
             },
         ]
     }
@@ -1357,7 +1342,7 @@ export const translationSectionAboutMe: any = {
         },
         moreInfo: {
             title: "More About Me",
-            cv: '',
+            cv: 'src/assets/cv/cvEng.pdf',
             textBody: 'more more more more more '
         },
         socialMedia: [
@@ -1392,7 +1377,7 @@ export const translationSectionAboutMe: any = {
         },
         moreInfo: {
             title: "Más sobre mí",
-            cv: '',
+            cv: 'src/assets/cv/cv.pdf',
             textBody: 'mas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas mas'
         },
         socialMedia: [
@@ -1427,7 +1412,7 @@ export const translationSectionAboutMe: any = {
         },
         moreInfo: {
             title: "Mais sobre mim",
-            cv: '',
+            cv: 'src/assets/cv/cvPt.pdf',
             textBody: 'mais mais mais mais mais mais mais'
         },
         socialMedia: [

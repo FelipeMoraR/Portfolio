@@ -98,7 +98,7 @@ const CarouselCertificate = ({ elements, elementsPerPage }: ICarousel) => {
         <>
             <Modal
                 showModal = {isOpenModal('certificate')}
-                title = "test img"
+                title = "Certificate"
                 typeModal = "image"
                 text = {imgModal}
                 hideModal = {hideModalCertificate}
@@ -122,7 +122,7 @@ const CarouselCertificate = ({ elements, elementsPerPage }: ICarousel) => {
 
                                 {
                                     element.map((cer: any, cerIndex: number) => (
-                                        <div key={cerIndex} className="w-100 h-100 d-flex flex-column gap-3 p-3 ">
+                                        <div key={cerIndex} className="w-100 h-100 d-flex flex-column gap-3 p-3 max-w-463 border-solid-normal-emerald-1 border-radius-2">
                                             <div className="d-flex justify-content-space-between ">
                                                 <div className = "d-flex flex-column gap-3">
                                                     <p className="color-emerald text-transform-capitalize font-size-5 font-weigth-700">{cer.title}</p>

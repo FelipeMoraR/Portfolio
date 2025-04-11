@@ -92,7 +92,7 @@ const AboutMe = ({language}: IPortfolioPart) => {
                         <div className="bg-gradint-dark-purple-dark-90 p-1 d-flex flex-column gap-1 min-h-250 max-w-500 w-100">
                             <p className="color-lavanda-dark text-transform-capitalize font-size-5 font-weigth-700">{textToUse.description.myName}</p>
                             <p className="color-emerald text-transform-capitalize font-size-4 font-weigth-500">{textToUse.description.charge}</p>
-                            <p className="color-white font-size-3 text-transform-capitalize">{textToUse.description.resume}</p>
+                            <p className="color-white font-size-3">{textToUse.description.resume}</p>
                         </div>
                     </div>
                     
