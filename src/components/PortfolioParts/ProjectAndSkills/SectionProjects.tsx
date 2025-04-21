@@ -76,6 +76,16 @@ const SectionProjects = ({language}: IPortfolioPart) => {
     }, [idTechSelected, language])
     
 
+    useEffect(() => {
+        if (idProjectSelected && containerProjects.current) {
+            requestAnimationFrame(() => {
+              containerProjects.current?.scrollIntoView({ behavior: 'smooth' });
+            });
+          }
+         
+      }, [idProjectSelected]);
+      
+
     
 
     return (
@@ -125,17 +135,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
                                 youtubeRedirection = {project.youtubeRedirection}
                                 externalLink = {project.externalLink}
                                 showCard = {() => {
-                                    const container = containerProjects.current;
-
-                                    setIdProjectSelected(_ => {
-                                        setTimeout(() => {
-                                            if(container) container.scrollIntoView({
-                                                behavior: 'smooth' 
-                                            });
-                                        }, 200);
-
-                                        return project.id
-                                    });
+                                    setIdProjectSelected(project.id);
                                 }}
                                 hideCard = {() => {
                                     setIdProjectSelected(null);

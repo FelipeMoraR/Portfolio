@@ -57,20 +57,33 @@ const ChooseLanguage = ({ setCurrentLanguage, setIsLanguageChoosed, typeView, la
 
         <div className="d-flex justify-content-flex-end animation-fadeIn-opacity mx-3" >
           <div className="d-flex gap-3 p-1">
-            <div className="border-radius-100p position-relative flag-icon-page border-solid-white-1 cursor-pointer" onClick={() => updateLanguagePage('es')} >
+            <div className="border-radius-100p position-relative flag-icon-page border-solid-white-1 cursor-pointer" 
+              onClick={() => { 
+                const localStorageLang = localStorage.getItem('language');  
+                if (localStorageLang === 'es') return;
+                updateLanguagePage('es');  }} 
+            >
               <img className="w-100 h-100 border-radius-100p object-fit-cover" src="src/assets/images/flags/cl.png" alt="esFlag" />
 
               <p className="color-white opacity-0 font-size-2 text-center">Es</p>
             </div>
 
-            <div className="border-radius-100p position-relative flag-icon-page border-solid-white-1 cursor-pointer" onClick={() => updateLanguagePage('en')}>
+            <div className="border-radius-100p position-relative flag-icon-page border-solid-white-1 cursor-pointer" onClick={() => {
+                const localStorageLang = localStorage.getItem('language');  
+                if (localStorageLang === 'en') return;
+                updateLanguagePage('en'); }}
+              >
               <img className="w-100 h-100 border-radius-100p object-fit-cover" src="src/assets/images/flags/us.png" alt="enFlag" />
 
               <p className="color-white opacity-0 font-size-2 text-center">En</p>
             </div>
 
 
-            <div className="border-radius-100p position-relative flag-icon-page border-solid-white-1 cursor-pointer" onClick={() => updateLanguagePage('pt')} >
+            <div className="border-radius-100p position-relative flag-icon-page border-solid-white-1 cursor-pointer" onClick={() => {
+                const localStorageLang = localStorage.getItem('language');  
+                if (localStorageLang === 'pt') return;
+                updateLanguagePage('pt'); }} 
+              >
               <img className="w-100 h-100 border-radius-100p object-fit-cover " src="src/assets/images/flags/br.png" alt="ptFlag" />
 
               <p className="color-white opacity-0 font-size-2 text-center">Pt</p>

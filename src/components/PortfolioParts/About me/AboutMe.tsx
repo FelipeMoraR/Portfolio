@@ -92,7 +92,23 @@ const AboutMe = ({language}: IPortfolioPart) => {
                         <div className="bg-gradint-dark-purple-dark-90 p-1 d-flex flex-column gap-1 min-h-250 max-w-500 w-100">
                             <p className="color-lavanda-dark text-transform-capitalize font-size-5 font-weigth-700">{textToUse.description.myName}</p>
                             <p className="color-emerald text-transform-capitalize font-size-4 font-weigth-500">{textToUse.description.charge}</p>
-                            <p className="color-white font-size-3">{textToUse.description.resume}</p>
+                            <p className="color-white font-size-3 white-space-pre-line">{textToUse.description.resume}</p>
+                            <div className="d-flex gap-3">
+                                {
+                                    textToUse.socialMedia.map((el: any, index: number) => (
+                                        <Icon
+                                            id = {index} 
+                                            key={index}
+                                            title = {el.platform}
+                                            image = {el.image}
+                                            color = "white"
+                                            redirection = {el.redirection}
+                                            typeRedirection="_blank"
+                                            hasToolTip = {false}
+                                        />
+                                    ))
+                                }
+                            </div>
                         </div>
                     </div>
                     
@@ -141,25 +157,10 @@ const AboutMe = ({language}: IPortfolioPart) => {
                                 
                             </div>
                             
-                            <p className="color-white font-size-3 text-transform-capitalize"> {textToUse.moreInfo.textBody} </p>
+                            <p className="color-white font-size-3 white-space-pre-line"> {textToUse.moreInfo.textBody} </p>
                             
 
-                            <div className="d-flex gap-3">
-                                {
-                                    textToUse.socialMedia.map((el: any, index: number) => (
-                                        <Icon
-                                            id = {index} 
-                                            key={index}
-                                            title = {el.platform}
-                                            image = {el.image}
-                                            color = "white"
-                                            redirection = {el.redirection}
-                                            typeRedirection="_blank"
-                                            hasToolTip = {false}
-                                        />
-                                    ))
-                                }
-                            </div>
+                            
                         </div>
                     </div>
                     

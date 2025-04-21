@@ -577,6 +577,46 @@ export const translationsSectionProject: any = {
                         image: 'src/assets/images/icons/react.png'
                     },
                 ]
+            },
+            {
+                id: 7,
+                title: 'Compromiso Pro',
+                prevImage: 'src/assets/images/cardProject/pre-cpro.png',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgCPro1.png',
+                    'src/assets/images/cardProject/imgCPro2.png',
+                    'src/assets/images/cardProject/imgCPro3.png',
+                ],
+                resumen: 'Support in repairing components and developing some internal landing pages.',
+                description: `In this project, I performed more of a fixer's role, repairing non-functioning components or issues that QA was raising, and also developing some internal landing pages (one of them being the internal tool view).
+
+In this project, I learned more about the interaction one has with the client, as I was constantly in meetings with clients where they also raised issues that I had to resolve on the spot.
+                `,
+                githubRedirection: '',
+                youtubeRedirection: '',
+                externalLink: 'https://www.compromisopro.cl/',
+                technologies: [
+                    {
+                        id: 1,
+                        name: 'HTML',
+                        image: 'src/assets/images/icons/html.png'
+                    },
+                    {
+                        id: 2,
+                        name: 'CSS',
+                        image: 'src/assets/images/icons/css.png'
+                    },
+                    {
+                        id: 3,
+                        name: 'JavaScript',
+                        image: 'src/assets/images/icons/js.png'
+                    },
+                    {
+                        id: 12,
+                        name: 'Liferay',
+                        image: 'src/assets/images/icons/liferay.png'
+                    },
+                ]
             }
         ]
     },
@@ -886,6 +926,46 @@ export const translationsSectionProject: any = {
                         id: 5,
                         name: 'React',
                         image: 'src/assets/images/icons/react.png'
+                    },
+                ]
+            },
+            {
+                id: 7,
+                title: 'Compromiso Pro',
+                prevImage: 'src/assets/images/cardProject/pre-cpro.png',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgCPro1.png',
+                    'src/assets/images/cardProject/imgCPro2.png',
+                    'src/assets/images/cardProject/imgCPro3.png',
+                ],
+                resumen: 'Apoyo reparando componentes y desarrollo de algunas landings internas.',
+                description: `En este proyecto realice mas la tarea de un fixer, reparando componentes que no funcionaban o problemas que QA iba levantando y ,ademas ,desarrollando algunas landings internas (Una de ellas es la vista interna de herramientas). 
+
+                    En este proyecto aprendí mas cosas relacionadas a la interaccion que uno tiene con el cliente, pues estaba constantemente en reuniones con cliente donde tambien él en el momento levantaba problematicas que debia resolver en el momento.
+                `,
+                githubRedirection: '',
+                youtubeRedirection: '',
+                externalLink: 'https://www.compromisopro.cl/',
+                technologies: [
+                    {
+                        id: 1,
+                        name: 'HTML',
+                        image: 'src/assets/images/icons/html.png'
+                    },
+                    {
+                        id: 2,
+                        name: 'CSS',
+                        image: 'src/assets/images/icons/css.png'
+                    },
+                    {
+                        id: 3,
+                        name: 'JavaScript',
+                        image: 'src/assets/images/icons/js.png'
+                    },
+                    {
+                        id: 12,
+                        name: 'Liferay',
+                        image: 'src/assets/images/icons/liferay.png'
                     },
                 ]
             }
@@ -1199,6 +1279,46 @@ export const translationsSectionProject: any = {
                         image: 'src/assets/images/icons/react.png'
                     },
                 ]
+            },
+            {
+                id: 7,
+                title: 'Compromiso Pro',
+                prevImage: 'src/assets/images/cardProject/pre-cpro.png',
+                galleryImg: [
+                    'src/assets/images/cardProject/imgCPro1.png',
+                    'src/assets/images/cardProject/imgCPro2.png',
+                    'src/assets/images/cardProject/imgCPro3.png',
+                ],
+                resumen: 'Suporte no reparo de componentes e desenvolvimento de algumas landing pages internas.',
+                description: `Neste projeto, realizei mais uma tarefa de consertador, consertando componentes que não funcionavam ou problemas que o QA estava levantando e, além disso, desenvolvendo algumas landing pages internas (uma delas sendo a visão interna das ferramentas).
+
+Neste projeto, aprendi mais sobre a interação que se tem com o cliente, pois estava constantemente em reuniões com clientes onde eles também levantavam problemas que eu tinha que resolver na hora.
+                `,
+                githubRedirection: '',
+                youtubeRedirection: '',
+                externalLink: 'https://www.compromisopro.cl/',
+                technologies: [
+                    {
+                        id: 1,
+                        name: 'HTML',
+                        image: 'src/assets/images/icons/html.png'
+                    },
+                    {
+                        id: 2,
+                        name: 'CSS',
+                        image: 'src/assets/images/icons/css.png'
+                    },
+                    {
+                        id: 3,
+                        name: 'JavaScript',
+                        image: 'src/assets/images/icons/js.png'
+                    },
+                    {
+                        id: 12,
+                        name: 'Liferay',
+                        image: 'src/assets/images/icons/liferay.png'
+                    },
+                ]
             }
         ]
     },
@@ -1333,7 +1453,9 @@ export const translationSectionAboutMe: any = {
             title: 'About Me',
             myName: 'Felipe Mora',
             charge: 'Junior Full Stack Developer',
-            resume: "Hello, my name is Felipe Mora, a passionate fan of problem-solving and developing both web and desktop applications and components. I enjoy learning new things, as I believe that's the most exciting part of my day-to-day work and what I'm truly passionate about.",
+            resume: `Hello, my name is Felipe Mora, a passionate fan of problem-solving and developing both web and desktop applications/components. 
+            
+            I enjoy learning new things, as I believe that's the most exciting part of my day-to-day work and what I'm truly passionate about.`,
         },
         images: {
             imageMidle: 'src/assets/images/aboutme/yo.jpg',
@@ -1343,7 +1465,11 @@ export const translationSectionAboutMe: any = {
         moreInfo: {
             title: "More About Me",
             cv: 'src/assets/cv/cvEng.pdf',
-            textBody: 'more more more more more '
+            textBody: `I like cooking. It's a hobby I usually turn to when I'm going through really stressful periods. If the weather isn't good, I usually play a game or two on the PC or watch a movie or series (my favorites are Arcane and Pulp Fiction).
+
+                I usually exercise, mainly weightlifting or lifting heavy objects. I honestly don't know why I find it so entertaining, but I like it.
+
+                I really like astronomy and helping people, which is evident in my thesis project ;)`
         },
         socialMedia: [
             {
@@ -1368,7 +1494,9 @@ export const translationSectionAboutMe: any = {
             title: 'Sobre mí',
             myName: 'Felipe Mora',
             charge: 'Desarrollador Full Stack Junior',
-            resume: 'Hola, mi nombre es Felipe Mora, un apasionado por la resolución de problemas y el desarrollo de aplicaciones y componentes tanto web como de escritorio. Disfruto aprender cosas nuevas, ya que creo que esa es la parte más emocionante del día a día y lo que realmente me apasiona.',
+            resume: `Hola, mi nombre es Felipe Mora, un apasionado por la resolución de problemas y el desarrollo de aplicaciones/componentes tanto web como de escritorio. 
+            
+            Disfruto aprender cosas nuevas, ya que creo que esa es la parte más emocionante del día a día y lo que realmente me apasiona.`,
         },
         images: {
             imageMidle: 'src/assets/images/aboutme/yo.jpg',
@@ -1378,7 +1506,12 @@ export const translationSectionAboutMe: any = {
         moreInfo: {
             title: "Más sobre mí",
             cv: 'src/assets/cv/cv.pdf',
-            textBody: 'mas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas masmas mas mas mas mas mas mas'
+            textBody: `Me gusta cocinar, es un hobby que suelo utilizar cuando paso por periodos muy grandes de estres, si el tiempo no acompaña suelo jugar algun que otro juego en el pc o ver alguna pelicula/serie (mis favoritas son Arcane y Pulp fiction).
+
+                    Suelo hacer deporte, principalmente el levantamiento de pesas o cargar cosas pesadas, la verdad no se pq me entretiene tanto eso, pero me gusta.
+                    
+                    Me gusta mucho la astronomia y el ayudar a las personas, eso se demuestra en mi proyecto de titulo ;).
+                `
         },
         socialMedia: [
             {
@@ -1403,7 +1536,9 @@ export const translationSectionAboutMe: any = {
             title: 'Sobre mim',
             myName: 'Felipe Mora',
             charge: 'Desenvolvedor Full Stack Júnior',
-            resume: 'Olá, meu nome é Felipe Mora, sou apaixonado por resolução de problemas e desenvolvimento de aplicações e componentes web e desktop. Gosto de aprender coisas novas, pois acredito que essa é a parte mais emocionante da vida cotidiana e aquilo que realmente me apaixona.',
+            resume: `Olá, meu nome é Felipe Mora, sou apaixonado por resolução de problemas e desenvolvimento de aplicações e componentes web e desktop. 
+            
+            Gosto de aprender coisas novas, pois acredito que essa é a parte mais emocionante da vida cotidiana e aquilo que realmente me apaixona.`,
         },
         images: {
             imageMidle: 'src/assets/images/aboutme/yo.jpg',
@@ -1413,7 +1548,11 @@ export const translationSectionAboutMe: any = {
         moreInfo: {
             title: "Mais sobre mim",
             cv: 'src/assets/cv/cvPt.pdf',
-            textBody: 'mais mais mais mais mais mais mais'
+            textBody: `Gosto de cozinhar, é um hobby que costumo usar quando passo por períodos muito longos de estresse, se o tempo não estiver bom costumo jogar algum jogo no PC ou assistir um filme/série (meus favoritos são Arcane e Pulp Fiction).
+
+Eu costumo praticar esportes, principalmente levantamento de peso ou levantar coisas pesadas. Realmente não sei por que gosto tanto, mas gosto.
+
+Gosto muito de astronomia e de ajudar as pessoas, e isso fica evidente no meu projeto de tese ;)`
         },
         socialMedia: [
             {
