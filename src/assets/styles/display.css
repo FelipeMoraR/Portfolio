@@ -305,6 +305,9 @@
 
 /*LG*/
 @media (max-width: 1024px){
+    .justify-lg-content-left{
+        justify-content: left;
+    }
     .flex-lg-column {
         flex-direction: column;
     }

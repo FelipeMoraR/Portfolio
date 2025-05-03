@@ -144,9 +144,9 @@ const AboutMe = ({language}: IPortfolioPart) => {
                 >   
                     <div className="p-05 w-90 color-white">
                         <div className="bg-gradint-dark-purple-dark-270 p-1 d-flex flex-column gap-3 min-h-250 max-w-500 w-100">
-                            <div className="d-flex gap-3 justify-content-space-between">
+                            <div className="d-flex gap-3 justify-content-space-between flex-lg-column">
                                 <p className="color-emerald text-transform-capitalize font-size-5 font-weigth-700">{textToUse.moreInfo.title}</p>
-                                <div className="d-flex gap-1 justify-content-center align-items-center">
+                                <div className="d-flex gap-1 justify-content-center align-items-center justify-lg-content-left">
                                     <p className="color-emerald d-flex justify-content-center align-items-center">Cv:</p>
                                     <a className="icon icon-white h-min-content w-fit-content border-radius-100p p-1 color-white d-flex justify-content-center align-items-center" download={true} href={textToUse.moreInfo.cv} >
                                         <span className="material-symbols-outlined">

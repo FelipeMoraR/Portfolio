@@ -115,6 +115,10 @@
     order: 2;
 }
 
+.tech-selected-size {
+    max-width: 100%;
+}
+
 
 /*XL*/
 @media (max-width: 1300px){
