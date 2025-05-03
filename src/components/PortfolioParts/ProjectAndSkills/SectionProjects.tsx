@@ -78,12 +78,13 @@ const SectionProjects = ({language}: IPortfolioPart) => {
 
     useEffect(() => {
         if (idProjectSelected && containerProjects.current) {
-            requestAnimationFrame(() => {
-              containerProjects.current?.scrollIntoView({ behavior: 'smooth' });
-            });
-          }
-         
-      }, [idProjectSelected]);
+            const timeout = setTimeout(() => {
+                containerProjects.current?.scrollIntoView({ behavior: 'smooth' });
+            }, 0); // Ejecuta después del render
+    
+            return () => clearTimeout(timeout); // Limpia el timeout si el efecto se desmonta
+        }
+    }, [idProjectSelected]);
       
 
     

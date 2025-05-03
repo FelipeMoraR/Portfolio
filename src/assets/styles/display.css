@@ -152,6 +152,10 @@
     overflow-y: scroll;
 }
 
+.overflow-auto {
+    overflow-y: auto;
+}
+
 /* BACKGROUNDS */
 .bg-normal-purple {
     background-color: var(--normal-purple);

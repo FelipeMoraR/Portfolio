@@ -279,17 +279,13 @@ export const translationsSectionProject: any = {
                 id: 1,
                 title: 'CCHC Company',
                 prevImage: 'src/assets/images/cardProject/pre-camara.png',
-                galleryImg: [
-                    'src/assets/images/cardProject/imgCamara1.png',
-                    'src/assets/images/cardProject/imgCamara2.png',
-                    'src/assets/images/cardProject/imgCamara3.png',
-                ],
+                galleryImg: [],
                 resumen: 'Update of the public and private web portal.',
-                description: `This project was developed for the Chilean Chamber of Construction and consisted of updating its web portal, covering both the public and private views. My role in the project was the creation and maintenance of web components (front-end) and the development of services and stored procedures.
+                description: `This project was developed for the "Camara Chilena de la construccion" and consisted of updating its web portal, covering both public and private views. My role in the project was the creation and maintenance of web components (front-end), and the development of some services and stored procedures.
 
-                The technologies used included Liferay, with its Freemarker template rendering engine (Java), as well as JavaScript, HTML, and CSS. For the development of services, Node.js was used along with MySQL.
+                This project represented my first experience in the professional world, where I learned a wide variety of techniques and libraries for efficient development. The most valuable part was observing how senior developers navigated a work environment, which made this experience very enriching.
 
-                This project represented my first experience in the professional world, where I learned a wide variety of techniques and libraries for efficient development. The most valuable part was observing how senior developers operate in a work environment, which made this experience very enriching.`,
+                *P.S.: Due to an agreement, I cannot share photos of what I've done.*`,
                 githubRedirection: '',
                 youtubeRedirection: '',
                 externalLink: 'https://cchc.cl',
@@ -338,15 +334,16 @@ export const translationsSectionProject: any = {
                 galleryImg: [
                 ],
                 resumen: 'Update of the private portal for LATAM workers.',
-                description: `This project was developed for LATAM and consisted of updating the employee's private portal, where they could access important information and verify their benefits.
+                description: `
+                This project was developed for LATAM and consisted of updating its private web portal.
 
-                This challenge was particularly demanding, as I was responsible for ensuring the entire project ran smoothly. Instead of using Node.js services or external APIs, we worked exclusively with Liferay's native APIs. The main challenge was efficiently developing interfaces with Liferay's own tools and integrating React applications for more complex components. I developed these components alongside other engineers, but I was responsible for verifying their operation and correcting any errors before implementation.
+                This challenge was particularly demanding, as I was responsible for ensuring the smooth operation of almost the entire project. The main challenge was efficiently developing interfaces using Liferay's proprietary tools and integrating React applications for more complex components. I developed these components alongside other engineers, but I was responsible for verifying their operation and correcting any errors before implementation.
 
-                I want to highlight the excellent experience of working with LATAM as a client, as they always provided support to the development team, answering questions, and facilitating agile progress on the project.
+                I want to highlight the excellent experience of working with LATAM, as they always provided support to the development team, answering questions, and facilitating rapid progress on the project.
 
                 It was an enriching and challenging experience, where I learned a lot, especially about component development with React.
 
-                P.S.: As this is a private project, I unfortunately don't have any images.
+                *P.S.: As this is a private project, I unfortunately don't have any images.*
                 `,
                 githubRedirection: '',
                 youtubeRedirection: '',
@@ -399,7 +396,7 @@ export const translationsSectionProject: any = {
                     'src/assets/images/cardProject/imgProyectoTitulo8.png',
                     'src/assets/images/cardProject/imgProyectoTitulo9.png',
                     'src/assets/images/cardProject/imgProyectoTitulo10.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo11.png',
+                    'src/assets/images/cardProject/imgProyectoTitulo11.png'
                 ],
                 resumen: 'Learning system about the universe.',
                 description: `This project consists of an interactive website designed to teach astronomy to elementary school students, specifically those in grades 5-7. We worked in collaboration with the Santiago Bueras y Avaria School and the Jacques Cousteau School, with the support of a teacher from the Pdte. Riesco Errázuriz School, who participated in requirements gathering and question validation.
@@ -582,16 +579,13 @@ export const translationsSectionProject: any = {
                 id: 7,
                 title: 'Compromiso Pro',
                 prevImage: 'src/assets/images/cardProject/pre-cpro.png',
-                galleryImg: [
-                    'src/assets/images/cardProject/imgCPro1.png',
-                    'src/assets/images/cardProject/imgCPro2.png',
-                    'src/assets/images/cardProject/imgCPro3.png',
-                ],
+                galleryImg: [],
                 resumen: 'Support in repairing components and developing some internal landing pages.',
-                description: `In this project, I performed more of a fixer's role, repairing non-functioning components or issues that QA was raising, and also developing some internal landing pages (one of them being the internal tool view).
+                description: `In this project, I performed more of a repairer's duties, fixing non-functioning components or issues that QA was reporting, and also developing some landing pages.
 
-In this project, I learned more about the interaction one has with the client, as I was constantly in meetings with clients where they also raised issues that I had to resolve on the spot.
-                `,
+                In this project, I learned more about the interaction one has with the client, as I was constantly in meetings where I resolved questions and repaired components.
+
+                *P.S.: Based on the agreements made with the client, I cannot show images of what I've done.*`,
                 githubRedirection: '',
                 youtubeRedirection: '',
                 externalLink: 'https://www.compromisopro.cl/',
@@ -629,17 +623,13 @@ In this project, I learned more about the interaction one has with the client, a
                 id: 1,
                 title: 'Empresa CCHC',
                 prevImage: 'src/assets/images/cardProject/pre-camara.png',
-                galleryImg: [
-                    'src/assets/images/cardProject/imgCamara1.png',
-                    'src/assets/images/cardProject/imgCamara2.png',
-                    'src/assets/images/cardProject/imgCamara3.png',
-                ],
+                galleryImg: [],
                 resumen: 'Actualización del portal web publico y privado.',
-                description: `Este proyecto fue desarrollado para la Cámara Chilena de la Construcción y consistió en la actualización de su portal web, abarcando tanto la vista pública como la privada. Mi rol en el proyecto fue la creación y reparación de componentes web (front-end) y el desarrollo de servicios y procedimientos almacenados.
+                description: `Este proyecto fue desarrollado para la Cámara Chilena de la Construcción y consistió en la actualización de su portal web, abarcando tanto la vista pública como la privada. Mi rol en el proyecto fue la creación y reparación de componentes web (front-end), el desarrollo de algunos servicios y procedimientos almacenados.
 
-                Las tecnologías utilizadas incluyeron Liferay, con su motor de renderizado de plantillas Freemarker (Java), además de JavaScript, HTML y CSS. Para el desarrollo de servicios, se empleó Node.js junto con MySQL.
-
-                Este proyecto representó mi primera experiencia en el mundo laboral, donde aprendí una gran variedad de técnicas y bibliotecas para desarrollar de manera eficiente. Lo más valioso fue observar cómo los desarrolladores senior se desenvuelven en un entorno de trabajo, lo que hizo que esta experiencia fuera muy enriquecedora`,
+                Este proyecto representó mi primera experiencia en el mundo laboral, donde aprendí una gran variedad de técnicas y bibliotecas para desarrollar de manera eficiente. Lo más valioso fue observar cómo los desarrolladores seniors se desenvolvian en un entorno de trabajo, lo que hizo que esta experiencia fuera muy enriquecedora
+                
+                *PD: Debido a un acuerdo no puedo presentar fotos de lo realizado.*`,
                 githubRedirection: '',
                 youtubeRedirection: '',
                 externalLink: 'https://cchc.cl',
@@ -685,18 +675,17 @@ In this project, I learned more about the interaction one has with the client, a
                 id: 2,
                 title: 'Empresa LATAM',
                 prevImage: 'src/assets/images/cardProject/pre-latam.webp',
-                galleryImg: [
-                ],
+                galleryImg: [],
                 resumen: 'Actualización portal privado trabajadores LATAM.',
-                description: `Este proyecto fue desarrollado para LATAM y consistió en la actualización del portal privado de los trabajadores, donde podían acceder a información importante y verificar sus beneficios.
+                description: `Este proyecto fue desarrollado para LATAM y consistió en la actualización de su portal web privado.
 
-                Este desafío fue especialmente exigente, ya que tuve la responsabilidad de garantizar el correcto funcionamiento del proyecto en su totalidad. En lugar de utilizar servicios en Node.js o APIs externas, trabajamos exclusivamente con las APIs nativas de Liferay. El principal reto fue desarrollar interfaces de manera eficiente con las herramientas propias de Liferay e integrar aplicaciones en React para componentes más complejos. Desarrollé estos componentes junto a otros ingenieros, pero fui responsable de verificar su funcionamiento y corregir posibles errores antes de su implementación.
+                Este desafío fue especialmente exigente, ya que tuve la responsabilidad de garantizar el correcto funcionamiento del proyecto casi en su totalidad. El principal reto fue desarrollar interfaces de manera eficiente con las herramientas propias de Liferay e integrar aplicaciones en React para componentes más complejos. Desarrollé estos componentes junto a otros ingenieros, pero fui responsable de verificar su funcionamiento y corregir posibles errores antes de su implementación.
 
-                Quiero destacar la excelente experiencia de trabajar con LATAM como cliente, ya que siempre brindaron apoyo al equipo de desarrollo, resolviendo dudas y facilitando un avance ágil en el proyecto.
+                Quiero destacar la excelente experiencia de trabajar con LATAM, ya que siempre brindaron apoyo al equipo de desarrollo, resolviendo dudas y facilitando un avance ágil en el proyecto.
 
                 Fue una experiencia enriquecedora y desafiante, donde aprendí mucho, especialmente sobre el desarrollo de componentes con React. 
 
-                Pd: Al ser un proyecto privado lamentablemente no dispongo de imagenes.
+                *Pd: Al ser un proyecto privado lamentablemente no dispongo de imagenes.*
                 `,
                 githubRedirection: '',
                 youtubeRedirection: '',
@@ -835,7 +824,7 @@ In this project, I learned more about the interaction one has with the client, a
             },
             {
                 id: 5,
-                title: 'registro de gastos',
+                title: 'Registro de gastos',
                 prevImage: 'src/assets/images/cardProject/pre-registro.png',
                 galleryImg: [
                     'src/assets/images/cardProject/imgExcel1.png',
@@ -933,15 +922,13 @@ In this project, I learned more about the interaction one has with the client, a
                 id: 7,
                 title: 'Compromiso Pro',
                 prevImage: 'src/assets/images/cardProject/pre-cpro.png',
-                galleryImg: [
-                    'src/assets/images/cardProject/imgCPro1.png',
-                    'src/assets/images/cardProject/imgCPro2.png',
-                    'src/assets/images/cardProject/imgCPro3.png',
-                ],
+                galleryImg: [],
                 resumen: 'Apoyo reparando componentes y desarrollo de algunas landings internas.',
-                description: `En este proyecto realice mas la tarea de un fixer, reparando componentes que no funcionaban o problemas que QA iba levantando y ,ademas ,desarrollando algunas landings internas (Una de ellas es la vista interna de herramientas). 
+                description: `En este proyecto realice mas la tarea de un reparador, reparando componentes que no funcionaban o problemas que QA iba levantando y, ademas,desarrollando algunas landings. 
 
-                    En este proyecto aprendí mas cosas relacionadas a la interaccion que uno tiene con el cliente, pues estaba constantemente en reuniones con cliente donde tambien él en el momento levantaba problematicas que debia resolver en el momento.
+                En este proyecto aprendí mas cosas relacionadas a la interaccion que uno tiene con el cliente, pues estaba constantemente en reuniones donde resolvia dudas y reparaba componentes.
+                
+                *Pd: Según los acuerdos realizados con el cliente no puedo mostrar mediante imagenes lo realizado.*
                 `,
                 githubRedirection: '',
                 youtubeRedirection: '',
@@ -980,17 +967,13 @@ In this project, I learned more about the interaction one has with the client, a
                 id: 1,
                 title: 'Empresa CCHC',
                 prevImage: 'src/assets/images/cardProject/pre-camara.png',
-                galleryImg: [
-                    'src/assets/images/cardProject/imgCamara1.png',
-                    'src/assets/images/cardProject/imgCamara2.png',
-                    'src/assets/images/cardProject/imgCamara3.png',
-                ],
+                galleryImg: [],
                 resumen: 'Atualização do portal web público e privado.',
-                description: `Este projeto foi desenvolvido para a Câmara Chilena de Construção e consistiu na atualização de seu site, abrangendo tanto a visão pública quanto a privada. Meu papel no projeto foi a criação e reparo de componentes web (front-end) e o desenvolvimento de serviços e procedimentos armazenados.
+                description: `Este projeto foi desenvolvido para a Câmara Chilena de Construção e consistiu na atualização de seu site, abrangendo tanto a visão pública quanto a privada. Meu papel no projeto foi a criação e reparo de componentes web (front-end), o desenvolvimento de alguns serviços e procedimentos armazenados. 
 
-                As tecnologias utilizadas incluíram Liferay, com seu mecanismo de renderização de modelos Freemarker (Java), bem como JavaScript, HTML e CSS. Para o desenvolvimento dos serviços, foi utilizado o Node.js em conjunto com o MySQL.
+                Este projeto representou minha primeira experiência no mundo do trabalho, onde aprendi uma grande variedade de técnicas e bibliotecas para me desenvolver com eficiência. O mais valioso foi observar o desempenho dos desenvolvedores seniores no ambiente de trabalho, o que tornou essa experiência muito enriquecedora.
 
-                Este projeto representou minha primeira experiência no mundo do trabalho, onde aprendi uma grande variedade de técnicas e bibliotecas para me desenvolver com eficiência. O mais valioso foi observar como os desenvolvedores seniores operam em um ambiente de trabalho, o que tornou essa experiência muito enriquecedora.`,
+                *PS: Devido a um acordo não posso apresentar fotos do que fiz.*`,
                 githubRedirection: '',
                 youtubeRedirection: '',
                 externalLink: 'https://cchc.cl',
@@ -1036,18 +1019,17 @@ In this project, I learned more about the interaction one has with the client, a
                 id: 2,
                 title: 'Empresa LATAM',
                 prevImage: 'src/assets/images/cardProject/pre-latam.webp',
-                galleryImg: [
-                ],
+                galleryImg: [],
                 resumen: 'Atualização do portal privado para trabalhadores LATAM.',
-                description: `Este projeto foi desenvolvido para a LATAM e consistiu na atualização do portal privado dos funcionários, onde eles puderam acessar informações importantes e verificar seus benefícios.
+                description: `Este projeto foi desenvolvido para a LATAM e consistiu na atualização de seu portal web privado. 
 
-                Esse desafio foi particularmente desafiador, pois eu era responsável por garantir o bom andamento de todo o projeto. Em vez de usar serviços Node.js ou APIs externas, trabalhamos exclusivamente com APIs nativas do Liferay. O principal desafio foi desenvolver interfaces de forma eficiente usando ferramentas próprias da Liferay e integrar aplicações em React para componentes mais complexos. Desenvolvi esses componentes junto com outros engenheiros, mas fui responsável por verificar sua funcionalidade e corrigir quaisquer erros antes da implementação.
+                Este desafio foi particularmente desafiador, pois eu era responsável por garantir o bom andamento de quase todo o projeto. O principal desafio foi desenvolver interfaces de forma eficiente usando ferramentas próprias da Liferay e integrar aplicações em React para componentes mais complexos. Desenvolvi esses componentes junto com outros engenheiros, mas fui responsável por verificar sua funcionalidade e corrigir quaisquer erros antes da implementação. 
 
-                Gostaria de destacar a excelente experiência de trabalhar com a LATAM como cliente, pois eles sempre deram suporte à equipe de desenvolvimento, respondendo perguntas e facilitando o rápido progresso do projeto.
+                Quero destacar a excelente experiência de trabalhar com a LATAM, pois eles sempre deram suporte à equipe de desenvolvimento, respondendo perguntas e facilitando o rápido progresso do projeto. 
 
-                Foi uma experiência enriquecedora e desafiadora, onde aprendi muito, principalmente sobre desenvolvimento de componentes com React.
+                Foi uma experiência enriquecedora e desafiadora, onde aprendi muito, principalmente sobre desenvolvimento de componentes com React. 
 
-                PS: Como este é um projeto privado, infelizmente não tenho nenhuma imagem.
+                *P.S. Como este é um projeto privado, infelizmente não tenho nenhuma imagem.*
                 `,
                 githubRedirection: '',
                 youtubeRedirection: '',
@@ -1284,15 +1266,13 @@ In this project, I learned more about the interaction one has with the client, a
                 id: 7,
                 title: 'Compromiso Pro',
                 prevImage: 'src/assets/images/cardProject/pre-cpro.png',
-                galleryImg: [
-                    'src/assets/images/cardProject/imgCPro1.png',
-                    'src/assets/images/cardProject/imgCPro2.png',
-                    'src/assets/images/cardProject/imgCPro3.png',
-                ],
+                galleryImg: [],
                 resumen: 'Suporte no reparo de componentes e desenvolvimento de algumas landing pages internas.',
-                description: `Neste projeto, realizei mais uma tarefa de consertador, consertando componentes que não funcionavam ou problemas que o QA estava levantando e, além disso, desenvolvendo algumas landing pages internas (uma delas sendo a visão interna das ferramentas).
+                description: `Neste projeto, desempenhei mais funções de reparador, consertando componentes que não funcionavam ou problemas que o controle de qualidade estava levantando, e também desenvolvendo algumas landing pages. 
 
-Neste projeto, aprendi mais sobre a interação que se tem com o cliente, pois estava constantemente em reuniões com clientes onde eles também levantavam problemas que eu tinha que resolver na hora.
+                Neste projeto, aprendi mais sobre a interação que se tem com o cliente, pois estava constantemente em reuniões onde resolvia dúvidas e consertava componentes. 
+
+                *P.S.: De acordo com o acordo feito com o cliente, não posso mostrar imagens do que fiz.*
                 `,
                 githubRedirection: '',
                 youtubeRedirection: '',
@@ -1508,9 +1488,9 @@ export const translationSectionAboutMe: any = {
             cv: 'src/assets/cv/cv.pdf',
             textBody: `Me gusta cocinar, es un hobby que suelo utilizar cuando paso por periodos muy grandes de estres, si el tiempo no acompaña suelo jugar algun que otro juego en el pc o ver alguna pelicula/serie (mis favoritas son Arcane y Pulp fiction).
 
-                    Suelo hacer deporte, principalmente el levantamiento de pesas o cargar cosas pesadas, la verdad no se pq me entretiene tanto eso, pero me gusta.
+            Suelo hacer deporte, principalmente el levantamiento de pesas o cargar cosas pesadas, la verdad no se por que me entretiene tanto eso, pero me gusta.
                     
-                    Me gusta mucho la astronomia y el ayudar a las personas, eso se demuestra en mi proyecto de titulo ;).
+            Me gusta mucho la astronomia y el ayudar a las personas, eso se demuestra en mi proyecto de titulo ;).
                 `
         },
         socialMedia: [

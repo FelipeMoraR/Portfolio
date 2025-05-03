@@ -1,8 +1,11 @@
 
+import { useRef } from "react";
 import { IModal } from "../interfaces/Interfaces";
 import { createPortal } from "react-dom";
 
 const Modal = ({ showModal, title, typeModal, text, statusModal, iconModal, hideModal }: IModal) => {
+    const lol = useRef<HTMLDivElement>(null)
+
     if (!showModal) return
 
     const classIcon = {
@@ -62,12 +65,9 @@ const Modal = ({ showModal, title, typeModal, text, statusModal, iconModal, hide
 
                     {
                         typeModal === 'image' ? (
-                            <div className="w-100 h-100 overflow-y-scroll">
-                                <img className="w-100 " src={text} alt={text} />
+                            <div className="w-100 h-100 overflow-auto m-1">
+                                <img className="w-100" src={text} alt={text} />
                             </div>
-                            
-                            
-
                         ) : null
                     }
 

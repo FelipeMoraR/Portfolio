@@ -27,7 +27,7 @@ const StepTwo = ({language, isSkiped}: ISteps) => {
                 </div>
             </div>
 
-            <div className = "stp2-description-text-container">
+            <div className = "stp2-description-text-container z-index-1">
                 <div className = {!isSkiped ? "color-white font-size-xxl-6 delay-05s typing-animation " : "color-white font-size-xxl-6"}>
                     {textStep.description}
                 </div>

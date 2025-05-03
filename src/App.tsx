@@ -107,7 +107,6 @@ function App() {
     timerSteps();
   }, [isLoading, step, isLanguageChoosed, isIntroductionSkiped]);
 
-
   if(isLoading) return <Loader language = {currentLanguage} currentStep = {arrayStepSkiped[step]}/>
     
   if(!isLanguageChoosed) return <ChooseLanguage setCurrentLanguage = {setCurrentLanguage} setIsLanguageChoosed = {setIsLanguageChoosed} typeView="firstTime"/>
