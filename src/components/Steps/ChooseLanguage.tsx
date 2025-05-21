@@ -3,6 +3,9 @@ import timerPromise from "../../assets/utils/timer";
 import { IChooseLanguage } from "../../interfaces/Interfaces";
 import { useRef, useState } from "react";
 import Loader from "../Loader";
+import esFlag from '../../assets/images/flags/cl.png';
+import enFlag from '../../assets/images/flags/br.png';
+import ptFlag from '../../assets/images/flags/us.png';
 
 const ChooseLanguage = ({ setCurrentLanguage, setIsLanguageChoosed, typeView, language }: IChooseLanguage) => {
 
@@ -63,7 +66,7 @@ const ChooseLanguage = ({ setCurrentLanguage, setIsLanguageChoosed, typeView, la
                 if (localStorageLang === 'es') return;
                 updateLanguagePage('es');  }} 
             >
-              <img className="w-100 h-100 border-radius-100p object-fit-cover" src="src/assets/images/flags/cl.png" alt="esFlag" />
+              <img className="w-100 h-100 border-radius-100p object-fit-cover" src={esFlag} alt="esFlag" />
 
               <p className="color-white opacity-0 font-size-2 text-center">Es</p>
             </div>
@@ -73,7 +76,7 @@ const ChooseLanguage = ({ setCurrentLanguage, setIsLanguageChoosed, typeView, la
                 if (localStorageLang === 'en') return;
                 updateLanguagePage('en'); }}
               >
-              <img className="w-100 h-100 border-radius-100p object-fit-cover" src="src/assets/images/flags/us.png" alt="enFlag" />
+              <img className="w-100 h-100 border-radius-100p object-fit-cover" src={enFlag}  alt="enFlag" />
 
               <p className="color-white opacity-0 font-size-2 text-center">En</p>
             </div>
@@ -84,7 +87,7 @@ const ChooseLanguage = ({ setCurrentLanguage, setIsLanguageChoosed, typeView, la
                 if (localStorageLang === 'pt') return;
                 updateLanguagePage('pt'); }} 
               >
-              <img className="w-100 h-100 border-radius-100p object-fit-cover " src="src/assets/images/flags/br.png" alt="ptFlag" />
+              <img className="w-100 h-100 border-radius-100p object-fit-cover " src={ptFlag} alt="ptFlag" />
 
               <p className="color-white opacity-0 font-size-2 text-center">Pt</p>
             </div>

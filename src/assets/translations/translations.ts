@@ -1,7 +1,63 @@
+import cchcStep3 from '../images/stepsImg/cchc.jpg';
+import latamStep3 from '../images/stepsImg/latam.jpg';
+import copromisoProStep3 from '../images/stepsImg/Compromiso-Pro.jpg';
+import mutualStep3 from '../images/stepsImg/mutual.png';
+
 import titleCertificate from '../certificates/titleCertificate.jpg';
 import certifyJs from '../certificates/certificadoJs.jpg';
 import responsiveDesign from '../certificates/freeCodeCampHtml.png';
 
+import html from '../images/icons/html.png';
+import css from '../images/icons/css.png';
+import js from '../images/icons/js.png';
+import ts from '../images/icons/ts.png';
+import react from '../images/icons/react.png';
+import node from '../images/icons/node.png';
+import mysql from '../images/icons/mysql.png';
+import py from '../images/icons/py.png';
+import dj from '../images/icons/dj.png';
+import flask from '../images/icons/flask.png';
+import sqlite from '../images/icons/sqlite.png';
+import liferay from '../images/icons/liferay.png';
+import figma from '../images/icons/figma.png';
+
+import preCamara from '../images/cardProject/pre-camara.png';
+import preLatam from '../images/cardProject/pre-latam.webp';
+import preTitulo from '../images/cardProject/pre-proyectoTitulo.png';
+import imgProjectTitle1 from '../images/cardProject/imgProyectoTitulo1.png';
+import imgProjectTitle2 from '../images/cardProject/imgProyectoTitulo2.png';
+import imgProjectTitle3 from '../images/cardProject/imgProyectoTitulo3.png';
+import imgProjectTitle4 from '../images/cardProject/imgProyectoTitulo4.png';
+import imgProjectTitle5 from '../images/cardProject/imgProyectoTitulo5.png';
+import imgProjectTitle6 from '../images/cardProject/imgProyectoTitulo6.png';
+import imgProjectTitle7 from '../images/cardProject/imgProyectoTitulo7.png';
+import imgProjectTitle8 from '../images/cardProject/imgProyectoTitulo8.png';
+import imgProjectTitle9 from '../images/cardProject/imgProyectoTitulo9.png';
+import imgProjectTitle10 from '../images/cardProject/imgProyectoTitulo10.png';
+import imgProjectTitle11 from '../images/cardProject/imgProyectoTitulo11.png';
+import prevBotWsp from '../images/cardProject/pre-wspBot.png';
+import imgBotWsp1 from '../images/cardProject/imgBot1.png';
+import imgBotWsp2 from '../images/cardProject/imgBot2.png';
+import preRegister from '../images/cardProject/pre-registro.png';
+import imgExcel1 from '../images/cardProject/imgExcel1.png';
+import imgExcel2 from '../images/cardProject/imgExcel2.png';
+import imgExcel3 from '../images/cardProject/imgExcel3.png';
+import imgExcel4 from '../images/cardProject/imgExcel4.png';
+import imgExcel5 from '../images/cardProject/imgExcel5.png';
+import imgExcel6 from '../images/cardProject/imgExcel6.png';
+import imgExcel7 from '../images/cardProject/imgExcel7.png';
+import imgExcel8 from '../images/cardProject/imgExcel8.png';
+import prevCal from '../images/cardProject/pre-calculator.png';
+import imgCal1 from '../images/cardProject/imgCalculator1.png';
+import imgCal2 from '../images/cardProject/imgCalculator2.png';
+import prevCPro from '../images/cardProject/pre-cpro.png';
+
+import imgMiddle from '../images/aboutme/yo.png';
+import cvEn from '../cv/cvEn.pdf';
+import cvEs from '../cv/cvEsp.pdf';
+import cvPt from '../cv/cvPt.pdf';
+
+//Done
 export const translationsSteps: any = {
     en: {
         stepOne: {
@@ -19,22 +75,22 @@ export const translationsSteps: any = {
                 {
                     title: "Update web site",
                     enterprice: "Camara Chilena de la construcción",
-                    image: "cchc.jpg"
+                    image: cchcStep3
                 },
                 {
                     title: "Update private web site",
                     enterprice: "LATAM",
-                    image: "latam.jpg"
+                    image: latamStep3
                 },
                 {
                     title: "Update web site",
                     enterprice: "Compromiso PRO",
-                    image: "Compromiso-Pro.jpg"
+                    image: copromisoProStep3
                 },
                 {
                     title: "Create flows in Dynamics 365",
                     enterprice: "MUTUAL",
-                    image: "mutual.png"
+                    image: mutualStep3
                 }
                ]
         },
@@ -62,22 +118,22 @@ export const translationsSteps: any = {
                 {
                     title: "Actualización página web",
                     enterprice: "Camara Chilena de la construcción",
-                    image: "cchc.jpg"
+                    image: cchcStep3
                 },
                 {
                     title: "Actualización página web privada",
                     enterprice: "LATAM",
-                    image: "latam.jpg"
+                    image: latamStep3
                 },
                 {
                     title: "Actualización pógina web pública",
                     enterprice: "Compromiso PRO",
-                    image: "Compromiso-Pro.jpg"
+                    image: copromisoProStep3
                 },
                 {
                     title: "Creación de flujos en Dynamics 365",
                     enterprice: "MUTUAL",
-                    image: "mutual.png"
+                    image: mutualStep3
                 }
                ]
         },
@@ -105,22 +161,22 @@ export const translationsSteps: any = {
                 {
                     title: "Atualização do site",
                     enterprice: "Camara Chilena de la construcción",
-                    image: "cchc.jpg"
+                    image: cchcStep3
                 },
                 {
                     title: "Atualização de página da web privada",
                     enterprice: "LATAM",
-                    image: "latam.jpg"
+                    image: latamStep3
                 },
                 {
                     title: "Atualização do site",
                     enterprice: "Compromiso PRO",
-                    image: "Compromiso-Pro.jpg"
+                    image: copromisoProStep3
                 },
                 {
                     title: "Criando fluxos no Dynamics 365",
                     enterprice: "MUTUAL",
-                    image: "mutual.png"
+                    image: mutualStep3
                 }
                ]
         },
@@ -135,6 +191,7 @@ export const translationsSteps: any = {
     }
 }
 
+//Done
 export const translationsNavbar: any = {
     en: [
         {
@@ -204,72 +261,73 @@ export const translationsNavbar: any = {
     ]
 }
 
+//Done
 export const translationsSectionProject: any = {
     technologies: [
         {
             id: 1,
             name: 'HTML',
-            image: 'src/assets/images/icons/html.png'
+            image: html
         },
         {
             id: 2,
             name: 'CSS',
-            image: 'src/assets/images/icons/css.png'
+            image: css
         },
         {
             id: 3,
             name: 'JavaScript',
-            image: 'src/assets/images/icons/js.png'
+            image: js
         },
         {
             id: 4,
             name: 'TypeScript',
-            image: 'src/assets/images/icons/ts.png'
+            image: ts
         },
         {
             id: 5,
             name: 'React',
-            image: 'src/assets/images/icons/react.png'
+            image: react
         },
         {
             id: 6,
             name: 'Node',
-            image: 'src/assets/images/icons/node.png'
+            image: node
         },
         {
             id: 7,
             name: 'MySql',
-            image: 'src/assets/images/icons/mysql.png'           
+            image: mysql
         },
         {
             id: 8,
             name: 'Python',
-            image: 'src/assets/images/icons/py.png'
+            image: py
         },
         {
             id: 9,
             name: 'Django',
-            image: 'src/assets/images/icons/dj.png'
+            image: dj
         },
         {
             id: 10,
             name: 'Flask',
-            image: 'src/assets/images/icons/flask.png'
+            image: flask
         },
         {
             id: 11,
             name: 'SqLite',
-            image: 'src/assets/images/icons/sqlite.png'
+            image: sqlite
         },
         {
             id: 12,
             name: 'Liferay',
-            image: 'src/assets/images/icons/liferay.png'
+            image: liferay
         },
         {
             id: 13,
             name: 'Figma',
-            image: 'src/assets/images/icons/figma.png'
+            image: figma
         }
     ],
     en: {
@@ -280,7 +338,7 @@ export const translationsSectionProject: any = {
             {
                 id: 1,
                 title: 'CCHC Company',
-                prevImage: 'src/assets/images/cardProject/pre-camara.png',
+                prevImage: preCamara,
                 galleryImg: [],
                 resumen: 'Update of the public and private web portal.',
                 description: `This project was developed for the "Camara Chilena de la construccion" and consisted of updating its web portal, covering both public and private views. My role in the project was the creation and maintenance of web components (front-end), and the development of some services and stored procedures.
@@ -295,44 +353,44 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     }, 
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/icons/ts.png'
+                        image: ts
                     },
                     {
                         id: 6,
                         name: 'Node',
-                        image: 'src/assets/images/icons/node.png'
+                        image: node
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/icons/mysql.png'           
+                        image: mysql           
                     },
                     {
                         id: 12,
                         name: 'Liferay',
-                        image: 'src/assets/images/icons/liferay.png'
+                        image: liferay
                     },
                 ]
             }, 
             {
                 id: 2,
                 title: 'LATAM Company',
-                prevImage: 'src/assets/images/cardProject/pre-latam.webp',
+                prevImage: preLatam,
                 galleryImg: [
                 ],
                 resumen: 'Update of the private portal for LATAM workers.',
@@ -354,51 +412,51 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/icons/ts.png'
+                        image: ts
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/icons/react.png'
+                        image: react
                     },
                     {
                         id: 12,
                         name: 'Liferay',
-                        image: 'src/assets/images/icons/liferay.png'
+                        image: liferay
                     },
                 ]
             },
             {
                 id: 3,
                 title: 'Title project',
-                prevImage: 'src/assets/images/cardProject/pre-proyectoTitulo.png',
+                prevImage: preTitulo,
                 galleryImg: [
-                    'src/assets/images/cardProject/imgProyectoTitulo1.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo2.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo3.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo4.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo5.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo6.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo7.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo8.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo9.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo10.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo11.png'
+                        imgProjectTitle1,
+                        imgProjectTitle2,
+                        imgProjectTitle3,
+                        imgProjectTitle4,
+                        imgProjectTitle5,
+                        imgProjectTitle6,
+                        imgProjectTitle7,
+                        imgProjectTitle8,
+                        imgProjectTitle9,
+                        imgProjectTitle10,
+                        imgProjectTitle11
                 ],
                 resumen: 'Learning system about the universe.',
                 description: `This project consists of an interactive website designed to teach astronomy to elementary school students, specifically those in grades 5-7. We worked in collaboration with the Santiago Bueras y Avaria School and the Jacques Cousteau School, with the support of a teacher from the Pdte. Riesco Errázuriz School, who participated in requirements gathering and question validation.
@@ -415,37 +473,37 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/icons/mysql.png'           
+                        image: mysql          
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/icons/py.png'
+                        image: py
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/icons/dj.png'
+                        image: dj
                     },
                     {
                         id: 13,
                         name: 'Figma',
-                        image: 'src/assets/images/icons/figma.png'
+                        image: figma
                     }
                     
                 ]
@@ -453,10 +511,10 @@ export const translationsSectionProject: any = {
             {
                 id: 4,
                 title: 'Bot whatsapp',
-                prevImage: 'src/assets/images/cardProject/pre-wspBot.png',
+                prevImage: prevBotWsp,
                 galleryImg: [
-                    'src/assets/images/cardProject/imgBot1.png',
-                    'src/assets/images/cardProject/imgBot2.png',
+                    imgBotWsp1,
+                    imgBotWsp2
                 ],
                 resumen: 'First attempt at automating tracking of my monthly expenses.',
                 description: `This project was born out of the need to understand where my money was going, as I was losing track of my expenses over time. As an initial solution, I developed a system to keep track of my expenses using an API provided by Facebook and Flask for its development.
@@ -472,28 +530,28 @@ export const translationsSectionProject: any = {
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/icons/py.png'
+                        image: py
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/icons/flask.png'
+                        image: flask
                     },
                 ]
             },
             {
                 id: 5,
                 title: 'expense record',
-                prevImage: 'src/assets/images/cardProject/pre-registro.png',
+                prevImage: preRegister,
                 galleryImg: [
-                    'src/assets/images/cardProject/imgExcel1.png',
-                    'src/assets/images/cardProject/imgExcel2.png',
-                    'src/assets/images/cardProject/imgExcel3.png',
-                    'src/assets/images/cardProject/imgExcel4.png',
-                    'src/assets/images/cardProject/imgExcel5.png',
-                    'src/assets/images/cardProject/imgExcel6.png',
-                    'src/assets/images/cardProject/imgExcel7.png',
-                    'src/assets/images/cardProject/imgExcel8.png',
+                    imgExcel1,
+                    imgExcel2,
+                    imgExcel3,
+                    imgExcel4,
+                    imgExcel5,
+                    imgExcel6,
+                    imgExcel7,
+                    imgExcel8
                 ],
                 resumen: 'Page to keep track of my monthly expenses.',
                 description: `(To give some context, I previously developed a project with the same goal, but with a different focus: a bot. However, for various reasons, I had to abandon it.)
@@ -509,27 +567,27 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/icons/py.png'
+                        image: py
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/icons/flask.png'
+                        image: flask
                     },
                     
                 ]
@@ -537,11 +595,11 @@ export const translationsSectionProject: any = {
             {
                 id: 6,
                 title: 'Calculator',
-                prevImage: 'src/assets/images/cardProject/pre-calculator.png',
+                prevImage: prevCal,
                 galleryImg: [
-                    'src/assets/images/cardProject/pre-calculator.png',
-                    'src/assets/images/cardProject/imgCalculator1.png',
-                    'src/assets/images/cardProject/imgCalculator2.png'
+                    prevCal,
+                    imgCal1,
+                    imgCal2
                     
                 ],
                 resumen: 'Calculator with React but with its own logic',
@@ -558,29 +616,29 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/icons/react.png'
+                        image: react
                     },
                 ]
             },
             {
                 id: 7,
                 title: 'Compromiso Pro',
-                prevImage: 'src/assets/images/cardProject/pre-cpro.png',
+                prevImage: prevCPro,
                 galleryImg: [],
                 resumen: 'Support in repairing components and developing some internal landing pages.',
                 description: `In this project, I performed more of a repairer's duties, fixing non-functioning components or issues that QA was reporting, and also developing some landing pages.
@@ -595,22 +653,22 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 12,
                         name: 'Liferay',
-                        image: 'src/assets/images/icons/liferay.png'
+                        image: liferay
                     },
                 ]
             }
@@ -624,7 +682,7 @@ export const translationsSectionProject: any = {
             {
                 id: 1,
                 title: 'Empresa CCHC',
-                prevImage: 'src/assets/images/cardProject/pre-camara.png',
+                prevImage: preCamara,
                 galleryImg: [],
                 resumen: 'Actualización del portal web publico y privado.',
                 description: `Este proyecto fue desarrollado para la Cámara Chilena de la Construcción y consistió en la actualización de su portal web, abarcando tanto la vista pública como la privada. Mi rol en el proyecto fue la creación y reparación de componentes web (front-end), el desarrollo de algunos servicios y procedimientos almacenados.
@@ -639,44 +697,44 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     }, 
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/icons/ts.png'
+                        image: ts
                     },
                     {
                         id: 6,
                         name: 'Node',
-                        image: 'src/assets/images/icons/node.png'
+                        image: node
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/icons/mysql.png'           
+                        image: mysql           
                     },
                     {
                         id: 12,
                         name: 'Liferay',
-                        image: 'src/assets/images/icons/liferay.png'
+                        image: liferay
                     },
                 ]
             }, 
             {
                 id: 2,
                 title: 'Empresa LATAM',
-                prevImage: 'src/assets/images/cardProject/pre-latam.webp',
+                prevImage: preLatam,
                 galleryImg: [],
                 resumen: 'Actualización portal privado trabajadores LATAM.',
                 description: `Este proyecto fue desarrollado para LATAM y consistió en la actualización de su portal web privado.
@@ -696,51 +754,51 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/icons/ts.png'
+                        image: ts
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/icons/react.png'
+                        image: react
                     },
                     {
                         id: 12,
                         name: 'Liferay',
-                        image: 'src/assets/images/icons/liferay.png'
+                        image: liferay
                     },
                 ]
             },
             {
                 id: 3,
                 title: 'Proyecto de titulo',
-                prevImage: 'src/assets/images/cardProject/pre-proyectoTitulo.png',
+                prevImage: preTitulo,
                 galleryImg: [
-                    'src/assets/images/cardProject/imgProyectoTitulo1.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo2.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo3.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo4.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo5.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo6.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo7.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo8.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo9.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo10.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo11.png',
+                    imgProjectTitle1,
+                    imgProjectTitle2,
+                    imgProjectTitle3,
+                    imgProjectTitle4,
+                    imgProjectTitle5,
+                    imgProjectTitle6,
+                    imgProjectTitle7,
+                    imgProjectTitle8,
+                    imgProjectTitle9,
+                    imgProjectTitle10,
+                    imgProjectTitle11,
                 ],
                 resumen: 'Sistema de aprendizaje sobre el universo.',
                 description: `Este proyecto consiste en una página web interactiva diseñada para enseñar astronomía a estudiantes de educación básica, específicamente entre 5° y 7° básico. Trabajamos en colaboración con el Colegio Santiago Bueras y Avaria, el Colegio Jacques Cousteau y con el apoyo de una profesora del Colegio Pdte. Riesco Errázuriz, quienes participaron en el levantamiento de requerimientos y la validación de preguntas.
@@ -758,37 +816,37 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/icons/mysql.png'           
+                        image: mysql          
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/icons/py.png'
+                        image: py
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/icons/dj.png'
+                        image: dj
                     },
                     {
                         id: 13,
                         name: 'Figma',
-                        image: 'src/assets/images/icons/figma.png'
+                        image: figma
                     }
                     
                 ]
@@ -796,10 +854,10 @@ export const translationsSectionProject: any = {
             {
                 id: 4,
                 title: 'Bot whatsapp',
-                prevImage: 'src/assets/images/cardProject/pre-wspBot.png',
+                prevImage: prevBotWsp,
                 galleryImg: [
-                    'src/assets/images/cardProject/imgBot1.png',
-                    'src/assets/images/cardProject/imgBot2.png',
+                    imgBotWsp1,
+                    imgBotWsp2,
                 ],
                 resumen: 'Primer intento de automatizar un seguimiento de mis gastos mensuales.',
                 description: `Este proyecto nació de la necesidad de entender en qué se me iba el dinero, ya que con el tiempo perdía el rastro de mis gastos. Como solución inicial, desarrollé un sistema para llevar un registro continuo utilizando una API proporcionada por Facebook y Flask para su desarrollo.
@@ -815,28 +873,28 @@ export const translationsSectionProject: any = {
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/icons/py.png'
+                        image: py
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/icons/flask.png'
+                        image: flask
                     },
                 ]
             },
             {
                 id: 5,
                 title: 'Registro de gastos',
-                prevImage: 'src/assets/images/cardProject/pre-registro.png',
+                prevImage: preRegister,
                 galleryImg: [
-                    'src/assets/images/cardProject/imgExcel1.png',
-                    'src/assets/images/cardProject/imgExcel2.png',
-                    'src/assets/images/cardProject/imgExcel3.png',
-                    'src/assets/images/cardProject/imgExcel4.png',
-                    'src/assets/images/cardProject/imgExcel5.png',
-                    'src/assets/images/cardProject/imgExcel6.png',
-                    'src/assets/images/cardProject/imgExcel7.png',
-                    'src/assets/images/cardProject/imgExcel8.png',
+                    imgExcel1,
+                    imgExcel2,
+                    imgExcel3,
+                    imgExcel4,
+                    imgExcel5,
+                    imgExcel6,
+                    imgExcel7,
+                    imgExcel8
                 ],
                 resumen: 'Pagina para llevar un registro de mis gastos mensuales.',
                 description: `(Para dar algo de contexto, anteriormente desarrollé un proyecto con la misma finalidad, pero con un enfoque diferente: un bot. Sin embargo, debido a diversos motivos, tuve que abandonarlo).
@@ -852,27 +910,27 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/icons/py.png'
+                        image: py
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/icons/flask.png'
+                        image: flask
                     },
                     
                 ]
@@ -880,12 +938,11 @@ export const translationsSectionProject: any = {
             {
                 id: 6,
                 title: 'Calculadora',
-                prevImage: 'src/assets/images/cardProject/pre-calculator.png',
+                prevImage: prevCal,
                 galleryImg: [
-                    'src/assets/images/cardProject/pre-calculator.png',
-                    'src/assets/images/cardProject/imgCalculator1.png',
-                    'src/assets/images/cardProject/imgCalculator2.png'
-                    
+                    prevCal,
+                    imgCal1,
+                    imgCal2
                 ],
                 resumen: 'Calculadora con React pero con logica propia',
                 description: `Lo sé, lo sé… otro proyecto de un junior creando una calculadora. ¡Qué original! Jaja. Pensé lo mismo cuando consideré hacerlo, así que decidí convertirlo en un verdadero reto: desarrollar el funcionamiento de la calculadora sin utilizar ninguna librería matemática ni funciones nativas.
@@ -901,29 +958,29 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/icons/react.png'
+                        image: react
                     },
                 ]
             },
             {
                 id: 7,
                 title: 'Compromiso Pro',
-                prevImage: 'src/assets/images/cardProject/pre-cpro.png',
+                prevImage: prevCPro,
                 galleryImg: [],
                 resumen: 'Apoyo reparando componentes y desarrollo de algunas landings internas.',
                 description: `En este proyecto realice mas la tarea de un reparador, reparando componentes que no funcionaban o problemas que QA iba levantando y, ademas,desarrollando algunas landings. 
@@ -939,22 +996,22 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 12,
                         name: 'Liferay',
-                        image: 'src/assets/images/icons/liferay.png'
+                        image: liferay
                     },
                 ]
             }
@@ -968,7 +1025,7 @@ export const translationsSectionProject: any = {
             {
                 id: 1,
                 title: 'Empresa CCHC',
-                prevImage: 'src/assets/images/cardProject/pre-camara.png',
+                prevImage: preCamara,
                 galleryImg: [],
                 resumen: 'Atualização do portal web público e privado.',
                 description: `Este projeto foi desenvolvido para a Câmara Chilena de Construção e consistiu na atualização de seu site, abrangendo tanto a visão pública quanto a privada. Meu papel no projeto foi a criação e reparo de componentes web (front-end), o desenvolvimento de alguns serviços e procedimentos armazenados. 
@@ -983,44 +1040,44 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     }, 
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/icons/ts.png'
+                        image: ts
                     },
                     {
                         id: 6,
                         name: 'Node',
-                        image: 'src/assets/images/icons/node.png'
+                        image: node
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/icons/mysql.png'           
+                        image: mysql          
                     },
                     {
                         id: 12,
                         name: 'Liferay',
-                        image: 'src/assets/images/icons/liferay.png'
+                        image: liferay
                     },
                 ]
             }, 
             {
                 id: 2,
                 title: 'Empresa LATAM',
-                prevImage: 'src/assets/images/cardProject/pre-latam.webp',
+                prevImage: preLatam,
                 galleryImg: [],
                 resumen: 'Atualização do portal privado para trabalhadores LATAM.',
                 description: `Este projeto foi desenvolvido para a LATAM e consistiu na atualização de seu portal web privado. 
@@ -1040,51 +1097,51 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 4,
                         name: 'TypeScript',
-                        image: 'src/assets/images/icons/ts.png'
+                        image: ts
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/icons/react.png'
+                        image: react
                     },
                     {
                         id: 12,
                         name: 'Liferay',
-                        image: 'src/assets/images/icons/liferay.png'
+                        image: liferay
                     },
                 ]
             },
             {
                 id: 3,
                 title: 'Título do projeto',
-                prevImage: 'src/assets/images/cardProject/pre-proyectoTitulo.png',
+                prevImage: preTitulo,
                 galleryImg: [
-                    'src/assets/images/cardProject/imgProyectoTitulo1.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo2.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo3.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo4.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo5.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo6.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo7.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo8.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo9.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo10.png',
-                    'src/assets/images/cardProject/imgProyectoTitulo11.png',
+                    imgProjectTitle1,
+                    imgProjectTitle2,
+                    imgProjectTitle3,
+                    imgProjectTitle4,
+                    imgProjectTitle5,
+                    imgProjectTitle6,
+                    imgProjectTitle7,
+                    imgProjectTitle8,
+                    imgProjectTitle9,
+                    imgProjectTitle10,
+                    imgProjectTitle11,
                 ],
                 resumen: 'Sistema de aprendizagem sobre o universo.',
                 description: `Este projeto consiste em um site interativo projetado para ensinar astronomia a alunos do ensino fundamental, especificamente aqueles do 5º ao 7º ano. Trabalhamos em colaboração com as Escolas Santiago Bueras e Avaria, a Escola Jacques Cousteau e com o apoio de um professor do Pdte. Riesco Errázuriz, que participou da coleta de requisitos e da validação de questões.
@@ -1102,37 +1159,37 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 7,
                         name: 'MySql',
-                        image: 'src/assets/images/icons/mysql.png'           
+                        image: mysql          
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/icons/py.png'
+                        image: py
                     },
                     {
                         id: 9,
                         name: 'Django',
-                        image: 'src/assets/images/icons/dj.png'
+                        image: dj
                     },
                     {
                         id: 13,
                         name: 'Figma',
-                        image: 'src/assets/images/icons/figma.png'
+                        image: figma
                     }
                     
                 ]
@@ -1140,10 +1197,10 @@ export const translationsSectionProject: any = {
             {
                 id: 4,
                 title: 'Bot whatsapp',
-                prevImage: 'src/assets/images/cardProject/pre-wspBot.png',
+                prevImage: prevBotWsp,
                 galleryImg: [
-                    'src/assets/images/cardProject/imgBot1.png',
-                    'src/assets/images/cardProject/imgBot2.png',
+                    imgBotWsp1,
+                    imgBotWsp2
                 ],
                 resumen: 'Primeira tentativa de automatizar o rastreamento das minhas despesas mensais.',
                 description: `Este projeto nasceu da necessidade de entender para onde meu dinheiro estava indo, pois com o tempo eu estava perdendo o controle dos meus gastos. Como solução inicial, desenvolvi um sistema de registro contínuo usando uma API fornecida pelo Facebook e Flask para desenvolvimento.
@@ -1159,28 +1216,28 @@ export const translationsSectionProject: any = {
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/icons/py.png'
+                        image: py
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/icons/flask.png'
+                        image: flask
                     },
                 ]
             },
             {
                 id: 5,
                 title: 'registro de despesas',
-                prevImage: 'src/assets/images/cardProject/pre-registro.png',
+                prevImage: preRegister,
                 galleryImg: [
-                    'src/assets/images/cardProject/imgExcel1.png',
-                    'src/assets/images/cardProject/imgExcel2.png',
-                    'src/assets/images/cardProject/imgExcel3.png',
-                    'src/assets/images/cardProject/imgExcel4.png',
-                    'src/assets/images/cardProject/imgExcel5.png',
-                    'src/assets/images/cardProject/imgExcel6.png',
-                    'src/assets/images/cardProject/imgExcel7.png',
-                    'src/assets/images/cardProject/imgExcel8.png',
+                    imgExcel1,
+                    imgExcel2,
+                    imgExcel3,
+                    imgExcel4,
+                    imgExcel5,
+                    imgExcel6,
+                    imgExcel7,
+                    imgExcel8
                 ],
                 resumen: 'Página para controlar minhas despesas mensais.',
                 description: `(Para dar algum contexto, eu desenvolvi anteriormente um projeto com o mesmo propósito, mas com um foco diferente: um bot. No entanto, devido a vários motivos, tive que abandoná-lo.)
@@ -1196,27 +1253,27 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 8,
                         name: 'Python',
-                        image: 'src/assets/images/icons/py.png'
+                        image: py
                     },
                     {
                         id: 10,
                         name: 'Flask',
-                        image: 'src/assets/images/icons/flask.png'
+                        image: flask
                     },
                     
                 ]
@@ -1224,12 +1281,11 @@ export const translationsSectionProject: any = {
             {
                 id: 6,
                 title: 'Calculadora',
-                prevImage: 'src/assets/images/cardProject/pre-calculator.png',
+                prevImage: prevCal,
                 galleryImg: [
-                    'src/assets/images/cardProject/pre-calculator.png',
-                    'src/assets/images/cardProject/imgCalculator1.png',
-                    'src/assets/images/cardProject/imgCalculator2.png'
-                    
+                    prevCal,
+                    imgCal1,
+                    imgCal2
                 ],
                 resumen: 'Calculadora com React mas com lógica própria.',
                 description: `Eu sei, eu sei... outro projeto júnior criando uma calculadora. Que original! Há há. Pensei a mesma coisa quando pensei em fazer isso, então decidi fazer um verdadeiro desafio: desenvolver a funcionalidade da calculadora sem usar nenhuma biblioteca matemática ou função nativa.
@@ -1245,29 +1301,29 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 5,
                         name: 'React',
-                        image: 'src/assets/images/icons/react.png'
+                        image: react
                     },
                 ]
             },
             {
                 id: 7,
                 title: 'Compromiso Pro',
-                prevImage: 'src/assets/images/cardProject/pre-cpro.png',
+                prevImage: prevCPro,
                 galleryImg: [],
                 resumen: 'Suporte no reparo de componentes e desenvolvimento de algumas landing pages internas.',
                 description: `Neste projeto, desempenhei mais funções de reparador, consertando componentes que não funcionavam ou problemas que o controle de qualidade estava levantando, e também desenvolvendo algumas landing pages. 
@@ -1283,22 +1339,22 @@ export const translationsSectionProject: any = {
                     {
                         id: 1,
                         name: 'HTML',
-                        image: 'src/assets/images/icons/html.png'
+                        image: html
                     },
                     {
                         id: 2,
                         name: 'CSS',
-                        image: 'src/assets/images/icons/css.png'
+                        image: css
                     },
                     {
                         id: 3,
                         name: 'JavaScript',
-                        image: 'src/assets/images/icons/js.png'
+                        image: js
                     },
                     {
                         id: 12,
                         name: 'Liferay',
-                        image: 'src/assets/images/icons/liferay.png'
+                        image: liferay
                     },
                 ]
             }
@@ -1306,6 +1362,7 @@ export const translationsSectionProject: any = {
     },
 }
 
+//Done
 export const translationSectionContact: any  = {
     en: {
         form: {
@@ -1363,7 +1420,7 @@ export const translationSectionContact: any  = {
     }
 };
 
-
+//Done
 export const translationSectionCertificates: any = {
     en: {
         title: 'Certificates',
@@ -1440,13 +1497,13 @@ export const translationSectionAboutMe: any = {
             I enjoy learning new things, as I believe that's the most exciting part of my day-to-day work and what I'm truly passionate about.`,
         },
         images: {
-            imageMidle: 'src/assets/images/aboutme/yo.png',
+            imageMidle: imgMiddle,
             imageLeft: 'src/assets/images/aboutme/yoLeft.jpg',
             imageRigth: 'src/assets/images/aboutme/yoRight.jpg'
         },
         moreInfo: {
             title: "More About Me",
-            cv: 'src/assets/cv/cvEng.pdf',
+            cv: cvEn,
             textBody: `I like cooking. It's a hobby I usually turn to when I'm going through really stressful periods. If the weather isn't good, I usually play a game or two on the PC or watch a movie or series (my favorites are Arcane and Pulp Fiction).
 
                 I usually exercise, mainly weightlifting or lifting heavy objects. I honestly don't know why I find it so entertaining, but I like it.
@@ -1481,13 +1538,13 @@ export const translationSectionAboutMe: any = {
             Disfruto aprender cosas nuevas, ya que creo que esa es la parte más emocionante del día a día y lo que realmente me apasiona.`,
         },
         images: {
-            imageMidle: 'src/assets/images/aboutme/yo.png',
+            imageMidle: imgMiddle,
             imageLeft: 'src/assets/images/aboutme/yoLeft.jpg',
             imageRigth: 'src/assets/images/aboutme/yoRight.jpg'
         },
         moreInfo: {
             title: "Más sobre mí",
-            cv: 'src/assets/cv/cv.pdf',
+            cv: cvEs,
             textBody: `Me gusta cocinar, es un hobby que suelo utilizar cuando paso por periodos muy grandes de estres, si el tiempo no acompaña suelo jugar algun que otro juego en el pc o ver alguna pelicula/serie (mis favoritas son Arcane y Pulp fiction).
 
             Suelo hacer deporte, principalmente el levantamiento de pesas o cargar cosas pesadas, la verdad no se por que me entretiene tanto eso, pero me gusta.
@@ -1523,13 +1580,13 @@ export const translationSectionAboutMe: any = {
             Gosto de aprender coisas novas, pois acredito que essa é a parte mais emocionante da vida cotidiana e aquilo que realmente me apaixona.`,
         },
         images: {
-            imageMidle: 'src/assets/images/aboutme/yo.png',
+            imageMidle: imgMiddle,
             imageLeft: 'src/assets/images/aboutme/yoLeft.jpg',
             imageRigth: 'src/assets/images/aboutme/yoRight.jpg'
         },
         moreInfo: {
             title: "Mais sobre mim",
-            cv: 'src/assets/cv/cvPt.pdf',
+            cv: cvPt,
             textBody: `Gosto de cozinhar, é um hobby que costumo usar quando passo por períodos muito longos de estresse, se o tempo não estiver bom costumo jogar algum jogo no PC ou assistir um filme/série (meus favoritos são Arcane e Pulp Fiction).
 
 Eu costumo praticar esportes, principalmente levantamento de peso ou levantar coisas pesadas. Realmente não sei por que gosto tanto, mas gosto.

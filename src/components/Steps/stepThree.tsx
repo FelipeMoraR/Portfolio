@@ -22,7 +22,7 @@ const StepThree = ({language, isSkiped}: ISteps) => {
                 {projects.map((project: IProject, index: number) => (
                     <div key = {`${index}` }className={!isSkiped ? "opacity-0 d-flex flex-shrink-1 flex-grow-0 flex-basis-600 gap-3 animation-falling-down bg-gradint-purple-to-emerald border-solid-light-purple-dark-1  border-radius-2 p-3 " + delays[index] : "d-flex flex-shrink-1 flex-grow-0 flex-basis-600 gap-3 bg-black-transparent border-radius-2 p-3"}>
                         <div className="img-step-three flex-shrink-0">
-                            <img className="border-radius-100p " src={'src/assets/images/stepsImg/' + project.image} alt={project.image} />
+                            <img className="border-radius-100p " src={project.image} alt={project.image} />
                         </div>
                         
                         <div className="flex-grow-1 d-flex flex-column gap-3 ">
