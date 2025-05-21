@@ -34,7 +34,6 @@ const Contact = ({ language } : IContact) => {
 
     const classesByFormPartCompleted = ['form-part-1', 'form-part-2', 'form-part-3', 'form-part-4'];
     const emailJsId = import.meta.env.VITE_PUBLIC_USER_ID_MAILJS;
-    console.log('test =>, ', emailJsId);
     const textToUse = translationSectionContact[language];
 
     const controlModalStatus = async (status: string) => {
