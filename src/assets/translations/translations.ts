@@ -1379,7 +1379,7 @@ export const translationSectionCertificates: any = {
             {
                 title: 'Responsive design',
                 enterprice: 'FreeCodeCamp',
-                img: 'src/assets/certificates/freeCodeCampHtml.jpg'
+                img: 'src/assets/certificates/freeCodeCampHtml.png'
             },
         ]
     },
@@ -1399,7 +1399,7 @@ export const translationSectionCertificates: any = {
             {
                 title: 'Diseño responsivo',
                 enterprice: 'FreeCodeCamp',
-                img: 'src/assets/certificates/freeCodeCampHtml.jpg' 
+                img: 'src/assets/certificates/freeCodeCampHtml.png' 
             },
         ]
     },
@@ -1419,7 +1419,7 @@ export const translationSectionCertificates: any = {
             {
                 title: 'Design responsivo',
                 enterprice: 'FreeCodeCamp',
-                img: 'src/assets/certificates/freeCodeCampHtml.jpg' 
+                img: 'src/assets/certificates/freeCodeCampHtml.png' 
             },
         ]
     }
@@ -1438,7 +1438,7 @@ export const translationSectionAboutMe: any = {
             I enjoy learning new things, as I believe that's the most exciting part of my day-to-day work and what I'm truly passionate about.`,
         },
         images: {
-            imageMidle: 'src/assets/images/aboutme/yo.jpg',
+            imageMidle: 'src/assets/images/aboutme/yo.png',
             imageLeft: 'src/assets/images/aboutme/yoLeft.jpg',
             imageRigth: 'src/assets/images/aboutme/yoRight.jpg'
         },
@@ -1479,7 +1479,7 @@ export const translationSectionAboutMe: any = {
             Disfruto aprender cosas nuevas, ya que creo que esa es la parte más emocionante del día a día y lo que realmente me apasiona.`,
         },
         images: {
-            imageMidle: 'src/assets/images/aboutme/yo.jpg',
+            imageMidle: 'src/assets/images/aboutme/yo.png',
             imageLeft: 'src/assets/images/aboutme/yoLeft.jpg',
             imageRigth: 'src/assets/images/aboutme/yoRight.jpg'
         },
@@ -1521,7 +1521,7 @@ export const translationSectionAboutMe: any = {
             Gosto de aprender coisas novas, pois acredito que essa é a parte mais emocionante da vida cotidiana e aquilo que realmente me apaixona.`,
         },
         images: {
-            imageMidle: 'src/assets/images/aboutme/yo.jpg',
+            imageMidle: 'src/assets/images/aboutme/yo.png',
             imageLeft: 'src/assets/images/aboutme/yoLeft.jpg',
             imageRigth: 'src/assets/images/aboutme/yoRight.jpg'
         },

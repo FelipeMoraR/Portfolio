@@ -104,6 +104,11 @@
     max-height: 400px;
     order: 1;
 }
+
+.click-me{
+    width: 120px;
+    height: 50px;
+}
   
 
 .description-container {
@@ -151,12 +156,16 @@
 
 /*MD*/
 @media (max-width: 568px){
-    .exit-btn{
+    .click-me {
+        width: 100px;
+        height: 30px;
+    }
+    .exit-btn {
         width: 25px;
         height: 25px;
     }
 
-    .exit-btn .material-symbols-outlined{
+    .exit-btn .material-symbols-outlined {
         font-size: 10px;
     }
 

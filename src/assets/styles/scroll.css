@@ -1,0 +1,21 @@
+/* Estilizar el scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px; /* para scroll horizontal */
+}
+
+/* Track del scrollbar (fondo) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* "Thumb" del scrollbar (la parte que se mueve) */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Hover del thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
