@@ -1,11 +1,8 @@
 
-import { useRef } from "react";
 import { IModal } from "../interfaces/Interfaces";
 import { createPortal } from "react-dom";
 
 const Modal = ({ showModal, title, typeModal, text, statusModal, iconModal, hideModal }: IModal) => {
-    const lol = useRef<HTMLDivElement>(null)
-
     if (!showModal) return
 
     const classIcon = {
