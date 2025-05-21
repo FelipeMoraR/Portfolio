@@ -1,4 +1,6 @@
-
+import titleCertificate from '../certificates/titleCertificate.jpg';
+import certifyJs from '../certificates/certificadoJs.jpg';
+import responsiveDesign from '../certificates/freeCodeCampHtml.png';
 
 export const translationsSteps: any = {
     en: {
@@ -1369,17 +1371,17 @@ export const translationSectionCertificates: any = {
             {
                 title: 'Engineering degree',
                 enterprice: 'Duoc Uc',
-                img: 'src/assets/certificates/titleCertificate.jpg' 
+                img: titleCertificate
             },
             {
                 title: 'Basic JS course',
                 enterprice: 'Udemy',
-                img: 'src/assets/certificates/certificadoJs.jpg' 
+                img: certifyJs 
             },
             {
                 title: 'Responsive design',
                 enterprice: 'FreeCodeCamp',
-                img: 'src/assets/certificates/freeCodeCampHtml.png'
+                img: responsiveDesign
             },
         ]
     },
@@ -1389,17 +1391,17 @@ export const translationSectionCertificates: any = {
             {
                 title: 'Titulo ingenieria',
                 enterprice: 'Duoc Uc',
-                img: 'src/assets/certificates/titleCertificate.jpg' 
+                img: titleCertificate
             },
             {
                 title: 'Curso basico JS',
                 enterprice: 'Udemy',
-                img: 'src/assets/certificates/certificadoJs.jpg' 
+                img: certifyJs
             },
             {
                 title: 'Diseño responsivo',
                 enterprice: 'FreeCodeCamp',
-                img: 'src/assets/certificates/freeCodeCampHtml.png' 
+                img: responsiveDesign
             },
         ]
     },
@@ -1409,17 +1411,17 @@ export const translationSectionCertificates: any = {
             {
                 title: 'Grau de engenharia',
                 enterprice: 'Duoc Uc',
-                img: 'src/assets/certificates/titleCertificate.jpg' 
+                img: titleCertificate
             },
             {
                 title: 'Curso básico de JS',
                 enterprice: 'Udemy',
-                img: 'src/assets/certificates/certificadoJs.jpg' 
+                img: certifyJs
             },
             {
                 title: 'Design responsivo',
                 enterprice: 'FreeCodeCamp',
-                img: 'src/assets/certificates/freeCodeCampHtml.png' 
+                img: responsiveDesign 
             },
         ]
     }
