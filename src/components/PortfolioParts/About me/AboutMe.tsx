@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { IPortfolioPart } from "../../../interfaces/Interfaces";
 import { translationSectionAboutMe } from "../../../assets/translations/translations";
 import Icon from "../../Icon";
+import me from '../../../assets/images/aboutme/yo.png';
 
 const AboutMe = ({language}: IPortfolioPart) => {
     const imgNormal = useRef<HTMLImageElement>(null);
@@ -125,7 +126,7 @@ const AboutMe = ({language}: IPortfolioPart) => {
                         }
                     }}
                 >
-                    <img className="border-radius-100p w-100" src="src/assets/images/aboutme/yo.png" alt="meNormal" ref = {imgNormal} />
+                    <img className="border-radius-100p w-100" src={me} alt="meNormal" ref = {imgNormal} />
                     <div className="position-absolute color-white bg-emerald-dark right-0 top-0 p-2 border-radius-1 bright-border-green click-me d-flex justify-content-center align-items-center" ref = {clickMeDiv}>
                         Click me!!
                     </div>

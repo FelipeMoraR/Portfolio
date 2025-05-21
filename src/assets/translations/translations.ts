@@ -57,6 +57,10 @@ import cvEn from '../cv/cvEn.pdf';
 import cvEs from '../cv/cvEsp.pdf';
 import cvPt from '../cv/cvPt.pdf';
 
+import gitLogo from '../images/icons/github.png';
+import youtube from '../images/icons/youtube.png';
+import linkedin from '../images/icons/linkedin.png';
+
 //Done
 export const translationsSteps: any = {
     en: {
@@ -1513,17 +1517,17 @@ export const translationSectionAboutMe: any = {
         socialMedia: [
             {
                 platform: 'github',
-                image: 'src/assets/images/icons/github.png',
+                image: gitLogo,
                 redirection: 'https://github.com/FelipeMoraR',
             },
             {
                 platform: 'youtube',
-                image: 'src/assets/images/icons/youtube.png',
+                image: youtube,
                 redirection: 'https://www.youtube.com/@pvrpleD3v',
             },
             {
                 platform: 'linkedin',
-                image: 'src/assets/images/icons/linkedin.png',
+                image: linkedin,
                 redirection: 'https://www.linkedin.com/in/felipemorarecabal-3082121ba/'
             }
         ]
@@ -1555,17 +1559,17 @@ export const translationSectionAboutMe: any = {
         socialMedia: [
             {
                 platform: 'github',
-                image: 'src/assets/images/icons/github.png',
+                image: gitLogo,
                 redirection: 'https://github.com/FelipeMoraR',
             },
             {
                 platform: 'youtube',
-                image: 'src/assets/images/icons/youtube.png',
+                image: youtube,
                 redirection: 'https://www.youtube.com/@pvrpleD3v',
             },
             {
                 platform: 'linkedin',
-                image: 'src/assets/images/icons/linkedin.png',
+                image: linkedin,
                 redirection: 'https://www.linkedin.com/in/felipemorarecabal-3082121ba/'
             }
         ]
@@ -1596,17 +1600,17 @@ Gosto muito de astronomia e de ajudar as pessoas, e isso fica evidente no meu pr
         socialMedia: [
             {
                 platform: 'github',
-                image: 'src/assets/images/icons/github.png',
+                image: gitLogo,
                 redirection: 'https://github.com/FelipeMoraR',
             },
             {
                 platform: 'youtube',
-                image: 'src/assets/images/icons/youtube.png',
+                image: youtube,
                 redirection: 'https://www.youtube.com/@pvrpleD3v',
             },
             {
                 platform: 'linkedin',
-                image: 'src/assets/images/icons/linkedin.png',
+                image: linkedin,
                 redirection: 'https://www.linkedin.com/in/felipemorarecabal-3082121ba/'
             }
         ]

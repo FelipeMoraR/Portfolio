@@ -108,7 +108,7 @@ const ChooseLanguage = ({ setCurrentLanguage, setIsLanguageChoosed, typeView, la
       <div className="d-flex gap-3 flex-wrap justify-content-center">
         <div className="position-relative container-flag d-flex flex-column align-items-center gap-1">
           <div className="container-img-flag">
-            <img src="src/assets/images/flags/cl.png" alt="esFlag" />
+            <img src={esFlag} alt="esFlag" />
 
             <Button
               text="Spanish"
@@ -128,7 +128,7 @@ const ChooseLanguage = ({ setCurrentLanguage, setIsLanguageChoosed, typeView, la
         <div className="position-relative container-flag d-flex flex-column align-items-center gap-1">
           <div className="container-img-flag">
             {/* <img src="https://flagsapi.com/US/shiny/64.png" alt="usFlag" /> */}
-            <img src="src/assets/images/flags/us.png" alt="usFlag" />
+            <img src={enFlag} alt="usFlag" />
             <Button
               text="English"
               type="button"
@@ -146,7 +146,7 @@ const ChooseLanguage = ({ setCurrentLanguage, setIsLanguageChoosed, typeView, la
 
         <div className="position-relative container-flag d-flex flex-column align-items-center gap-1">
           <div className="container-img-flag">
-            <img src="src/assets/images/flags/br.png" alt="ptFlag" />
+            <img src={ptFlag} alt="ptFlag" />
 
             <Button
               text="Portuguese"

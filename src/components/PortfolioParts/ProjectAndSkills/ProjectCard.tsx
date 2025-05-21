@@ -2,6 +2,9 @@ import { ICardProject, ITechnologieCard } from "../../../interfaces/Interfaces"
 import Icon from "../../Icon";
 import Tag from "../../tag";
 import CarouselImg from "../../CarouselImg";
+import github from '../../../assets/images/icons/github.png';
+import youtube from '../../../assets/images/icons/youtube.png';
+import redirection from '../../../assets/images/icons/redirection.png';
 
 const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies, title, githubRedirection, youtubeRedirection, externalLink, isSelected, showCard, hideCard}: ICardProject) => {    
     return(
@@ -15,7 +18,7 @@ const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies,
                             <Icon
                                 id = {99} 
                                 title = "github"
-                                image = "src/assets/images/icons/github.png"
+                                image = {github}
                                 color = "white"
                                 redirection = {githubRedirection}
                                 typeRedirection="_blank"
@@ -29,7 +32,7 @@ const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies,
                             <Icon
                                 id = {100} 
                                 title = "youtube"
-                                image = "src/assets/images/icons/youtube.png"
+                                image = {youtube}
                                 color = "white"
                                 redirection = {youtubeRedirection}
                                 typeRedirection="_blank"
@@ -43,7 +46,7 @@ const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies,
                             <Icon
                                 id = {101} 
                                 title = "link"
-                                image = "src/assets/images/icons/redirection.png"
+                                image = {redirection}
                                 color = "white"
                                 redirection = {externalLink}
                                 typeRedirection="_blank"
