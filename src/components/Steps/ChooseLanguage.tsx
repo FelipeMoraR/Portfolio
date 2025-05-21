@@ -4,8 +4,8 @@ import { IChooseLanguage } from "../../interfaces/Interfaces";
 import { useRef, useState } from "react";
 import Loader from "../Loader";
 import esFlag from '../../assets/images/flags/cl.png';
-import enFlag from '../../assets/images/flags/br.png';
-import ptFlag from '../../assets/images/flags/us.png';
+import enFlag from '../../assets/images/flags/us.png';
+import ptFlag from '../../assets/images/flags/br.png';
 
 const ChooseLanguage = ({ setCurrentLanguage, setIsLanguageChoosed, typeView, language }: IChooseLanguage) => {
 
