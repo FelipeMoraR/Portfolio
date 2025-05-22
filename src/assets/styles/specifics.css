@@ -94,7 +94,6 @@
 .card-project:hover{
     box-shadow: 0 0 10px var(--light-purple-light);
     transform: translateY(-10px);
-    
 }
 
 

@@ -8,7 +8,7 @@ import redirection from '../../../assets/images/icons/redirection.png';
 
 const ProjectCard = ({prevImage, description, resumen, galleryImg, technologies, title, githubRedirection, youtubeRedirection, externalLink, isSelected, showCard, hideCard}: ICardProject) => {    
     return(
-        <div className={"position-relative  flex-grow-0 flex-shrink-1 animation-fadeIn-opacity border-solid-light-purple-dark-1  bg-gradint-purple-to-emerald border-radius-2 p-3 d-flex flex-column gap-3 tech-selected-size " + (isSelected ? 'flex-basis-100p flex-order-0 card-project-transition ' : 'flex-basis-368 flex-order-1 card-project cursor-pointer')}
+        <div className={"position-relative  flex-grow-0 flex-shrink-1 animation-fadeIn-opacity border-solid-light-purple-dark-1  bg-gradint-purple-to-emerald border-radius-2 p-3 d-flex flex-column gap-3 tech-selected-size " + (isSelected ? 'flex-basis-100p flex-order-0 animation-falling-down ' : 'flex-basis-368 flex-order-1 card-project cursor-pointer')}
             onClick={!isSelected ? showCard : undefined}
         >
             <div className="d-flex flex-column gap-3">

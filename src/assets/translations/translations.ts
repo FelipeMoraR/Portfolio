@@ -680,7 +680,7 @@ export const translationsSectionProject: any = {
     },
     es: {
         title: 'Proyectos y habilidades',
-        subTitle: 'Seleccione las tecnologías de su interes',
+        subTitle: 'Seleccione las tecnologías de su interés',
         notFound: 'No existen proyectos',
         projects: [
             {

@@ -80,7 +80,7 @@ const SectionProjects = ({language}: IPortfolioPart) => {
         if (idProjectSelected && containerProjects.current) {
             const timeout = setTimeout(() => {
                 containerProjects.current?.scrollIntoView({ behavior: 'smooth' });
-            }, 0); // Ejecuta después del render
+            }, 50); // Ejecuta después del render
     
             return () => clearTimeout(timeout); // Limpia el timeout si el efecto se desmonta
         }

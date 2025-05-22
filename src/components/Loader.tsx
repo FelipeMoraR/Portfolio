@@ -1,6 +1,5 @@
 import {translationsSteps} from "../assets/translations/translations"
 import { ILoader } from "../interfaces/Interfaces";
-import logo from '../assets/images/stepsImg/logoMora.webp';
 import { useEffect, useState } from "react";
 
 const Loader = ({language, currentStep}: ILoader) => {
@@ -40,7 +39,7 @@ const Loader = ({language, currentStep}: ILoader) => {
                 <div className = {isVisible ? 'left-face' : 'left-face hide'}></div>
 
                 <div className = {isVisible ? 'central-logo' : 'central-logo hide'}>
-                    <img src={logo} alt="logoImg"/>
+                    <img src='/logoMora.webp' alt="logoImg"/>
 
                     <span className = {isVisible ? 'loader-text' : 'loader-text hide'}>
                         {text}
