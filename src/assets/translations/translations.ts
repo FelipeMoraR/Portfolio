@@ -470,8 +470,8 @@ export const translationsSectionProject: any = {
                 In addition to being responsible for part of the code development, I was responsible for the complete design of the page in Figma, drawing inspiration from various artists and existing applications.
 
                 This project has special meaning for me, as it was my first "big" project. Here I was able to apply what I learned about Django's MVC architecture. Although over time I have identified several areas for improvement, it remains a project I am proud of and represents my beginnings in the world of development.`,
-                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtubeRedirection: 'https://youtu.be/VSmmY9J62k8?si=jwHErwczbqkjzsUi',
+                githubRedirection: 'https://github.com/FelipeMoraR/SpaceUc',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=VSmmY9J62k8',
                 externalLink: '',
                 technologies: [
                     {
@@ -813,8 +813,8 @@ export const translationsSectionProject: any = {
 
                 Este proyecto tiene un significado especial para mí, ya que fue mi primer proyecto "grande". Aquí pude aplicar lo aprendido sobre la arquitectura MVC de Django. Aunque con el tiempo he identificado varias áreas de mejora, sigue siendo un trabajo del que me siento orgulloso y que representa mis inicios en este mundo del desarrollo.
                 `,
-                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtubeRedirection: 'https://youtu.be/VSmmY9J62k8?si=jwHErwczbqkjzsUi',
+                githubRedirection: 'https://github.com/FelipeMoraR/SpaceUc',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=VSmmY9J62k8',
                 externalLink: '',
                 technologies: [
                     {
@@ -1156,8 +1156,8 @@ export const translationsSectionProject: any = {
 
                 Este projeto tem um significado especial para mim, pois foi meu primeiro "grande" projeto. Aqui pude aplicar o que aprendi sobre a arquitetura MVC do Django. Embora eu tenha identificado diversas áreas de melhoria ao longo do tempo, este ainda é um projeto do qual me orgulho e que representa meu início no mundo do desenvolvimento.
                 `,
-                githubRedirection: 'https://www.youtube.com/watch?v=DzpmhfiBCO8',
-                youtubeRedirection: 'https://youtu.be/VSmmY9J62k8?si=jwHErwczbqkjzsUi',
+                githubRedirection: 'https://github.com/FelipeMoraR/SpaceUc',
+                youtubeRedirection: 'https://www.youtube.com/watch?v=VSmmY9J62k8',
                 externalLink: '',
                 technologies: [
                     {
