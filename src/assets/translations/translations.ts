@@ -6,6 +6,7 @@ import mutualStep3 from '../images/stepsImg/mutual.png';
 import titleCertificate from '../certificates/titleCertificate.jpg';
 import certifyJs from '../certificates/certificadoJs.jpg';
 import responsiveDesign from '../certificates/freeCodeCampHtml.png';
+import dataStructure from '../certificates/certifcateDataStructure.jpg';
 
 import html from '../images/icons/html.png';
 import css from '../images/icons/css.png';
@@ -1440,6 +1441,11 @@ export const translationSectionCertificates: any = {
                 img: certifyJs 
             },
             {
+                title: 'Data structure course',
+                enterprice: 'Udemy',
+                img: dataStructure
+            },
+            {
                 title: 'Responsive design',
                 enterprice: 'FreeCodeCamp',
                 img: responsiveDesign
@@ -1460,6 +1466,11 @@ export const translationSectionCertificates: any = {
                 img: certifyJs
             },
             {
+                title: 'Curso estructura de datos',
+                enterprice: 'Udemy',
+                img: dataStructure
+            },
+            {
                 title: 'Diseño responsivo',
                 enterprice: 'FreeCodeCamp',
                 img: responsiveDesign
@@ -1478,6 +1489,11 @@ export const translationSectionCertificates: any = {
                 title: 'Curso básico de JS',
                 enterprice: 'Udemy',
                 img: certifyJs
+            },
+            {
+                title: 'Curso de estrutura de dados',
+                enterprice: 'Udemy',
+                img: dataStructure
             },
             {
                 title: 'Design responsivo',
